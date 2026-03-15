@@ -3,7 +3,7 @@ import path from "node:path";
 import { fileURLToPath } from "node:url";
 
 import { CreatorsApiClient } from "../crawler/creatorsApiClient.js";
-import { fetchBooks } from "../crawler/fetchBooks.js";
+import { AVAILABLE_TAGS, fetchBooks } from "../crawler/fetchBooks.js";
 
 const __dirname = path.dirname(fileURLToPath(import.meta.url));
 const repoRoot = path.resolve(__dirname, "..");
@@ -25,7 +25,7 @@ const sampleBooks = [
     imageUrl: "https://placehold.jp/240x320.png?text=AWS",
     amazonUrl: "https://www.amazon.co.jp/dp/4297146080?tag=yzak-nra-22",
     detailPageUrl: "https://www.amazon.co.jp/dp/4297146080?tag=yzak-nra-22",
-    tags: ["AWS", "Architecture"],
+    tags: ["aws", "architecture"],
     price: 3520,
     currency: "JPY",
   },
@@ -42,7 +42,7 @@ const sampleBooks = [
     imageUrl: "https://placehold.jp/240x320.png?text=AI",
     amazonUrl: "https://www.amazon.co.jp/dp/4798188888?tag=yzak-nra-22",
     detailPageUrl: "https://www.amazon.co.jp/dp/4798188888?tag=yzak-nra-22",
-    tags: ["AI", "Python"],
+    tags: ["genai", "python", "ai"],
     price: 3300,
     currency: "JPY",
   },
@@ -59,7 +59,7 @@ const sampleBooks = [
     imageUrl: "https://placehold.jp/240x320.png?text=DevOps",
     amazonUrl: "https://www.amazon.co.jp/dp/4815612345?tag=yzak-nra-22",
     detailPageUrl: "https://www.amazon.co.jp/dp/4815612345?tag=yzak-nra-22",
-    tags: ["DevOps"],
+    tags: ["devops"],
     price: 3080,
     currency: "JPY",
   },
@@ -80,6 +80,7 @@ async function ensureDir(filePath) {
 async function writeBooksJson(books) {
   const payload = {
     updatedAt: new Date().toISOString(),
+    availableTags: AVAILABLE_TAGS,
     books,
   };
 

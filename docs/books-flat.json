@@ -6,8 +6,8 @@
     "releaseDate": "2026-03-10",
     "amazonUrl": "https://www.amazon.co.jp/dp/4297146080?tag=yzak-nra-22",
     "tags": [
-      "AWS",
-      "Architecture"
+      "aws",
+      "architecture"
     ]
   },
   {
@@ -17,8 +17,9 @@
     "releaseDate": "2026-03-08",
     "amazonUrl": "https://www.amazon.co.jp/dp/4798188888?tag=yzak-nra-22",
     "tags": [
-      "AI",
-      "Python"
+      "genai",
+      "python",
+      "ai"
     ]
   },
   {
@@ -28,7 +29,7 @@
     "releaseDate": "2026-03-05",
     "amazonUrl": "https://www.amazon.co.jp/dp/4815612345?tag=yzak-nra-22",
     "tags": [
-      "DevOps"
+      "devops"
     ]
   }
 ]

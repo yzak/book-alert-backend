@@ -2,6 +2,7 @@ import test from "node:test";
 import assert from "node:assert/strict";
 
 import {
+  AVAILABLE_TAGS,
   buildAffiliateUrl,
   generateTags,
   isEngineeringBook,
@@ -17,8 +18,13 @@ test("isEngineeringBook matches engineering keywords", () => {
 test("generateTags assigns multiple tags", () => {
   assert.deepEqual(
     generateTags("AWS Architecture with Python and Docker"),
-    ["AWS", "Python", "DevOps", "Architecture"],
+    ["aws", "architecture", "python", "devops"],
   );
+});
+
+test("available tags expose stable ids and labels", () => {
+  assert.equal(AVAILABLE_TAGS.find((tag) => tag.id === "aws")?.label, "AWS");
+  assert.equal(AVAILABLE_TAGS.find((tag) => tag.id === "genai")?.sortOrder, 20);
 });
 
 test("normalizeReleaseDate normalizes Japanese dates", () => {
@@ -61,6 +67,6 @@ test("normalizeBook returns app-compatible fields", () => {
   );
 
   assert.equal(book.title, "AWSとPythonで学ぶ設計入門");
-  assert.deepEqual(book.tags, ["AWS", "Python", "Architecture"]);
+  assert.deepEqual(book.tags, ["aws", "architecture", "python"]);
   assert.equal(book.amazonUrl, "https://www.amazon.co.jp/dp/1234567890?tag=yzak-nra-22");
 });
