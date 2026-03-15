@@ -4,8 +4,13 @@ const DEFAULT_SEARCH_ITEMS_URL =
   "https://creatorsapi.amazon/catalog/v1/searchItems";
 const DEFAULT_CREDENTIAL_VERSION = "3.3";
 
-function toFormBody(params) {
-  return new URLSearchParams(params).toString();
+function normalizeOptional(value, fallback) {
+  if (typeof value !== "string") {
+    return fallback;
+  }
+
+  const trimmed = value.trim();
+  return trimmed.length > 0 ? trimmed : fallback;
 }
 
 export class CreatorsApiClient {
@@ -13,23 +18,26 @@ export class CreatorsApiClient {
     clientId,
     clientSecret,
     associateTag,
-    scope = process.env.CREATORS_API_SCOPE ?? DEFAULT_SCOPE,
-    tokenUrl = process.env.CREATORS_API_TOKEN_URL ?? DEFAULT_TOKEN_URL,
-    searchItemsUrl =
-      process.env.CREATORS_API_SEARCH_ITEMS_URL ?? DEFAULT_SEARCH_ITEMS_URL,
-    marketplace = process.env.CREATORS_API_MARKETPLACE ?? "www.amazon.co.jp",
-    credentialVersion =
-      process.env.CREATORS_API_CREDENTIAL_VERSION ??
-      DEFAULT_CREDENTIAL_VERSION,
+    scope = process.env.CREATORS_API_SCOPE,
+    tokenUrl = process.env.CREATORS_API_TOKEN_URL,
+    searchItemsUrl = process.env.CREATORS_API_SEARCH_ITEMS_URL,
+    marketplace = process.env.CREATORS_API_MARKETPLACE,
+    credentialVersion = process.env.CREATORS_API_CREDENTIAL_VERSION,
   }) {
     this.clientId = clientId;
     this.clientSecret = clientSecret;
     this.associateTag = associateTag;
-    this.scope = scope;
-    this.tokenUrl = tokenUrl;
-    this.searchItemsUrl = searchItemsUrl;
-    this.marketplace = marketplace;
-    this.credentialVersion = credentialVersion;
+    this.scope = normalizeOptional(scope, DEFAULT_SCOPE);
+    this.tokenUrl = normalizeOptional(tokenUrl, DEFAULT_TOKEN_URL);
+    this.searchItemsUrl = normalizeOptional(
+      searchItemsUrl,
+      DEFAULT_SEARCH_ITEMS_URL,
+    );
+    this.marketplace = normalizeOptional(marketplace, "www.amazon.co.jp");
+    this.credentialVersion = normalizeOptional(
+      credentialVersion,
+      DEFAULT_CREDENTIAL_VERSION,
+    );
   }
 
   async searchItems({
