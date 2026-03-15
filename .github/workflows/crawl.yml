@@ -29,8 +29,11 @@ jobs:
 
       - name: Generate books.json
         env:
-          PAAPI_ACCESS_KEY: ${{ secrets.PAAPI_ACCESS_KEY }}
-          PAAPI_SECRET_KEY: ${{ secrets.PAAPI_SECRET_KEY }}
+          CREATORS_API_CLIENT_ID: ${{ secrets.CREATORS_API_CLIENT_ID }}
+          CREATORS_API_CLIENT_SECRET: ${{ secrets.CREATORS_API_CLIENT_SECRET }}
+          CREATORS_API_SCOPE: ${{ secrets.CREATORS_API_SCOPE }}
+          CREATORS_API_SEARCH_ITEMS_URL: ${{ secrets.CREATORS_API_SEARCH_ITEMS_URL }}
+          CREATORS_API_TOKEN_URL: ${{ secrets.CREATORS_API_TOKEN_URL }}
           ASSOCIATE_TAG: ${{ secrets.ASSOCIATE_TAG }}
         run: npm run build
 

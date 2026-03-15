@@ -135,12 +135,12 @@ export function normalizeBook(item, associateTag) {
   };
 }
 
-export async function fetchBooks(paapiClient, { associateTag, logger = console } = {}) {
+export async function fetchBooks(apiClient, { associateTag, logger = console } = {}) {
   const booksById = new Map();
 
   for (const keyword of SEARCH_KEYWORDS) {
     logger.info(`Searching keyword: ${keyword}`);
-    const data = await paapiClient.searchItems({ keywords: keyword });
+    const data = await apiClient.searchItems({ keywords: keyword });
     const items = data?.SearchResult?.Items ?? [];
     for (const item of items) {
       const normalized = normalizeBook(item, associateTag);

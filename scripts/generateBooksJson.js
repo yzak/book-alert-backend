@@ -2,8 +2,8 @@ import fs from "node:fs/promises";
 import path from "node:path";
 import { fileURLToPath } from "node:url";
 
+import { CreatorsApiClient } from "../crawler/creatorsApiClient.js";
 import { fetchBooks } from "../crawler/fetchBooks.js";
-import { PaapiClient } from "../crawler/paapiClient.js";
 
 const __dirname = path.dirname(fileURLToPath(import.meta.url));
 const repoRoot = path.resolve(__dirname, "..");
@@ -115,10 +115,11 @@ async function main() {
     return;
   }
 
-  const client = new PaapiClient({
-    accessKey: requireEnv("PAAPI_ACCESS_KEY"),
-    secretKey: requireEnv("PAAPI_SECRET_KEY"),
+  const client = new CreatorsApiClient({
+    clientId: requireEnv("CREATORS_API_CLIENT_ID"),
+    clientSecret: requireEnv("CREATORS_API_CLIENT_SECRET"),
     associateTag: requireEnv("ASSOCIATE_TAG"),
+    scope: requireEnv("CREATORS_API_SCOPE"),
   });
 
   const books = await fetchBooks(client, {

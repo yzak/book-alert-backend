@@ -3,7 +3,7 @@
   "version": "0.1.0",
   "private": true,
   "type": "module",
-  "description": "GitHub-only backend for fetching engineering book releases from Amazon PA-API and publishing JSON to GitHub Pages.",
+  "description": "GitHub-only backend for fetching engineering book releases from Amazon Creators API and publishing JSON to GitHub Pages.",
   "engines": {
     "node": ">=18"
   },
