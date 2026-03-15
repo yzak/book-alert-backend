@@ -45,13 +45,13 @@ export class CreatorsApiClient {
     itemCount = 10,
     searchIndex = "Books",
     resources = [
-      "Images.Primary.Medium",
-      "ItemInfo.ByLineInfo",
-      "ItemInfo.Classifications",
-      "ItemInfo.ContentInfo",
-      "ItemInfo.ProductInfo",
-      "ItemInfo.Title",
-      "Offers.Listings.Price",
+      "images.primary.medium",
+      "itemInfo.byLineInfo",
+      "itemInfo.classifications",
+      "itemInfo.contentInfo",
+      "itemInfo.productInfo",
+      "itemInfo.title",
+      "offersV2.listings.price",
     ],
   }) {
     const accessToken = await this.#fetchAccessToken();
