@@ -119,7 +119,7 @@ async function main() {
     clientId: requireEnv("CREATORS_API_CLIENT_ID"),
     clientSecret: requireEnv("CREATORS_API_CLIENT_SECRET"),
     associateTag: requireEnv("ASSOCIATE_TAG"),
-    scope: requireEnv("CREATORS_API_SCOPE"),
+    scope: process.env.CREATORS_API_SCOPE,
   });
 
   const books = await fetchBooks(client, {

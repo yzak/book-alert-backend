@@ -86,27 +86,44 @@ export function normalizeReleaseDate(rawValue) {
 }
 
 export function normalizeBook(item, associateTag) {
-  const asin = item?.ASIN;
-  const title = item?.ItemInfo?.Title?.DisplayValue ?? "";
+  const asin = item?.asin ?? item?.ASIN;
+  const title =
+    item?.itemInfo?.title?.displayValue ??
+    item?.ItemInfo?.Title?.DisplayValue ??
+    "";
   if (!asin || !title || !isEngineeringBook(title)) {
     return null;
   }
 
-  const authors = (item?.ItemInfo?.ByLineInfo?.Contributors ?? [])
-    .map((contributor) => contributor?.Name)
+  const authors = (
+    item?.itemInfo?.byLineInfo?.contributors ??
+    item?.ItemInfo?.ByLineInfo?.Contributors ??
+    []
+  )
+    .map((contributor) => contributor?.name ?? contributor?.Name)
     .filter(Boolean);
-  const publisher = item?.ItemInfo?.ByLineInfo?.Manufacturer?.DisplayValue ?? "";
-  const releaseDate =
-    normalizeReleaseDate(
+  const publisher =
+    item?.itemInfo?.byLineInfo?.manufacturer?.displayValue ??
+    item?.ItemInfo?.ByLineInfo?.Manufacturer?.DisplayValue ??
+    "";
+  const releaseDate = normalizeReleaseDate(
+    item?.itemInfo?.contentInfo?.publicationDate?.displayValue ??
       item?.ItemInfo?.ContentInfo?.PublicationDate?.DisplayValue,
-    ) ?? new Date().toISOString().slice(0, 10);
+  ) ?? new Date().toISOString().slice(0, 10);
   const image =
+    item?.images?.primary?.medium?.url ??
     item?.Images?.Primary?.Medium?.URL ??
     "https://placehold.jp/240x320.png?text=No+Image";
-  const price = item?.Offers?.Listings?.[0]?.Price?.Amount ?? null;
-  const currency = item?.Offers?.Listings?.[0]?.Price?.Currency ?? "JPY";
+  const price =
+    item?.offersV2?.listings?.[0]?.price?.money?.amount ??
+    item?.Offers?.Listings?.[0]?.Price?.Amount ??
+    null;
+  const currency =
+    item?.offersV2?.listings?.[0]?.price?.money?.currency ??
+    item?.Offers?.Listings?.[0]?.Price?.Currency ??
+    "JPY";
   const detailPageUrl = buildAffiliateUrl(
-    item?.DetailPageURL,
+    item?.detailPageURL ?? item?.DetailPageURL,
     asin,
     associateTag,
   );
@@ -141,7 +158,7 @@ export async function fetchBooks(apiClient, { associateTag, logger = console } =
   for (const keyword of SEARCH_KEYWORDS) {
     logger.info(`Searching keyword: ${keyword}`);
     const data = await apiClient.searchItems({ keywords: keyword });
-    const items = data?.SearchResult?.Items ?? [];
+    const items = data?.searchResult?.items ?? data?.SearchResult?.Items ?? [];
     for (const item of items) {
       const normalized = normalizeBook(item, associateTag);
       if (!normalized) {

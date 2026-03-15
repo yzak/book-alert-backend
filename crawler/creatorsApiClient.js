@@ -1,4 +1,8 @@
-const DEFAULT_TOKEN_URL = "https://api.amazon.com/auth/o2/token";
+const DEFAULT_TOKEN_URL = "https://api.amazon.co.jp/auth/o2/token";
+const DEFAULT_SCOPE = "creatorsapi::default";
+const DEFAULT_SEARCH_ITEMS_URL =
+  "https://creatorsapi.amazon/catalog/v1/searchItems";
+const DEFAULT_CREDENTIAL_VERSION = "3.3";
 
 function toFormBody(params) {
   return new URLSearchParams(params).toString();
@@ -9,10 +13,14 @@ export class CreatorsApiClient {
     clientId,
     clientSecret,
     associateTag,
-    scope,
+    scope = process.env.CREATORS_API_SCOPE ?? DEFAULT_SCOPE,
     tokenUrl = process.env.CREATORS_API_TOKEN_URL ?? DEFAULT_TOKEN_URL,
-    searchItemsUrl = process.env.CREATORS_API_SEARCH_ITEMS_URL,
+    searchItemsUrl =
+      process.env.CREATORS_API_SEARCH_ITEMS_URL ?? DEFAULT_SEARCH_ITEMS_URL,
     marketplace = process.env.CREATORS_API_MARKETPLACE ?? "www.amazon.co.jp",
+    credentialVersion =
+      process.env.CREATORS_API_CREDENTIAL_VERSION ??
+      DEFAULT_CREDENTIAL_VERSION,
   }) {
     this.clientId = clientId;
     this.clientSecret = clientSecret;
@@ -21,6 +29,7 @@ export class CreatorsApiClient {
     this.tokenUrl = tokenUrl;
     this.searchItemsUrl = searchItemsUrl;
     this.marketplace = marketplace;
+    this.credentialVersion = credentialVersion;
   }
 
   async searchItems({
@@ -37,21 +46,14 @@ export class CreatorsApiClient {
       "Offers.Listings.Price",
     ],
   }) {
-    if (!this.searchItemsUrl) {
-      throw new Error(
-        "CREATORS_API_SEARCH_ITEMS_URL is required. Set the Creators API SearchItems endpoint from Amazon's official API reference.",
-      );
-    }
-
     const accessToken = await this.#fetchAccessToken();
 
-    // Inference: Creators API product search accepts a SearchItems-like JSON body.
     const payload = JSON.stringify({
+      partnerTag: this.associateTag,
       keywords,
       searchIndex,
       itemCount,
       marketplace: this.marketplace,
-      associateTag: this.associateTag,
       resources,
     });
 
@@ -60,6 +62,7 @@ export class CreatorsApiClient {
       headers: {
         authorization: `Bearer ${accessToken}`,
         "content-type": "application/json",
+        "x-marketplace": this.marketplace,
       },
       body: payload,
     });
@@ -73,18 +76,12 @@ export class CreatorsApiClient {
   }
 
   async #fetchAccessToken() {
-    if (!this.scope) {
-      throw new Error(
-        "CREATORS_API_SCOPE is required. Set the OAuth scope from Amazon's Creators API docs.",
-      );
-    }
-
     const response = await fetch(this.tokenUrl, {
       method: "POST",
       headers: {
-        "content-type": "application/x-www-form-urlencoded",
+        "content-type": "application/json",
       },
-      body: toFormBody({
+      body: JSON.stringify({
         grant_type: "client_credentials",
         client_id: this.clientId,
         client_secret: this.clientSecret,

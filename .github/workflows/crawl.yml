@@ -34,6 +34,8 @@ jobs:
           CREATORS_API_SCOPE: ${{ secrets.CREATORS_API_SCOPE }}
           CREATORS_API_SEARCH_ITEMS_URL: ${{ secrets.CREATORS_API_SEARCH_ITEMS_URL }}
           CREATORS_API_TOKEN_URL: ${{ secrets.CREATORS_API_TOKEN_URL }}
+          CREATORS_API_MARKETPLACE: www.amazon.co.jp
+          CREATORS_API_CREDENTIAL_VERSION: "3.3"
           ASSOCIATE_TAG: ${{ secrets.ASSOCIATE_TAG }}
         run: npm run build
 

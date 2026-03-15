@@ -57,13 +57,16 @@ node scripts/generateBooksJson.js --sample
 ```bash
 export CREATORS_API_CLIENT_ID=amzn1.application-oa2-client....
 export CREATORS_API_CLIENT_SECRET=...
-export CREATORS_API_SCOPE=...
-export CREATORS_API_SEARCH_ITEMS_URL=...
 export ASSOCIATE_TAG=yzak-nra-22
 npm run build
 ```
 
-`CREATORS_API_SCOPE` と `CREATORS_API_SEARCH_ITEMS_URL` は Amazon Creators API の公式リファレンスで確認した値を設定してください。
+デフォルトは下記を使います。
+
+- token endpoint: `https://api.amazon.co.jp/auth/o2/token`
+- scope: `creatorsapi::default`
+- SearchItems endpoint: `https://creatorsapi.amazon/catalog/v1/searchItems`
+- marketplace: `www.amazon.co.jp`
 
 ## GitHub Secrets
 
@@ -71,9 +74,9 @@ Repository secrets に以下を設定します。
 
 - `CREATORS_API_CLIENT_ID`
 - `CREATORS_API_CLIENT_SECRET`
-- `CREATORS_API_SCOPE`
-- `CREATORS_API_SEARCH_ITEMS_URL`
-- `CREATORS_API_TOKEN_URL` 任意。通常は不要
+- `CREATORS_API_SCOPE` 任意。通常は `creatorsapi::default`
+- `CREATORS_API_SEARCH_ITEMS_URL` 任意。通常は `https://creatorsapi.amazon/catalog/v1/searchItems`
+- `CREATORS_API_TOKEN_URL` 任意。通常は `https://api.amazon.co.jp/auth/o2/token`
 - `ASSOCIATE_TAG`
 
 認証情報はリポジトリにハードコードしていません。
@@ -102,7 +105,8 @@ GitHub Pages は `docs/` ディレクトリ公開を使います。
 
 - Amazon HTML スクレイピングはしていません
 - OAuth2 `client_credentials` で Login with Amazon アクセストークンを取得します
-- Product search の呼び出し先は Amazon Creators API の公式リファレンス値を使います
+- 3.3 / JP 前提では `https://api.amazon.co.jp/auth/o2/token` と `scope=creatorsapi::default` を使います
+- SearchItems は `https://creatorsapi.amazon/catalog/v1/searchItems` へ `Authorization: Bearer <token>` と `x-marketplace: www.amazon.co.jp` を付けて呼びます
 - 新刊候補はタイトルキーワードでエンジニア向けに絞り込みます
 - JSON は release date 降順、重複除外、最大 200 件に制限します
 
