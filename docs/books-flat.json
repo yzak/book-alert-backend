@@ -1,0 +1,34 @@
+[
+  {
+    "title": "実践AWSアーキテクチャ 第2版",
+    "author": "山田 太郎",
+    "image": "https://placehold.jp/240x320.png?text=AWS",
+    "releaseDate": "2026-03-10",
+    "amazonUrl": "https://www.amazon.co.jp/dp/4297146080?tag=yzak-nra-22",
+    "tags": [
+      "AWS",
+      "Architecture"
+    ]
+  },
+  {
+    "title": "生成AIアプリ開発入門",
+    "author": "鈴木 花子",
+    "image": "https://placehold.jp/240x320.png?text=AI",
+    "releaseDate": "2026-03-08",
+    "amazonUrl": "https://www.amazon.co.jp/dp/4798188888?tag=yzak-nra-22",
+    "tags": [
+      "AI",
+      "Python"
+    ]
+  },
+  {
+    "title": "KubernetesとDocker運用実践",
+    "author": "高橋 次郎",
+    "image": "https://placehold.jp/240x320.png?text=DevOps",
+    "releaseDate": "2026-03-05",
+    "amazonUrl": "https://www.amazon.co.jp/dp/4815612345?tag=yzak-nra-22",
+    "tags": [
+      "DevOps"
+    ]
+  }
+]

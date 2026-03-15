@@ -1,0 +1,44 @@
+name: Crawl Books
+
+on:
+  schedule:
+    - cron: "0 0 * * 0"
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  crawl:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - name: Setup Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: "20"
+          cache: npm
+
+      - name: Install dependencies
+        run: npm install
+
+      - name: Generate books.json
+        env:
+          PAAPI_ACCESS_KEY: ${{ secrets.PAAPI_ACCESS_KEY }}
+          PAAPI_SECRET_KEY: ${{ secrets.PAAPI_SECRET_KEY }}
+          ASSOCIATE_TAG: ${{ secrets.ASSOCIATE_TAG }}
+        run: npm run build
+
+      - name: Commit updated JSON
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add data/books.json docs/books.json docs/books-flat.json
+          git diff --cached --quiet && exit 0
+          git commit -m "chore: update books.json"
+          git push
