@@ -81,7 +81,18 @@ export function normalizeReleaseDate(rawValue) {
     return null;
   }
 
+  if (typeof rawValue !== "string") {
+    return null;
+  }
+
+  const trimmed = rawValue.trim();
+  if (!trimmed) {
+    return null;
+  }
+
   const candidates = [
+    [/^(\d{4})-(\d{2})-(\d{2})T.*$/, "$1-$2-$3"],
+    [/^(\d{4})\/(\d{2})\/(\d{2})\s+.*$/, "$1-$2-$3"],
     [/^(\d{4})-(\d{2})-(\d{2})$/, "$1-$2-$3"],
     [/^(\d{4})\/(\d{2})\/(\d{2})$/, "$1-$2-$3"],
     [/^(\d{4})年(\d{2})月(\d{2})日$/, "$1-$2-$3"],
@@ -91,8 +102,8 @@ export function normalizeReleaseDate(rawValue) {
   ];
 
   for (const [pattern, replacement] of candidates) {
-    if (pattern.test(rawValue)) {
-      return rawValue.replace(pattern, replacement);
+    if (pattern.test(trimmed)) {
+      return trimmed.replace(pattern, replacement);
     }
   }
 
@@ -121,7 +132,9 @@ export function normalizeBook(item, associateTag) {
     item?.ItemInfo?.ByLineInfo?.Manufacturer?.DisplayValue ??
     "";
   const releaseDate = normalizeReleaseDate(
-    item?.itemInfo?.contentInfo?.publicationDate?.displayValue ??
+    item?.itemInfo?.productInfo?.releaseDate?.displayValue ??
+      item?.ItemInfo?.ProductInfo?.ReleaseDate?.DisplayValue ??
+      item?.itemInfo?.contentInfo?.publicationDate?.displayValue ??
       item?.ItemInfo?.ContentInfo?.PublicationDate?.DisplayValue,
   ) ?? new Date().toISOString().slice(0, 10);
   const image =

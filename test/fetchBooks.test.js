@@ -31,6 +31,7 @@ test("available tags expose stable ids and labels", () => {
 test("normalizeReleaseDate normalizes Japanese dates", () => {
   assert.equal(normalizeReleaseDate("2026年03月10日"), "2026-03-10");
   assert.equal(normalizeReleaseDate("2026/03"), "2026-03-01");
+  assert.equal(normalizeReleaseDate("2026-03-10T00:00:00Z"), "2026-03-10");
 });
 
 test("buildAffiliateUrl always appends associate tag", () => {
@@ -51,8 +52,11 @@ test("normalizeBook returns app-compatible fields", () => {
           Contributors: [{ Name: "山田 太郎" }],
           Manufacturer: { DisplayValue: "技術評論社" },
         },
+        ProductInfo: {
+          ReleaseDate: { DisplayValue: "2026-03-10T00:00:00Z" },
+        },
         ContentInfo: {
-          PublicationDate: { DisplayValue: "2026-03-10" },
+          PublicationDate: { DisplayValue: "2026-02-01" },
         },
       },
       Images: {
@@ -68,6 +72,7 @@ test("normalizeBook returns app-compatible fields", () => {
   );
 
   assert.equal(book.title, "AWSとPythonで学ぶ設計入門");
+  assert.equal(book.releaseDate, "2026-03-10");
   assert.deepEqual(book.tags, ["aws", "architecture", "python"]);
   assert.equal(book.amazonUrl, "https://www.amazon.co.jp/dp/1234567890?tag=yzak-nra-22");
 });
