@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-03-15T11:55:08.191Z",
+  "updatedAt": "2026-03-16T10:46:28.428Z",
   "availableTags": [
     {
       "id": "aws",
@@ -69,69 +69,1447 @@
   ],
   "books": [
     {
-      "id": "4297146080",
-      "asin": "4297146080",
-      "title": "実践AWSアーキテクチャ 第2版",
-      "author": "山田 太郎",
+      "id": "B0B81PZY8H",
+      "asin": "B0B81PZY8H",
+      "title": "AWSの基本・仕組み・重要用語が全部わかる教科書 (見るだけ図解)",
+      "author": "川畑 光平, 菊地 貴彰, 真中 俊輝",
       "authors": [
-        "山田 太郎"
+        "川畑 光平",
+        "菊地 貴彰",
+        "真中 俊輝"
       ],
-      "publisher": "技術評論社",
-      "releaseDate": "2026-03-10",
-      "publishedAt": "2026-03-10",
-      "image": "https://placehold.jp/240x320.png?text=AWS",
-      "imageUrl": "https://placehold.jp/240x320.png?text=AWS",
-      "amazonUrl": "https://www.amazon.co.jp/dp/4297146080?tag=yzak-nra-22",
-      "detailPageUrl": "https://www.amazon.co.jp/dp/4297146080?tag=yzak-nra-22",
+      "publisher": "SBクリエイティブ",
+      "releaseDate": "2026-03-16",
+      "publishedAt": "2026-03-16",
+      "image": "https://m.media-amazon.com/images/I/51PtaFWLUBL._SL160_.jpg",
+      "imageUrl": "https://m.media-amazon.com/images/I/51PtaFWLUBL._SL160_.jpg",
+      "amazonUrl": "https://www.amazon.co.jp/dp/B0B81PZY8H?tag=yzak06-22",
+      "detailPageUrl": "https://www.amazon.co.jp/dp/B0B81PZY8H?tag=yzak06-22",
+      "tags": [
+        "aws"
+      ],
+      "price": 2673,
+      "currency": "JPY"
+    },
+    {
+      "id": "B0FSH7HM2C",
+      "asin": "B0FSH7HM2C",
+      "title": "AWSコンテナ設計・構築［本格］入門 増補改訂版",
+      "author": "新井 雅也, 馬勝 淳史",
+      "authors": [
+        "新井 雅也",
+        "馬勝 淳史"
+      ],
+      "publisher": "SBクリエイティブ",
+      "releaseDate": "2026-03-16",
+      "publishedAt": "2026-03-16",
+      "image": "https://m.media-amazon.com/images/I/51KsBPqYhzL._SL160_.jpg",
+      "imageUrl": "https://m.media-amazon.com/images/I/51KsBPqYhzL._SL160_.jpg",
+      "amazonUrl": "https://www.amazon.co.jp/dp/B0FSH7HM2C?tag=yzak06-22",
+      "detailPageUrl": "https://www.amazon.co.jp/dp/B0FSH7HM2C?tag=yzak06-22",
       "tags": [
         "aws",
         "architecture"
+      ],
+      "price": 3465,
+      "currency": "JPY"
+    },
+    {
+      "id": "B0F18K2WR5",
+      "asin": "B0F18K2WR5",
+      "title": "AWSクラウド設計完全ガイド",
+      "author": "アクセンチュア 戸賀 慶/福垣内 孝造/竹内 誠一/浪谷 浩一/澤田 拓也/ 崎原 晴香/浅輪 和哉/村田 亜弥",
+      "authors": [
+        "アクセンチュア 戸賀 慶/福垣内 孝造/竹内 誠一/浪谷 浩一/澤田 拓也/ 崎原 晴香/浅輪 和哉/村田 亜弥"
+      ],
+      "publisher": "日経BP",
+      "releaseDate": "2026-03-16",
+      "publishedAt": "2026-03-16",
+      "image": "https://m.media-amazon.com/images/I/51Srp9ckILL._SL160_.jpg",
+      "imageUrl": "https://m.media-amazon.com/images/I/51Srp9ckILL._SL160_.jpg",
+      "amazonUrl": "https://www.amazon.co.jp/dp/B0F18K2WR5?tag=yzak06-22",
+      "detailPageUrl": "https://www.amazon.co.jp/dp/B0F18K2WR5?tag=yzak06-22",
+      "tags": [
+        "aws",
+        "architecture"
+      ],
+      "price": 3168,
+      "currency": "JPY"
+    },
+    {
+      "id": "B0F5Z1XKXY",
+      "asin": "B0F5Z1XKXY",
+      "title": "AWS運用入門 改訂第2版　押さえておきたいAWSの基本と運用ノウハウ ［AWS深掘りガイド］: 押さえておきたいAWSの基本と運用ノウハウ [AWS深掘りガイド]",
+      "author": "山﨑 翔平, 峯 侑資, 小倉 大",
+      "authors": [
+        "山﨑 翔平",
+        "峯 侑資",
+        "小倉 大"
+      ],
+      "publisher": "SBクリエイティブ",
+      "releaseDate": "2026-03-16",
+      "publishedAt": "2026-03-16",
+      "image": "https://m.media-amazon.com/images/I/51oXrsb9eIL._SL160_.jpg",
+      "imageUrl": "https://m.media-amazon.com/images/I/51oXrsb9eIL._SL160_.jpg",
+      "amazonUrl": "https://www.amazon.co.jp/dp/B0F5Z1XKXY?tag=yzak06-22",
+      "detailPageUrl": "https://www.amazon.co.jp/dp/B0F5Z1XKXY?tag=yzak06-22",
+      "tags": [
+        "aws"
+      ],
+      "price": 1760,
+      "currency": "JPY"
+    },
+    {
+      "id": "4815625387",
+      "asin": "4815625387",
+      "title": "AWS認定資格試験テキスト　AWS認定 クラウドプラクティショナー　改訂第3版 (ＡＷＳ認定資格試験テキスト)",
+      "author": "山下光洋, 海老原寛之",
+      "authors": [
+        "山下光洋",
+        "海老原寛之"
+      ],
+      "publisher": "SBクリエイティブ",
+      "releaseDate": "2026-03-16",
+      "publishedAt": "2026-03-16",
+      "image": "https://m.media-amazon.com/images/I/41ftSYXObKL._SL160_.jpg",
+      "imageUrl": "https://m.media-amazon.com/images/I/41ftSYXObKL._SL160_.jpg",
+      "amazonUrl": "https://www.amazon.co.jp/dp/4815625387?tag=yzak06-22",
+      "detailPageUrl": "https://www.amazon.co.jp/dp/4815625387?tag=yzak06-22",
+      "tags": [
+        "aws"
+      ],
+      "price": 2970,
+      "currency": "JPY"
+    },
+    {
+      "id": "B0BCPNZ9GJ",
+      "asin": "B0BCPNZ9GJ",
+      "title": "AWS認定資格 ソリューションアーキテクトアソシエイトの教科書: 合格へ導く虎の巻",
+      "author": "CloudTech書籍作成委員会, くろかわ こうへい, 小山 雄太",
+      "authors": [
+        "CloudTech書籍作成委員会",
+        "くろかわ こうへい",
+        "小山 雄太"
+      ],
+      "publisher": "",
+      "releaseDate": "2026-03-16",
+      "publishedAt": "2026-03-16",
+      "image": "https://m.media-amazon.com/images/I/51Qi5t-e4eL._SL160_.jpg",
+      "imageUrl": "https://m.media-amazon.com/images/I/51Qi5t-e4eL._SL160_.jpg",
+      "amazonUrl": "https://www.amazon.co.jp/dp/B0BCPNZ9GJ?tag=yzak06-22",
+      "detailPageUrl": "https://www.amazon.co.jp/dp/B0BCPNZ9GJ?tag=yzak06-22",
+      "tags": [
+        "aws"
+      ],
+      "price": 0,
+      "currency": "JPY"
+    },
+    {
+      "id": "B0BY7X5DTM",
+      "asin": "B0BY7X5DTM",
+      "title": "徹底攻略 AWS認定 ソリューションアーキテクト − アソシエイト教科書 第3版［SAA-C03］対応 徹底攻略シリーズ",
+      "author": "鳥谷部 昭寛, 宮口 光平, 半田 大樹",
+      "authors": [
+        "鳥谷部 昭寛",
+        "宮口 光平",
+        "半田 大樹"
+      ],
+      "publisher": "インプレス",
+      "releaseDate": "2026-03-16",
+      "publishedAt": "2026-03-16",
+      "image": "https://m.media-amazon.com/images/I/51NzhXtma2L._SL160_.jpg",
+      "imageUrl": "https://m.media-amazon.com/images/I/51NzhXtma2L._SL160_.jpg",
+      "amazonUrl": "https://www.amazon.co.jp/dp/B0BY7X5DTM?tag=yzak06-22",
+      "detailPageUrl": "https://www.amazon.co.jp/dp/B0BY7X5DTM?tag=yzak06-22",
+      "tags": [
+        "aws"
+      ],
+      "price": 2574,
+      "currency": "JPY"
+    },
+    {
+      "id": "B0GLFFX1Q5",
+      "asin": "B0GLFFX1Q5",
+      "title": "AWSではじめるMCP実践ガイド――基礎からAIエージェント構築まで徹底解説",
+      "author": "塚田 真規, 森田 和明",
+      "authors": [
+        "塚田 真規",
+        "森田 和明"
+      ],
+      "publisher": "技術評論社",
+      "releaseDate": "2026-03-16",
+      "publishedAt": "2026-03-16",
+      "image": "https://m.media-amazon.com/images/I/51fKXmSPRvL._SL160_.jpg",
+      "imageUrl": "https://m.media-amazon.com/images/I/51fKXmSPRvL._SL160_.jpg",
+      "amazonUrl": "https://www.amazon.co.jp/dp/B0GLFFX1Q5?tag=yzak06-22",
+      "detailPageUrl": "https://www.amazon.co.jp/dp/B0GLFFX1Q5?tag=yzak06-22",
+      "tags": [
+        "aws",
+        "ai"
+      ],
+      "price": 3450,
+      "currency": "JPY"
+    },
+    {
+      "id": "B0B49MYZ67",
+      "asin": "B0B49MYZ67",
+      "title": "Python1年生 第2版 体験してわかる！会話でまなべる！プログラミングのしくみ",
+      "author": "森 巧尚",
+      "authors": [
+        "森 巧尚"
+      ],
+      "publisher": "翔泳社",
+      "releaseDate": "2026-03-16",
+      "publishedAt": "2026-03-16",
+      "image": "https://m.media-amazon.com/images/I/51qp0fUX3lL._SL160_.jpg",
+      "imageUrl": "https://m.media-amazon.com/images/I/51qp0fUX3lL._SL160_.jpg",
+      "amazonUrl": "https://www.amazon.co.jp/dp/B0B49MYZ67?tag=yzak06-22",
+      "detailPageUrl": "https://www.amazon.co.jp/dp/B0B49MYZ67?tag=yzak06-22",
+      "tags": [
+        "python"
+      ],
+      "price": 1960,
+      "currency": "JPY"
+    },
+    {
+      "id": "4295016365",
+      "asin": "4295016365",
+      "title": "スッキリわかるPython入門 第2版 (スッキリわかる入門シリーズ)",
+      "author": "国本 大悟, 須藤 秋良, 株式会社フレアリンク",
+      "authors": [
+        "国本 大悟",
+        "須藤 秋良",
+        "株式会社フレアリンク"
+      ],
+      "publisher": "インプレス",
+      "releaseDate": "2026-03-16",
+      "publishedAt": "2026-03-16",
+      "image": "https://m.media-amazon.com/images/I/51n9WkczYZL._SL160_.jpg",
+      "imageUrl": "https://m.media-amazon.com/images/I/51n9WkczYZL._SL160_.jpg",
+      "amazonUrl": "https://www.amazon.co.jp/dp/4295016365?tag=yzak06-22",
+      "detailPageUrl": "https://www.amazon.co.jp/dp/4295016365?tag=yzak06-22",
+      "tags": [
+        "python"
+      ],
+      "price": 2750,
+      "currency": "JPY"
+    },
+    {
+      "id": "B0FJL63DKM",
+      "asin": "B0FJL63DKM",
+      "title": "みんなのPython 第5版",
+      "author": "柴田 淳",
+      "authors": [
+        "柴田 淳"
+      ],
+      "publisher": "SBクリエイティブ",
+      "releaseDate": "2026-03-16",
+      "publishedAt": "2026-03-16",
+      "image": "https://m.media-amazon.com/images/I/51XON5CHlxL._SL160_.jpg",
+      "imageUrl": "https://m.media-amazon.com/images/I/51XON5CHlxL._SL160_.jpg",
+      "amazonUrl": "https://www.amazon.co.jp/dp/B0FJL63DKM?tag=yzak06-22",
+      "detailPageUrl": "https://www.amazon.co.jp/dp/B0FJL63DKM?tag=yzak06-22",
+      "tags": [
+        "python"
+      ],
+      "price": 2970,
+      "currency": "JPY"
+    },
+    {
+      "id": "4814401523",
+      "asin": "4814401523",
+      "title": "退屈なことはPythonにやらせよう 第3版 ―ノンプログラマーにもできる自動化処理プログラミング",
+      "author": "Al Sweigart, 相川 愛三",
+      "authors": [
+        "Al Sweigart",
+        "相川 愛三"
+      ],
+      "publisher": "オライリー・ジャパン",
+      "releaseDate": "2026-03-16",
+      "publishedAt": "2026-03-16",
+      "image": "https://m.media-amazon.com/images/I/41JD68jbULL._SL160_.jpg",
+      "imageUrl": "https://m.media-amazon.com/images/I/41JD68jbULL._SL160_.jpg",
+      "amazonUrl": "https://www.amazon.co.jp/dp/4814401523?tag=yzak06-22",
+      "detailPageUrl": "https://www.amazon.co.jp/dp/4814401523?tag=yzak06-22",
+      "tags": [
+        "automation",
+        "python"
+      ],
+      "price": 4620,
+      "currency": "JPY"
+    },
+    {
+      "id": "4065412250",
+      "asin": "4065412250",
+      "title": "Pythonではじめるオープンデータ分析 経済統計の取得から、データハンドリング・可視化・分析まで (KS情報科学専門書)",
+      "author": "吉住 遼, 原 泰史",
+      "authors": [
+        "吉住 遼",
+        "原 泰史"
+      ],
+      "publisher": "講談社",
+      "releaseDate": "2026-03-16",
+      "publishedAt": "2026-03-16",
+      "image": "https://m.media-amazon.com/images/I/51APS4TCEIL._SL160_.jpg",
+      "imageUrl": "https://m.media-amazon.com/images/I/51APS4TCEIL._SL160_.jpg",
+      "amazonUrl": "https://www.amazon.co.jp/dp/4065412250?tag=yzak06-22",
+      "detailPageUrl": "https://www.amazon.co.jp/dp/4065412250?tag=yzak06-22",
+      "tags": [
+        "python"
+      ],
+      "price": 3630,
+      "currency": "JPY"
+    },
+    {
+      "id": "4814401337",
+      "asin": "4814401337",
+      "title": "Effective Python 第3版 ―Pythonプログラムを改良する125項目",
+      "author": "Brett Slatkin, 鈴木駿",
+      "authors": [
+        "Brett Slatkin",
+        "鈴木駿"
+      ],
+      "publisher": "オライリー・ジャパン",
+      "releaseDate": "2026-03-16",
+      "publishedAt": "2026-03-16",
+      "image": "https://m.media-amazon.com/images/I/4196ymknV8L._SL160_.jpg",
+      "imageUrl": "https://m.media-amazon.com/images/I/4196ymknV8L._SL160_.jpg",
+      "amazonUrl": "https://www.amazon.co.jp/dp/4814401337?tag=yzak06-22",
+      "detailPageUrl": "https://www.amazon.co.jp/dp/4814401337?tag=yzak06-22",
+      "tags": [
+        "python"
+      ],
+      "price": 5280,
+      "currency": "JPY"
+    },
+    {
+      "id": "429502404X",
+      "asin": "429502404X",
+      "title": "Pythonではじめるクリーンアーキテクチャ　SOLID原則／ドメイン駆動設計／テスト駆動開発を実践 (impress top gear)",
+      "author": "Sam Keen, 株式会社クイープ",
+      "authors": [
+        "Sam Keen",
+        "株式会社クイープ"
+      ],
+      "publisher": "インプレス",
+      "releaseDate": "2026-03-16",
+      "publishedAt": "2026-03-16",
+      "image": "https://m.media-amazon.com/images/I/51TwCEAbxHL._SL160_.jpg",
+      "imageUrl": "https://m.media-amazon.com/images/I/51TwCEAbxHL._SL160_.jpg",
+      "amazonUrl": "https://www.amazon.co.jp/dp/429502404X?tag=yzak06-22",
+      "detailPageUrl": "https://www.amazon.co.jp/dp/429502404X?tag=yzak06-22",
+      "tags": [
+        "architecture",
+        "python"
+      ],
+      "price": 3850,
+      "currency": "JPY"
+    },
+    {
+      "id": "4873119359",
+      "asin": "4873119359",
+      "title": "Pythonチュートリアル 第4版",
+      "author": "Guido van Rossum, 鴨澤眞夫",
+      "authors": [
+        "Guido van Rossum",
+        "鴨澤眞夫"
+      ],
+      "publisher": "オライリージャパン",
+      "releaseDate": "2026-03-16",
+      "publishedAt": "2026-03-16",
+      "image": "https://m.media-amazon.com/images/I/41F2H+Frt8L._SL160_.jpg",
+      "imageUrl": "https://m.media-amazon.com/images/I/41F2H+Frt8L._SL160_.jpg",
+      "amazonUrl": "https://www.amazon.co.jp/dp/4873119359?tag=yzak06-22",
+      "detailPageUrl": "https://www.amazon.co.jp/dp/4873119359?tag=yzak06-22",
+      "tags": [
+        "python"
+      ],
+      "price": 1980,
+      "currency": "JPY"
+    },
+    {
+      "id": "B0D8KNXRK9",
+      "asin": "B0D8KNXRK9",
+      "title": "VTuberサプーが教える！　Python　初心者のコード／プロのコード",
+      "author": "サプー",
+      "authors": [
+        "サプー"
+      ],
+      "publisher": "技術評論社",
+      "releaseDate": "2026-03-16",
+      "publishedAt": "2026-03-16",
+      "image": "https://m.media-amazon.com/images/I/51Z0NykiT6L._SL160_.jpg",
+      "imageUrl": "https://m.media-amazon.com/images/I/51Z0NykiT6L._SL160_.jpg",
+      "amazonUrl": "https://www.amazon.co.jp/dp/B0D8KNXRK9?tag=yzak06-22",
+      "detailPageUrl": "https://www.amazon.co.jp/dp/B0D8KNXRK9?tag=yzak06-22",
+      "tags": [
+        "python"
+      ],
+      "price": 2803,
+      "currency": "JPY"
+    },
+    {
+      "id": "B0GPVWYCGG",
+      "asin": "B0GPVWYCGG",
+      "title": "最速でわかる生成AI実践ガイド",
+      "author": "山田 博啓",
+      "authors": [
+        "山田 博啓"
+      ],
+      "publisher": "技術評論社",
+      "releaseDate": "2026-03-16",
+      "publishedAt": "2026-03-16",
+      "image": "https://m.media-amazon.com/images/I/51Mq2OcBKTL._SL160_.jpg",
+      "imageUrl": "https://m.media-amazon.com/images/I/51Mq2OcBKTL._SL160_.jpg",
+      "amazonUrl": "https://www.amazon.co.jp/dp/B0GPVWYCGG?tag=yzak06-22",
+      "detailPageUrl": "https://www.amazon.co.jp/dp/B0GPVWYCGG?tag=yzak06-22",
+      "tags": [
+        "genai",
+        "ai"
+      ],
+      "price": 3450,
+      "currency": "JPY"
+    },
+    {
+      "id": "B0GPW16QC2",
+      "asin": "B0GPW16QC2",
+      "title": "晋遊舎ムック お得技シリーズ289　生成AI お得技ベストセレクション",
+      "author": "晋遊舎",
+      "authors": [
+        "晋遊舎"
+      ],
+      "publisher": "晋遊舎",
+      "releaseDate": "2026-03-16",
+      "publishedAt": "2026-03-16",
+      "image": "https://m.media-amazon.com/images/I/512YOx44huL._SL160_.jpg",
+      "imageUrl": "https://m.media-amazon.com/images/I/512YOx44huL._SL160_.jpg",
+      "amazonUrl": "https://www.amazon.co.jp/dp/B0GPW16QC2?tag=yzak06-22",
+      "detailPageUrl": "https://www.amazon.co.jp/dp/B0GPW16QC2?tag=yzak06-22",
+      "tags": [
+        "genai",
+        "ai"
+      ],
+      "price": 1089,
+      "currency": "JPY"
+    },
+    {
+      "id": "4569860885",
+      "asin": "4569860885",
+      "title": "「そろそろ生成AIを戦力化したい」社長のためのChatGPT 経営入門",
+      "author": "高山 智壮",
+      "authors": [
+        "高山 智壮"
+      ],
+      "publisher": "PHP研究所",
+      "releaseDate": "2026-03-16",
+      "publishedAt": "2026-03-16",
+      "image": "https://m.media-amazon.com/images/I/514RULTtHDL._SL160_.jpg",
+      "imageUrl": "https://m.media-amazon.com/images/I/514RULTtHDL._SL160_.jpg",
+      "amazonUrl": "https://www.amazon.co.jp/dp/4569860885?tag=yzak06-22",
+      "detailPageUrl": "https://www.amazon.co.jp/dp/4569860885?tag=yzak06-22",
+      "tags": [
+        "genai",
+        "ai"
+      ],
+      "price": 1980,
+      "currency": "JPY"
+    },
+    {
+      "id": "B0F4BHQM2H",
+      "asin": "B0F4BHQM2H",
+      "title": "AIを使って考えるための全技術――「最高の発想」を一瞬で生み出す５６の技法",
+      "author": "石井 力重, 加藤 昌治",
+      "authors": [
+        "石井 力重",
+        "加藤 昌治"
+      ],
+      "publisher": "ダイヤモンド社",
+      "releaseDate": "2026-03-16",
+      "publishedAt": "2026-03-16",
+      "image": "https://m.media-amazon.com/images/I/41EgR24I3LL._SL160_.jpg",
+      "imageUrl": "https://m.media-amazon.com/images/I/41EgR24I3LL._SL160_.jpg",
+      "amazonUrl": "https://www.amazon.co.jp/dp/B0F4BHQM2H?tag=yzak06-22",
+      "detailPageUrl": "https://www.amazon.co.jp/dp/B0F4BHQM2H?tag=yzak06-22",
+      "tags": [
+        "ai"
+      ],
+      "price": 2673,
+      "currency": "JPY"
+    },
+    {
+      "id": "4046080094",
+      "asin": "4046080094",
+      "title": "【Amazon.co.jp 限定】作業時間が１/10になる！　はじめての生成AI×資料作成テクニック (特典: 書籍未収録「スライドデザイン完全プロンプト集」データ配信)",
+      "author": "まいぺる",
+      "authors": [
+        "まいぺる"
+      ],
+      "publisher": "KADOKAWA",
+      "releaseDate": "2026-03-16",
+      "publishedAt": "2026-03-16",
+      "image": "https://m.media-amazon.com/images/I/51XjjQOP2aL._SL160_.jpg",
+      "imageUrl": "https://m.media-amazon.com/images/I/51XjjQOP2aL._SL160_.jpg",
+      "amazonUrl": "https://www.amazon.co.jp/dp/4046080094?tag=yzak06-22",
+      "detailPageUrl": "https://www.amazon.co.jp/dp/4046080094?tag=yzak06-22",
+      "tags": [
+        "genai",
+        "ai"
+      ],
+      "price": 1980,
+      "currency": "JPY"
+    },
+    {
+      "id": "B0FVDM8XQJ",
+      "asin": "B0FVDM8XQJ",
+      "title": "面倒な仕事が一瞬で片付く　生成AIタスク爆速大全",
+      "author": "宮崎学",
+      "authors": [
+        "宮崎学"
+      ],
+      "publisher": "かんき出版",
+      "releaseDate": "2026-03-16",
+      "publishedAt": "2026-03-16",
+      "image": "https://m.media-amazon.com/images/I/51Jpb1wBpYL._SL160_.jpg",
+      "imageUrl": "https://m.media-amazon.com/images/I/51Jpb1wBpYL._SL160_.jpg",
+      "amazonUrl": "https://www.amazon.co.jp/dp/B0FVDM8XQJ?tag=yzak06-22",
+      "detailPageUrl": "https://www.amazon.co.jp/dp/B0FVDM8XQJ?tag=yzak06-22",
+      "tags": [
+        "genai",
+        "ai"
+      ],
+      "price": 2178,
+      "currency": "JPY"
+    },
+    {
+      "id": "B0FXL682BK",
+      "asin": "B0FXL682BK",
+      "title": "Gemini 最強のAI仕事術 AI仕事術シリーズ",
+      "author": "池田朋弘",
+      "authors": [
+        "池田朋弘"
+      ],
+      "publisher": "芸術新聞社",
+      "releaseDate": "2026-03-16",
+      "publishedAt": "2026-03-16",
+      "image": "https://m.media-amazon.com/images/I/51-JB1zKXCL._SL160_.jpg",
+      "imageUrl": "https://m.media-amazon.com/images/I/51-JB1zKXCL._SL160_.jpg",
+      "amazonUrl": "https://www.amazon.co.jp/dp/B0FXL682BK?tag=yzak06-22",
+      "detailPageUrl": "https://www.amazon.co.jp/dp/B0FXL682BK?tag=yzak06-22",
+      "tags": [
+        "ai"
+      ],
+      "price": 1980,
+      "currency": "JPY"
+    },
+    {
+      "id": "B0F8MZQGSF",
+      "asin": "B0F8MZQGSF",
+      "title": "生成AI最速仕事術",
+      "author": "たてばやし淳",
+      "authors": [
+        "たてばやし淳"
+      ],
+      "publisher": "かんき出版",
+      "releaseDate": "2026-03-16",
+      "publishedAt": "2026-03-16",
+      "image": "https://m.media-amazon.com/images/I/51eTCQRlQtL._SL160_.jpg",
+      "imageUrl": "https://m.media-amazon.com/images/I/51eTCQRlQtL._SL160_.jpg",
+      "amazonUrl": "https://www.amazon.co.jp/dp/B0F8MZQGSF?tag=yzak06-22",
+      "detailPageUrl": "https://www.amazon.co.jp/dp/B0F8MZQGSF?tag=yzak06-22",
+      "tags": [
+        "genai",
+        "ai"
+      ],
+      "price": 1782,
+      "currency": "JPY"
+    },
+    {
+      "id": "4296210580",
+      "asin": "4296210580",
+      "title": "ChatGPT＆Gemini生成AI活用ガイド (日経BPパソコンベストムック)",
+      "author": "日経パソコン",
+      "authors": [
+        "日経パソコン"
+      ],
+      "publisher": "日経BP",
+      "releaseDate": "2026-03-16",
+      "publishedAt": "2026-03-16",
+      "image": "https://m.media-amazon.com/images/I/51+KLDlAJBL._SL160_.jpg",
+      "imageUrl": "https://m.media-amazon.com/images/I/51+KLDlAJBL._SL160_.jpg",
+      "amazonUrl": "https://www.amazon.co.jp/dp/4296210580?tag=yzak06-22",
+      "detailPageUrl": "https://www.amazon.co.jp/dp/4296210580?tag=yzak06-22",
+      "tags": [
+        "genai",
+        "ai"
+      ],
+      "price": 1540,
+      "currency": "JPY"
+    },
+    {
+      "id": "4535790493",
+      "asin": "4535790493",
+      "title": "生成AIにできること、できないこと　「フランケンシュタインの怪物」を飼いならす",
+      "author": "藤本 浩司, 柴原 一友",
+      "authors": [
+        "藤本 浩司",
+        "柴原 一友"
+      ],
+      "publisher": "日本評論社",
+      "releaseDate": "2026-03-16",
+      "publishedAt": "2026-03-16",
+      "image": "https://m.media-amazon.com/images/I/51bA49fckiL._SL160_.jpg",
+      "imageUrl": "https://m.media-amazon.com/images/I/51bA49fckiL._SL160_.jpg",
+      "amazonUrl": "https://www.amazon.co.jp/dp/4535790493?tag=yzak06-22",
+      "detailPageUrl": "https://www.amazon.co.jp/dp/4535790493?tag=yzak06-22",
+      "tags": [
+        "genai",
+        "ai"
+      ],
+      "price": 2530,
+      "currency": "JPY"
+    },
+    {
+      "id": "B0GH75V1JL",
+      "asin": "B0GH75V1JL",
+      "title": "LLMの原理、RAG・エージェント開発から読み解く　コンテキストエンジニアリング エンジニア選書",
+      "author": "蒲生 弘郷",
+      "authors": [
+        "蒲生 弘郷"
+      ],
+      "publisher": "技術評論社",
+      "releaseDate": "2026-03-16",
+      "publishedAt": "2026-03-16",
+      "image": "https://m.media-amazon.com/images/I/51m5CH67ITL._SL160_.jpg",
+      "imageUrl": "https://m.media-amazon.com/images/I/51m5CH67ITL._SL160_.jpg",
+      "amazonUrl": "https://www.amazon.co.jp/dp/B0GH75V1JL?tag=yzak06-22",
+      "detailPageUrl": "https://www.amazon.co.jp/dp/B0GH75V1JL?tag=yzak06-22",
+      "tags": [
+        "llm"
+      ],
+      "price": 3234,
+      "currency": "JPY"
+    },
+    {
+      "id": "4297155656",
+      "asin": "4297155656",
+      "title": "作って学ぶAIエージェント──TypeScriptとLLMで切り拓くAI時代のエンジニアリング",
+      "author": "laiso",
+      "authors": [
+        "laiso"
+      ],
+      "publisher": "技術評論社",
+      "releaseDate": "2026-03-16",
+      "publishedAt": "2026-03-16",
+      "image": "https://m.media-amazon.com/images/I/51oeSp-ApuL._SL160_.jpg",
+      "imageUrl": "https://m.media-amazon.com/images/I/51oeSp-ApuL._SL160_.jpg",
+      "amazonUrl": "https://www.amazon.co.jp/dp/4297155656?tag=yzak06-22",
+      "detailPageUrl": "https://www.amazon.co.jp/dp/4297155656?tag=yzak06-22",
+      "tags": [
+        "llm",
+        "ai"
       ],
       "price": 3520,
       "currency": "JPY"
     },
     {
-      "id": "4798188888",
-      "asin": "4798188888",
-      "title": "生成AIアプリ開発入門",
-      "author": "鈴木 花子",
+      "id": "B0GH38C76Q",
+      "asin": "B0GH38C76Q",
+      "title": "Pythonでまなぶ ローカルLLMの訓練と使いこなし",
+      "author": "クジラ飛行机",
       "authors": [
-        "鈴木 花子"
+        "クジラ飛行机"
       ],
-      "publisher": "翔泳社",
-      "releaseDate": "2026-03-08",
-      "publishedAt": "2026-03-08",
-      "image": "https://placehold.jp/240x320.png?text=AI",
-      "imageUrl": "https://placehold.jp/240x320.png?text=AI",
-      "amazonUrl": "https://www.amazon.co.jp/dp/4798188888?tag=yzak-nra-22",
-      "detailPageUrl": "https://www.amazon.co.jp/dp/4798188888?tag=yzak-nra-22",
+      "publisher": "ソシム",
+      "releaseDate": "2026-03-16",
+      "publishedAt": "2026-03-16",
+      "image": "https://m.media-amazon.com/images/I/51b5nlQxpgL._SL160_.jpg",
+      "imageUrl": "https://m.media-amazon.com/images/I/51b5nlQxpgL._SL160_.jpg",
+      "amazonUrl": "https://www.amazon.co.jp/dp/B0GH38C76Q?tag=yzak06-22",
+      "detailPageUrl": "https://www.amazon.co.jp/dp/B0GH38C76Q?tag=yzak06-22",
       "tags": [
-        "genai",
-        "python",
-        "ai"
+        "llm",
+        "python"
       ],
-      "price": 3300,
+      "price": 3599,
       "currency": "JPY"
     },
     {
-      "id": "4815612345",
-      "asin": "4815612345",
-      "title": "KubernetesとDocker運用実践",
-      "author": "高橋 次郎",
+      "id": "4814401132",
+      "asin": "4814401132",
+      "title": "LLMのプロンプトエンジニアリング ―GitHub Copilotを生んだ開発者が教える生成AIアプリケーション開発",
+      "author": "John Berryman, Albert Ziegler, 服部 佑樹（翻訳）, 佐藤 直生（翻訳）",
       "authors": [
-        "高橋 次郎"
+        "John Berryman",
+        "Albert Ziegler",
+        "服部 佑樹（翻訳）",
+        "佐藤 直生（翻訳）"
       ],
-      "publisher": "SBクリエイティブ",
-      "releaseDate": "2026-03-05",
-      "publishedAt": "2026-03-05",
-      "image": "https://placehold.jp/240x320.png?text=DevOps",
-      "imageUrl": "https://placehold.jp/240x320.png?text=DevOps",
-      "amazonUrl": "https://www.amazon.co.jp/dp/4815612345?tag=yzak-nra-22",
-      "detailPageUrl": "https://www.amazon.co.jp/dp/4815612345?tag=yzak-nra-22",
+      "publisher": "オライリー・ジャパン",
+      "releaseDate": "2026-03-16",
+      "publishedAt": "2026-03-16",
+      "image": "https://m.media-amazon.com/images/I/41bbBaojhML._SL160_.jpg",
+      "imageUrl": "https://m.media-amazon.com/images/I/41bbBaojhML._SL160_.jpg",
+      "amazonUrl": "https://www.amazon.co.jp/dp/4814401132?tag=yzak06-22",
+      "detailPageUrl": "https://www.amazon.co.jp/dp/4814401132?tag=yzak06-22",
+      "tags": [
+        "genai",
+        "llm",
+        "ai"
+      ],
+      "price": 4180,
+      "currency": "JPY"
+    },
+    {
+      "id": "B0DSZV6BT2",
+      "asin": "B0DSZV6BT2",
+      "title": "つくりながら学ぶ！LLM 自作入門 (Compass Booksシリーズ)",
+      "author": "Sebastian Raschka, 株式会社クイープ, 巣籠悠輔, 巣籠悠輔",
+      "authors": [
+        "Sebastian Raschka",
+        "株式会社クイープ",
+        "巣籠悠輔",
+        "巣籠悠輔"
+      ],
+      "publisher": "マイナビ出版",
+      "releaseDate": "2026-03-16",
+      "publishedAt": "2026-03-16",
+      "image": "https://m.media-amazon.com/images/I/51DbhruTsEL._SL160_.jpg",
+      "imageUrl": "https://m.media-amazon.com/images/I/51DbhruTsEL._SL160_.jpg",
+      "amazonUrl": "https://www.amazon.co.jp/dp/B0DSZV6BT2?tag=yzak06-22",
+      "detailPageUrl": "https://www.amazon.co.jp/dp/B0DSZV6BT2?tag=yzak06-22",
+      "tags": [
+        "llm"
+      ],
+      "price": 3584,
+      "currency": "JPY"
+    },
+    {
+      "id": "4814401159",
+      "asin": "4814401159",
+      "title": "直感 LLM ―ハンズオンで動かして学ぶ大規模言語モデル入門",
+      "author": "Jay Alammar, Maarten Grootendorst, 中山 光樹（翻訳）",
+      "authors": [
+        "Jay Alammar",
+        "Maarten Grootendorst",
+        "中山 光樹（翻訳）"
+      ],
+      "publisher": "オライリー・ジャパン",
+      "releaseDate": "2026-03-16",
+      "publishedAt": "2026-03-16",
+      "image": "https://m.media-amazon.com/images/I/41YJOP71jdL._SL160_.jpg",
+      "imageUrl": "https://m.media-amazon.com/images/I/41YJOP71jdL._SL160_.jpg",
+      "amazonUrl": "https://www.amazon.co.jp/dp/4814401159?tag=yzak06-22",
+      "detailPageUrl": "https://www.amazon.co.jp/dp/4814401159?tag=yzak06-22",
+      "tags": [
+        "llm"
+      ],
+      "price": 4840,
+      "currency": "JPY"
+    },
+    {
+      "id": "B0FSCTNWF9",
+      "asin": "B0FSCTNWF9",
+      "title": "LLM本番システム構築ノウハウ　基礎から実装・運用の方法、アプリ構築の実例まで (impress top gearシリーズ)",
+      "author": "Christopher Brousseau, Matthew Sharp, 株式会社クイープ",
+      "authors": [
+        "Christopher Brousseau",
+        "Matthew Sharp",
+        "株式会社クイープ"
+      ],
+      "publisher": "インプレス",
+      "releaseDate": "2026-03-16",
+      "publishedAt": "2026-03-16",
+      "image": "https://m.media-amazon.com/images/I/51+97wtShjL._SL160_.jpg",
+      "imageUrl": "https://m.media-amazon.com/images/I/51+97wtShjL._SL160_.jpg",
+      "amazonUrl": "https://www.amazon.co.jp/dp/B0FSCTNWF9?tag=yzak06-22",
+      "detailPageUrl": "https://www.amazon.co.jp/dp/B0FSCTNWF9?tag=yzak06-22",
+      "tags": [
+        "llm"
+      ],
+      "price": 3762,
+      "currency": "JPY"
+    },
+    {
+      "id": "4814401310",
+      "asin": "4814401310",
+      "title": "実践 LLMアプリケーション開発 ―プロトタイプを脱却し、実用的な実装に迫るための包括的な手引き (オライリー・ジャパン)",
+      "author": "SuhasPai, 金本勝吉, オライリー ジャパン編集部",
+      "authors": [
+        "SuhasPai",
+        "金本勝吉",
+        "オライリー ジャパン編集部"
+      ],
+      "publisher": "オライリー・ジャパン",
+      "releaseDate": "2026-03-16",
+      "publishedAt": "2026-03-16",
+      "image": "https://m.media-amazon.com/images/I/41TVCdZAG1L._SL160_.jpg",
+      "imageUrl": "https://m.media-amazon.com/images/I/41TVCdZAG1L._SL160_.jpg",
+      "amazonUrl": "https://www.amazon.co.jp/dp/4814401310?tag=yzak06-22",
+      "detailPageUrl": "https://www.amazon.co.jp/dp/4814401310?tag=yzak06-22",
+      "tags": [
+        "llm",
+        "ai"
+      ],
+      "price": 4620,
+      "currency": "JPY"
+    },
+    {
+      "id": "B08T961HKP",
+      "asin": "B08T961HKP",
+      "title": "仕組みと使い方がわかる Docker＆Kubernetesのきほんのきほん (Compass Booksシリーズ)",
+      "author": "小笠原 種高",
+      "authors": [
+        "小笠原 種高"
+      ],
+      "publisher": "マイナビ出版",
+      "releaseDate": "2026-03-16",
+      "publishedAt": "2026-03-16",
+      "image": "https://m.media-amazon.com/images/I/51vhRrY-JEL._SL160_.jpg",
+      "imageUrl": "https://m.media-amazon.com/images/I/51vhRrY-JEL._SL160_.jpg",
+      "amazonUrl": "https://www.amazon.co.jp/dp/B08T961HKP?tag=yzak06-22",
+      "detailPageUrl": "https://www.amazon.co.jp/dp/B08T961HKP?tag=yzak06-22",
       "tags": [
         "devops"
       ],
-      "price": 3080,
+      "price": 2693,
+      "currency": "JPY"
+    },
+    {
+      "id": "B0CSFF6QYD",
+      "asin": "B0CSFF6QYD",
+      "title": "開発系エンジニアのためのDocker絵とき入門",
+      "author": "鈴木亮",
+      "authors": [
+        "鈴木亮"
+      ],
+      "publisher": "秀和システム新社",
+      "releaseDate": "2026-03-16",
+      "publishedAt": "2026-03-16",
+      "image": "https://m.media-amazon.com/images/I/51k6Biy5lfL._SL160_.jpg",
+      "imageUrl": "https://m.media-amazon.com/images/I/51k6Biy5lfL._SL160_.jpg",
+      "amazonUrl": "https://www.amazon.co.jp/dp/B0CSFF6QYD?tag=yzak06-22",
+      "detailPageUrl": "https://www.amazon.co.jp/dp/B0CSFF6QYD?tag=yzak06-22",
+      "tags": [
+        "devops"
+      ],
+      "price": 2495,
+      "currency": "JPY"
+    },
+    {
+      "id": "B0BV8VCCYX",
+      "asin": "B0BV8VCCYX",
+      "title": "Docker実践ガイド 第3版 impress top gearシリーズ",
+      "author": "古賀政純",
+      "authors": [
+        "古賀政純"
+      ],
+      "publisher": "インプレス",
+      "releaseDate": "2026-03-16",
+      "publishedAt": "2026-03-16",
+      "image": "https://m.media-amazon.com/images/I/518YvXHcICL._SL160_.jpg",
+      "imageUrl": "https://m.media-amazon.com/images/I/518YvXHcICL._SL160_.jpg",
+      "amazonUrl": "https://www.amazon.co.jp/dp/B0BV8VCCYX?tag=yzak06-22",
+      "detailPageUrl": "https://www.amazon.co.jp/dp/B0BV8VCCYX?tag=yzak06-22",
+      "tags": [
+        "devops"
+      ],
+      "price": 4096,
+      "currency": "JPY"
+    },
+    {
+      "id": "B0BF9C3FJX",
+      "asin": "B0BF9C3FJX",
+      "title": "Docker&仮想サーバー完全入門　Webクリエイター＆エンジニアの作業がはかどる開発環境構築ガイド",
+      "author": "リブロワークス",
+      "authors": [
+        "リブロワークス"
+      ],
+      "publisher": "インプレス",
+      "releaseDate": "2026-03-16",
+      "publishedAt": "2026-03-16",
+      "image": "https://m.media-amazon.com/images/I/51JDE8DzELL._SL160_.jpg",
+      "imageUrl": "https://m.media-amazon.com/images/I/51JDE8DzELL._SL160_.jpg",
+      "amazonUrl": "https://www.amazon.co.jp/dp/B0BF9C3FJX?tag=yzak06-22",
+      "detailPageUrl": "https://www.amazon.co.jp/dp/B0BF9C3FJX?tag=yzak06-22",
+      "tags": [
+        "devops"
+      ],
+      "price": 2372,
+      "currency": "JPY"
+    },
+    {
+      "id": "B0FJ6QLMTD",
+      "asin": "B0FJ6QLMTD",
+      "title": "手を動かしながら学ぶDocker入門: たった1冊でDockerを完全マスター！",
+      "author": "田村達也",
+      "authors": [
+        "田村達也"
+      ],
+      "publisher": "",
+      "releaseDate": "2026-03-16",
+      "publishedAt": "2026-03-16",
+      "image": "https://m.media-amazon.com/images/I/51HiJiOp9SL._SL160_.jpg",
+      "imageUrl": "https://m.media-amazon.com/images/I/51HiJiOp9SL._SL160_.jpg",
+      "amazonUrl": "https://www.amazon.co.jp/dp/B0FJ6QLMTD?tag=yzak06-22",
+      "detailPageUrl": "https://www.amazon.co.jp/dp/B0FJ6QLMTD?tag=yzak06-22",
+      "tags": [
+        "devops"
+      ],
+      "price": 1250,
+      "currency": "JPY"
+    },
+    {
+      "id": "B0F8GJB2VN",
+      "asin": "B0F8GJB2VN",
+      "title": "Docker & Kubernetesネットワークのしくみ　クラウドネイティブに求められる情報通信の知識 Software Design plus",
+      "author": "大隈 峻太郎",
+      "authors": [
+        "大隈 峻太郎"
+      ],
+      "publisher": "技術評論社",
+      "releaseDate": "2026-03-16",
+      "publishedAt": "2026-03-16",
+      "image": "https://m.media-amazon.com/images/I/51X90f6j4jL._SL160_.jpg",
+      "imageUrl": "https://m.media-amazon.com/images/I/51X90f6j4jL._SL160_.jpg",
+      "amazonUrl": "https://www.amazon.co.jp/dp/B0F8GJB2VN?tag=yzak06-22",
+      "detailPageUrl": "https://www.amazon.co.jp/dp/B0F8GJB2VN?tag=yzak06-22",
+      "tags": [
+        "devops"
+      ],
+      "price": 3234,
+      "currency": "JPY"
+    },
+    {
+      "id": "4873117763",
+      "asin": "4873117763",
+      "title": "Docker",
+      "author": "エイドリアン・モウアット, 玉川竜司",
+      "authors": [
+        "エイドリアン・モウアット",
+        "玉川竜司"
+      ],
+      "publisher": "オライリージャパン",
+      "releaseDate": "2026-03-16",
+      "publishedAt": "2026-03-16",
+      "image": "https://m.media-amazon.com/images/I/51NMJAyQiAL._SL160_.jpg",
+      "imageUrl": "https://m.media-amazon.com/images/I/51NMJAyQiAL._SL160_.jpg",
+      "amazonUrl": "https://www.amazon.co.jp/dp/4873117763?tag=yzak06-22",
+      "detailPageUrl": "https://www.amazon.co.jp/dp/4873117763?tag=yzak06-22",
+      "tags": [
+        "devops"
+      ],
+      "price": 3960,
+      "currency": "JPY"
+    },
+    {
+      "id": "4295005525",
+      "asin": "4295005525",
+      "title": "Docker実践ガイド 第2版 (impress top gear)",
+      "author": "古賀政純",
+      "authors": [
+        "古賀政純"
+      ],
+      "publisher": "インプレス",
+      "releaseDate": "2026-03-16",
+      "publishedAt": "2026-03-16",
+      "image": "https://m.media-amazon.com/images/I/51lsC1rZ8HL._SL160_.jpg",
+      "imageUrl": "https://m.media-amazon.com/images/I/51lsC1rZ8HL._SL160_.jpg",
+      "amazonUrl": "https://www.amazon.co.jp/dp/4295005525?tag=yzak06-22",
+      "detailPageUrl": "https://www.amazon.co.jp/dp/4295005525?tag=yzak06-22",
+      "tags": [
+        "devops"
+      ],
+      "price": 4180,
+      "currency": "JPY"
+    },
+    {
+      "id": "B0CW1L7CDC",
+      "asin": "B0CW1L7CDC",
+      "title": "［改訂新版］イラストでわかるDockerとKubernetes Software Design plus",
+      "author": "徳永 航平",
+      "authors": [
+        "徳永 航平"
+      ],
+      "publisher": "技術評論社",
+      "releaseDate": "2026-03-16",
+      "publishedAt": "2026-03-16",
+      "image": "https://m.media-amazon.com/images/I/51xj5wAe+7L._SL160_.jpg",
+      "imageUrl": "https://m.media-amazon.com/images/I/51xj5wAe+7L._SL160_.jpg",
+      "amazonUrl": "https://www.amazon.co.jp/dp/B0CW1L7CDC?tag=yzak06-22",
+      "detailPageUrl": "https://www.amazon.co.jp/dp/B0CW1L7CDC?tag=yzak06-22",
+      "tags": [
+        "devops"
+      ],
+      "price": 2803,
+      "currency": "JPY"
+    },
+    {
+      "id": "B0CVLFLD7L",
+      "asin": "B0CVLFLD7L",
+      "title": "Docker/Kubernetes実践コンテナ開発入門 改訂新版",
+      "author": "山田 明憲",
+      "authors": [
+        "山田 明憲"
+      ],
+      "publisher": "技術評論社",
+      "releaseDate": "2026-03-16",
+      "publishedAt": "2026-03-16",
+      "image": "https://m.media-amazon.com/images/I/51ilm0WkW+L._SL160_.jpg",
+      "imageUrl": "https://m.media-amazon.com/images/I/51ilm0WkW+L._SL160_.jpg",
+      "amazonUrl": "https://www.amazon.co.jp/dp/B0CVLFLD7L?tag=yzak06-22",
+      "detailPageUrl": "https://www.amazon.co.jp/dp/B0CVLFLD7L?tag=yzak06-22",
+      "tags": [
+        "devops"
+      ],
+      "price": 3881,
+      "currency": "JPY"
+    },
+    {
+      "id": "B0CVQCNN6W",
+      "asin": "B0CVQCNN6W",
+      "title": "つくって、壊して、直して学ぶ Kubernetes入門",
+      "author": "高橋 あおい, 五十嵐 綾",
+      "authors": [
+        "高橋 あおい",
+        "五十嵐 綾"
+      ],
+      "publisher": "翔泳社",
+      "releaseDate": "2026-03-16",
+      "publishedAt": "2026-03-16",
+      "image": "https://m.media-amazon.com/images/I/51fF-zhjuRL._SL160_.jpg",
+      "imageUrl": "https://m.media-amazon.com/images/I/51fF-zhjuRL._SL160_.jpg",
+      "amazonUrl": "https://www.amazon.co.jp/dp/B0CVQCNN6W?tag=yzak06-22",
+      "detailPageUrl": "https://www.amazon.co.jp/dp/B0CVQCNN6W?tag=yzak06-22",
+      "tags": [
+        "devops"
+      ],
+      "price": 2950,
+      "currency": "JPY"
+    },
+    {
+      "id": "B08FZX8PYW",
+      "asin": "B08FZX8PYW",
+      "title": "Kubernetes完全ガイド 第2版 impress top gearシリーズ",
+      "author": "青山真也",
+      "authors": [
+        "青山真也"
+      ],
+      "publisher": "インプレス",
+      "releaseDate": "2026-03-16",
+      "publishedAt": "2026-03-16",
+      "image": "https://m.media-amazon.com/images/I/51C+pft8SJL._SL160_.jpg",
+      "imageUrl": "https://m.media-amazon.com/images/I/51C+pft8SJL._SL160_.jpg",
+      "amazonUrl": "https://www.amazon.co.jp/dp/B08FZX8PYW?tag=yzak06-22",
+      "detailPageUrl": "https://www.amazon.co.jp/dp/B08FZX8PYW?tag=yzak06-22",
+      "tags": [
+        "devops"
+      ],
+      "price": 3960,
+      "currency": "JPY"
+    },
+    {
+      "id": "B0C7BJLJXW",
+      "asin": "B0C7BJLJXW",
+      "title": "Kubernetesの知識地図 —— 現場での基礎から本番運用まで",
+      "author": "青山 真也, 小竹 智士, 長谷川 誠, 川部 勝也, 岩井 佑樹, 杉浦 智基",
+      "authors": [
+        "青山 真也",
+        "小竹 智士",
+        "長谷川 誠",
+        "川部 勝也",
+        "岩井 佑樹",
+        "杉浦 智基"
+      ],
+      "publisher": "技術評論社",
+      "releaseDate": "2026-03-16",
+      "publishedAt": "2026-03-16",
+      "image": "https://m.media-amazon.com/images/I/51dVNnTf5XL._SL160_.jpg",
+      "imageUrl": "https://m.media-amazon.com/images/I/51dVNnTf5XL._SL160_.jpg",
+      "amazonUrl": "https://www.amazon.co.jp/dp/B0C7BJLJXW?tag=yzak06-22",
+      "detailPageUrl": "https://www.amazon.co.jp/dp/B0C7BJLJXW?tag=yzak06-22",
+      "tags": [
+        "devops"
+      ],
+      "price": 2911,
+      "currency": "JPY"
+    },
+    {
+      "id": "B0FY1XDSVF",
+      "asin": "B0FY1XDSVF",
+      "title": "Kubernetesの教科書 (Compass Booksシリーズ)",
+      "author": "Nigel Poulton, 窪田優",
+      "authors": [
+        "Nigel Poulton",
+        "窪田優"
+      ],
+      "publisher": "マイナビ出版",
+      "releaseDate": "2026-03-16",
+      "publishedAt": "2026-03-16",
+      "image": "https://m.media-amazon.com/images/I/51NB2Hwog-L._SL160_.jpg",
+      "imageUrl": "https://m.media-amazon.com/images/I/51NB2Hwog-L._SL160_.jpg",
+      "amazonUrl": "https://www.amazon.co.jp/dp/B0FY1XDSVF?tag=yzak06-22",
+      "detailPageUrl": "https://www.amazon.co.jp/dp/B0FY1XDSVF?tag=yzak06-22",
+      "tags": [
+        "devops"
+      ],
+      "price": 3622,
+      "currency": "JPY"
+    },
+    {
+      "id": "4873119014",
+      "asin": "4873119014",
+      "title": "Kubernetesで実践するクラウドネイティブDevOps",
+      "author": "John Arundel, Justin Domingus, 須田一輝",
+      "authors": [
+        "John Arundel",
+        "Justin Domingus",
+        "須田一輝"
+      ],
+      "publisher": "オライリージャパン",
+      "releaseDate": "2026-03-16",
+      "publishedAt": "2026-03-16",
+      "image": "https://m.media-amazon.com/images/I/51wecBhtIOL._SL160_.jpg",
+      "imageUrl": "https://m.media-amazon.com/images/I/51wecBhtIOL._SL160_.jpg",
+      "amazonUrl": "https://www.amazon.co.jp/dp/4873119014?tag=yzak06-22",
+      "detailPageUrl": "https://www.amazon.co.jp/dp/4873119014?tag=yzak06-22",
+      "tags": [
+        "devops"
+      ],
+      "price": 3850,
+      "currency": "JPY"
+    },
+    {
+      "id": "4814400888",
+      "asin": "4814400888",
+      "title": "Kubernetesパターン 第2版 ―クラウドネイティブアプリケーションのための再利用可能パターン",
+      "author": "Bilgin Ibryam, Roland Huss, 松浦 隼人",
+      "authors": [
+        "Bilgin Ibryam",
+        "Roland Huss",
+        "松浦 隼人"
+      ],
+      "publisher": "オライリー・ジャパン",
+      "releaseDate": "2026-03-16",
+      "publishedAt": "2026-03-16",
+      "image": "https://m.media-amazon.com/images/I/41HTRzmvktL._SL160_.jpg",
+      "imageUrl": "https://m.media-amazon.com/images/I/41HTRzmvktL._SL160_.jpg",
+      "amazonUrl": "https://www.amazon.co.jp/dp/4814400888?tag=yzak06-22",
+      "detailPageUrl": "https://www.amazon.co.jp/dp/4814400888?tag=yzak06-22",
+      "tags": [
+        "devops"
+      ],
+      "price": 3960,
+      "currency": "JPY"
+    },
+    {
+      "id": "B0BDDQ34Y9",
+      "asin": "B0BDDQ34Y9",
+      "title": "現場で使えるkubernetes",
+      "author": "牧田剣吾, 松浦崇仁",
+      "authors": [
+        "牧田剣吾",
+        "松浦崇仁"
+      ],
+      "publisher": "シーアンドアール研究所",
+      "releaseDate": "2026-03-16",
+      "publishedAt": "2026-03-16",
+      "image": "https://m.media-amazon.com/images/I/51lLSQ99yhL._SL160_.jpg",
+      "imageUrl": "https://m.media-amazon.com/images/I/51lLSQ99yhL._SL160_.jpg",
+      "amazonUrl": "https://www.amazon.co.jp/dp/B0BDDQ34Y9?tag=yzak06-22",
+      "detailPageUrl": "https://www.amazon.co.jp/dp/B0BDDQ34Y9?tag=yzak06-22",
+      "tags": [
+        "devops"
+      ],
+      "price": 3782,
+      "currency": "JPY"
+    },
+    {
+      "id": "B0CPLR674N",
+      "asin": "B0CPLR674N",
+      "title": "Kubernetesマイクロサービス開発の実践 impress top gearシリーズ",
+      "author": "早川博",
+      "authors": [
+        "早川博"
+      ],
+      "publisher": "インプレス",
+      "releaseDate": "2026-03-16",
+      "publishedAt": "2026-03-16",
+      "image": "https://m.media-amazon.com/images/I/51KCdZX5-TL._SL160_.jpg",
+      "imageUrl": "https://m.media-amazon.com/images/I/51KCdZX5-TL._SL160_.jpg",
+      "amazonUrl": "https://www.amazon.co.jp/dp/B0CPLR674N?tag=yzak06-22",
+      "detailPageUrl": "https://www.amazon.co.jp/dp/B0CPLR674N?tag=yzak06-22",
+      "tags": [
+        "devops"
+      ],
+      "price": 3564,
+      "currency": "JPY"
+    },
+    {
+      "id": "B0DRN42319",
+      "asin": "B0DRN42319",
+      "title": "Kubernetesで実践する Platform Engineering",
+      "author": "Mauricio Salatino, 株式会社スリーシェイク, 元内 柊也, 木曽 和則, 戸澤 涼, 長谷川 広樹",
+      "authors": [
+        "Mauricio Salatino",
+        "株式会社スリーシェイク",
+        "元内 柊也",
+        "木曽 和則",
+        "戸澤 涼",
+        "長谷川 広樹"
+      ],
+      "publisher": "翔泳社",
+      "releaseDate": "2026-03-16",
+      "publishedAt": "2026-03-16",
+      "image": "https://m.media-amazon.com/images/I/51CHK9rCFYL._SL160_.jpg",
+      "imageUrl": "https://m.media-amazon.com/images/I/51CHK9rCFYL._SL160_.jpg",
+      "amazonUrl": "https://www.amazon.co.jp/dp/B0DRN42319?tag=yzak06-22",
+      "detailPageUrl": "https://www.amazon.co.jp/dp/B0DRN42319?tag=yzak06-22",
+      "tags": [
+        "devops"
+      ],
+      "price": 4528,
+      "currency": "JPY"
+    },
+    {
+      "id": "B0CSYJ4Q89",
+      "asin": "B0CSYJ4Q89",
+      "title": "データベース3300 基本英単語・熟語",
+      "author": "桐原書店編集部",
+      "authors": [
+        "桐原書店編集部"
+      ],
+      "publisher": "桐原書店",
+      "releaseDate": "2026-03-16",
+      "publishedAt": "2026-03-16",
+      "image": "https://m.media-amazon.com/images/I/41FRSE3+ypL._SL160_.jpg",
+      "imageUrl": "https://m.media-amazon.com/images/I/41FRSE3+ypL._SL160_.jpg",
+      "amazonUrl": "https://www.amazon.co.jp/dp/B0CSYJ4Q89?tag=yzak06-22",
+      "detailPageUrl": "https://www.amazon.co.jp/dp/B0CSYJ4Q89?tag=yzak06-22",
+      "tags": [
+        "database"
+      ],
+      "price": 1150,
+      "currency": "JPY"
+    },
+    {
+      "id": "4342264951",
+      "asin": "4342264951",
+      "title": "データベース4800 完成英単語・熟語",
+      "author": "望月 正道",
+      "authors": [
+        "望月 正道"
+      ],
+      "publisher": "桐原書店",
+      "releaseDate": "2026-03-16",
+      "publishedAt": "2026-03-16",
+      "image": "https://m.media-amazon.com/images/I/41P4FHFxZmL._SL160_.jpg",
+      "imageUrl": "https://m.media-amazon.com/images/I/41P4FHFxZmL._SL160_.jpg",
+      "amazonUrl": "https://www.amazon.co.jp/dp/4342264951?tag=yzak06-22",
+      "detailPageUrl": "https://www.amazon.co.jp/dp/4342264951?tag=yzak06-22",
+      "tags": [
+        "database"
+      ],
+      "price": 1265,
+      "currency": "JPY"
+    },
+    {
+      "id": "434220777X",
+      "asin": "434220777X",
+      "title": "データベース 1700 使える英単語・熟語[3rd Edition]新装版",
+      "author": "桐原書店編集部",
+      "authors": [
+        "桐原書店編集部"
+      ],
+      "publisher": "桐原書店",
+      "releaseDate": "2026-03-16",
+      "publishedAt": "2026-03-16",
+      "image": "https://m.media-amazon.com/images/I/41SDDlOGDqL._SL160_.jpg",
+      "imageUrl": "https://m.media-amazon.com/images/I/41SDDlOGDqL._SL160_.jpg",
+      "amazonUrl": "https://www.amazon.co.jp/dp/434220777X?tag=yzak06-22",
+      "detailPageUrl": "https://www.amazon.co.jp/dp/434220777X?tag=yzak06-22",
+      "tags": [
+        "database"
+      ],
+      "price": 1045,
+      "currency": "JPY"
+    },
+    {
+      "id": "4342013231",
+      "asin": "4342013231",
+      "title": "データベース 4500 完成英単語・熟語 [5th Edition]",
+      "author": "桐原書店編集部, 荻野 治雄, 桐原書店編集部",
+      "authors": [
+        "桐原書店編集部",
+        "荻野 治雄",
+        "桐原書店編集部"
+      ],
+      "publisher": "桐原書店",
+      "releaseDate": "2026-03-16",
+      "publishedAt": "2026-03-16",
+      "image": "https://m.media-amazon.com/images/I/51S+Uk4BrXL._SL160_.jpg",
+      "imageUrl": "https://m.media-amazon.com/images/I/51S+Uk4BrXL._SL160_.jpg",
+      "amazonUrl": "https://www.amazon.co.jp/dp/4342013231?tag=yzak06-22",
+      "detailPageUrl": "https://www.amazon.co.jp/dp/4342013231?tag=yzak06-22",
+      "tags": [
+        "database"
+      ],
+      "price": 1089,
+      "currency": "JPY"
+    },
+    {
+      "id": "4342013371",
+      "asin": "4342013371",
+      "title": "データベース アヴェイル ４技能 英単語・熟語",
+      "author": "桐原書店編集部",
+      "authors": [
+        "桐原書店編集部"
+      ],
+      "publisher": "桐原書店",
+      "releaseDate": "2026-03-16",
+      "publishedAt": "2026-03-16",
+      "image": "https://m.media-amazon.com/images/I/41zuBuiReBL._SL160_.jpg",
+      "imageUrl": "https://m.media-amazon.com/images/I/41zuBuiReBL._SL160_.jpg",
+      "amazonUrl": "https://www.amazon.co.jp/dp/4342013371?tag=yzak06-22",
+      "detailPageUrl": "https://www.amazon.co.jp/dp/4342013371?tag=yzak06-22",
+      "tags": [
+        "database"
+      ],
+      "price": 1155,
+      "currency": "JPY"
+    },
+    {
+      "id": "4342013304",
+      "asin": "4342013304",
+      "title": "データベース5500 合格英単語・熟語: レベル別・テーマ別マスター",
+      "author": "清久, 小森, 清, 拝田, 富士子, 出雲",
+      "authors": [
+        "清久, 小森",
+        "清, 拝田",
+        "富士子, 出雲"
+      ],
+      "publisher": "桐原書店",
+      "releaseDate": "2026-03-16",
+      "publishedAt": "2026-03-16",
+      "image": "https://m.media-amazon.com/images/I/41iOhA1AcFL._SL160_.jpg",
+      "imageUrl": "https://m.media-amazon.com/images/I/41iOhA1AcFL._SL160_.jpg",
+      "amazonUrl": "https://www.amazon.co.jp/dp/4342013304?tag=yzak06-22",
+      "detailPageUrl": "https://www.amazon.co.jp/dp/4342013304?tag=yzak06-22",
+      "tags": [
+        "database"
+      ],
+      "price": 1045,
+      "currency": "JPY"
+    },
+    {
+      "id": "434201291X",
+      "asin": "434201291X",
+      "title": "データベース1700 使える英単語・熟語[3rd Edition]: 使える英単語・熟語",
+      "author": "桐原書店編集部",
+      "authors": [
+        "桐原書店編集部"
+      ],
+      "publisher": "桐原書店",
+      "releaseDate": "2026-03-16",
+      "publishedAt": "2026-03-16",
+      "image": "https://m.media-amazon.com/images/I/51rnbyF6vsL._SL160_.jpg",
+      "imageUrl": "https://m.media-amazon.com/images/I/51rnbyF6vsL._SL160_.jpg",
+      "amazonUrl": "https://www.amazon.co.jp/dp/434201291X?tag=yzak06-22",
+      "detailPageUrl": "https://www.amazon.co.jp/dp/434201291X?tag=yzak06-22",
+      "tags": [
+        "database"
+      ],
+      "price": 935,
+      "currency": "JPY"
+    },
+    {
+      "id": "4798144452",
+      "asin": "4798144452",
+      "title": "SQL 第2版 ゼロからはじめるデータベース操作 (プログラミング学習シリーズ)",
+      "author": "ミック",
+      "authors": [
+        "ミック"
+      ],
+      "publisher": "翔泳社",
+      "releaseDate": "2026-03-16",
+      "publishedAt": "2026-03-16",
+      "image": "https://m.media-amazon.com/images/I/51sf73NhVTL._SL160_.jpg",
+      "imageUrl": "https://m.media-amazon.com/images/I/51sf73NhVTL._SL160_.jpg",
+      "amazonUrl": "https://www.amazon.co.jp/dp/4798144452?tag=yzak06-22",
+      "detailPageUrl": "https://www.amazon.co.jp/dp/4798144452?tag=yzak06-22",
+      "tags": [
+        "database"
+      ],
+      "price": 2068,
+      "currency": "JPY"
+    },
+    {
+      "id": "4342013150",
+      "asin": "4342013150",
+      "title": "データベース3000 基本英単語・熟語 [5th Edition]",
+      "author": "桐原書店編集部",
+      "authors": [
+        "桐原書店編集部"
+      ],
+      "publisher": "桐原書店",
+      "releaseDate": "2026-03-16",
+      "publishedAt": "2026-03-16",
+      "image": "https://m.media-amazon.com/images/I/510TqXKf+ML._SL160_.jpg",
+      "imageUrl": "https://m.media-amazon.com/images/I/510TqXKf+ML._SL160_.jpg",
+      "amazonUrl": "https://www.amazon.co.jp/dp/4342013150?tag=yzak06-22",
+      "detailPageUrl": "https://www.amazon.co.jp/dp/4342013150?tag=yzak06-22",
+      "tags": [
+        "database"
+      ],
+      "price": 261,
+      "currency": "JPY"
+    },
+    {
+      "id": "477414343X",
+      "asin": "477414343X",
+      "title": "間違いだらけのソフトウェア・アーキテクチャ―非機能要件の開発と評価 (Software Design plus)",
+      "author": "Tom Engelberg, 長谷川 裕一, 土岐 孝平",
+      "authors": [
+        "Tom Engelberg",
+        "長谷川 裕一",
+        "土岐 孝平"
+      ],
+      "publisher": "技術評論社",
+      "releaseDate": "2026-03-16",
+      "publishedAt": "2026-03-16",
+      "image": "https://m.media-amazon.com/images/I/51xCTFU5MaL._SL160_.jpg",
+      "imageUrl": "https://m.media-amazon.com/images/I/51xCTFU5MaL._SL160_.jpg",
+      "amazonUrl": "https://www.amazon.co.jp/dp/477414343X?tag=yzak06-22",
+      "detailPageUrl": "https://www.amazon.co.jp/dp/477414343X?tag=yzak06-22",
+      "tags": [
+        "architecture"
+      ],
+      "price": 2243,
+      "currency": "JPY"
+    },
+    {
+      "id": "B0D7C1RT4D",
+      "asin": "B0D7C1RT4D",
+      "title": "［入門］ドメイン駆動設計――基礎と実践・クリーンアーキテクチャ Software Design別冊",
+      "author": "増田 亨, 田中 ひさてる, 奥澤 俊樹, 中村 充志, 成瀬 允宣, 大西 政徳",
+      "authors": [
+        "増田 亨",
+        "田中 ひさてる",
+        "奥澤 俊樹",
+        "中村 充志",
+        "成瀬 允宣",
+        "大西 政徳"
+      ],
+      "publisher": "技術評論社",
+      "releaseDate": "2026-03-16",
+      "publishedAt": "2026-03-16",
+      "image": "https://m.media-amazon.com/images/I/51Fo40EmhyL._SL160_.jpg",
+      "imageUrl": "https://m.media-amazon.com/images/I/51Fo40EmhyL._SL160_.jpg",
+      "amazonUrl": "https://www.amazon.co.jp/dp/B0D7C1RT4D?tag=yzak06-22",
+      "detailPageUrl": "https://www.amazon.co.jp/dp/B0D7C1RT4D?tag=yzak06-22",
+      "tags": [
+        "architecture"
+      ],
+      "price": 2156,
       "currency": "JPY"
     }
   ]
