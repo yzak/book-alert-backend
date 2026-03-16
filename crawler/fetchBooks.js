@@ -42,6 +42,8 @@ const TAG_RULES = [
 ];
 
 const MAX_BOOKS = 200;
+const KEYWORD_DELAY_MS = 1500;
+const THROTTLE_BACKOFF_MS = [2000, 5000, 10000];
 
 export const AVAILABLE_TAGS = TAG_RULES.map(({ id, label, sortOrder }) => ({
   id,
@@ -164,27 +166,99 @@ export function normalizeBook(item, associateTag) {
   };
 }
 
-export async function fetchBooks(apiClient, { associateTag, logger = console } = {}) {
-  const booksById = new Map();
+function wait(ms) {
+  return new Promise((resolve) => setTimeout(resolve, ms));
+}
 
-  for (const keyword of SEARCH_KEYWORDS) {
-    logger.info(`Searching keyword: ${keyword}`);
-    const data = await apiClient.searchItems({ keywords: keyword });
-    const items = data?.searchResult?.items ?? data?.SearchResult?.Items ?? [];
-    for (const item of items) {
-      const normalized = normalizeBook(item, associateTag);
-      if (!normalized) {
-        continue;
+function isThrottleError(error) {
+  return (
+    error?.status === 429 ||
+    error?.message?.includes("429") ||
+    error?.message?.includes("ThrottleException")
+  );
+}
+
+async function searchItemsWithRetry(apiClient, keyword, logger, backoffMs) {
+  for (let attempt = 0; attempt <= backoffMs.length; attempt += 1) {
+    try {
+      return await apiClient.searchItems({ keywords: keyword });
+    } catch (error) {
+      const canRetry =
+        isThrottleError(error) && attempt < backoffMs.length;
+      if (!canRetry) {
+        throw error;
       }
 
-      const current = booksById.get(normalized.id);
-      if (!current) {
-        booksById.set(normalized.id, normalized);
-        continue;
-      }
-
-      current.tags = [...new Set([...current.tags, ...normalized.tags])].sort();
+      const delayMs = backoffMs[attempt];
+      logger.warn(
+        `Throttle detected for "${keyword}" (attempt ${attempt + 1}). Retrying in ${delayMs}ms...`,
+      );
+      await wait(delayMs);
     }
+  }
+
+  throw new Error(`Unexpected retry flow reached for keyword: ${keyword}`);
+}
+
+export async function fetchBooks(
+  apiClient,
+  {
+    associateTag,
+    logger = console,
+    searchKeywords = SEARCH_KEYWORDS,
+    keywordDelayMs = KEYWORD_DELAY_MS,
+    throttleBackoffMs = THROTTLE_BACKOFF_MS,
+  } = {},
+) {
+  const booksById = new Map();
+  const failures = [];
+
+  for (const [index, keyword] of searchKeywords.entries()) {
+    logger.info(`Searching keyword: ${keyword}`);
+    try {
+      const data = await searchItemsWithRetry(
+        apiClient,
+        keyword,
+        logger,
+        throttleBackoffMs,
+      );
+      const items = data?.searchResult?.items ?? data?.SearchResult?.Items ?? [];
+      for (const item of items) {
+        const normalized = normalizeBook(item, associateTag);
+        if (!normalized) {
+          continue;
+        }
+
+        const current = booksById.get(normalized.id);
+        if (!current) {
+          booksById.set(normalized.id, normalized);
+          continue;
+        }
+
+        current.tags = [...new Set([...current.tags, ...normalized.tags])].sort();
+      }
+    } catch (error) {
+      failures.push({ keyword, error });
+      logger.error(
+        `Skipping keyword "${keyword}" after failure: ${error.message}`,
+      );
+    }
+
+    if (index < searchKeywords.length - 1) {
+      await wait(keywordDelayMs);
+    }
+  }
+
+  if (booksById.size === 0 && failures.length > 0) {
+    throw failures[0].error;
+  }
+
+  if (failures.length > 0) {
+    logger.warn(
+      `Completed with partial success. Failed keywords: ${failures
+        .map(({ keyword }) => keyword)
+        .join(", ")}`,
+    );
   }
 
   return [...booksById.values()]

@@ -77,7 +77,12 @@ export class CreatorsApiClient {
 
     if (!response.ok) {
       const body = await response.text();
-      throw new Error(`Creators API request failed (${response.status}): ${body}`);
+      const error = new Error(
+        `Creators API request failed (${response.status}): ${body}`,
+      );
+      error.status = response.status;
+      error.responseBody = body;
+      throw error;
     }
 
     return response.json();

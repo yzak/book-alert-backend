@@ -4,6 +4,7 @@ import assert from "node:assert/strict";
 import {
   AVAILABLE_TAGS,
   buildAffiliateUrl,
+  fetchBooks,
   generateTags,
   isEngineeringBook,
   normalizeBook,
@@ -69,4 +70,63 @@ test("normalizeBook returns app-compatible fields", () => {
   assert.equal(book.title, "AWSとPythonで学ぶ設計入門");
   assert.deepEqual(book.tags, ["aws", "architecture", "python"]);
   assert.equal(book.amazonUrl, "https://www.amazon.co.jp/dp/1234567890?tag=yzak-nra-22");
+});
+
+test("fetchBooks retries throttled requests and continues on partial failure", async () => {
+  let awsAttempts = 0;
+  const apiClient = {
+    async searchItems({ keywords }) {
+      if (keywords === "AWS") {
+        awsAttempts += 1;
+        if (awsAttempts < 3) {
+          const error = new Error("Creators API request failed (429): ThrottleException");
+          error.status = 429;
+          throw error;
+        }
+
+        return {
+          searchResult: {
+            items: [
+              {
+                asin: "111",
+                detailPageURL: "https://www.amazon.co.jp/dp/111",
+                itemInfo: {
+                  title: { displayValue: "AWS設計ガイド" },
+                  byLineInfo: {
+                    contributors: [{ name: "著者A" }],
+                    manufacturer: { displayValue: "出版社A" },
+                  },
+                  contentInfo: {
+                    publicationDate: { displayValue: "2026-03-10" },
+                  },
+                },
+              },
+            ],
+          },
+        };
+      }
+
+      const error = new Error("Creators API request failed (500): boom");
+      error.status = 500;
+      throw error;
+    },
+  };
+
+  const logger = {
+    info() {},
+    warn() {},
+    error() {},
+  };
+
+  const books = await fetchBooks(apiClient, {
+    associateTag: "yzak-nra-22",
+    logger,
+    searchKeywords: ["AWS", "Python"],
+    keywordDelayMs: 0,
+    throttleBackoffMs: [0, 0],
+  });
+
+  assert.equal(awsAttempts, 3);
+  assert.equal(books.length, 1);
+  assert.equal(books[0].asin, "111");
 });
