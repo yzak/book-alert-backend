@@ -1,45 +1,10 @@
-const SEARCH_KEYWORDS = [
-  "AWS",
-  "Python",
-  "生成AI",
-  "LLM",
-  "Docker",
-  "Kubernetes",
-  "Database",
-  "Software Architecture",
-  "エンジニアリングマネジメント",
-];
+import { loadSearchConfig } from "../config/searchConfig.js";
 
-const FILTER_KEYWORDS = [
-  "aws",
-  "ai",
-  "python",
-  "docker",
-  "kubernetes",
-  "sql",
-  "データベース",
-  "アーキテクチャ",
-  "プログラミング",
-  "llm",
-  "生成ai",
-  "engineering management",
-];
-
-const TAG_RULES = [
-  { id: "aws", label: "AWS", sortOrder: 10, keywords: ["aws", "amazon web services"] },
-  { id: "genai", label: "生成AI", sortOrder: 20, keywords: ["生成ai", "generative ai", "stable diffusion"] },
-  { id: "llm", label: "LLM", sortOrder: 30, keywords: ["llm", "rag", "langchain", "openai", "claude"] },
-  { id: "architecture", label: "アーキテクチャ", sortOrder: 40, keywords: ["architecture", "アーキテクチャ", "設計"] },
-  { id: "database", label: "Database", sortOrder: 50, keywords: ["database", "sql", "データベース", "postgresql", "mysql"] },
-  { id: "software-test", label: "ソフトウェアテスト", sortOrder: 60, keywords: ["test", "testing", "ソフトウェアテスト", "qa", "品質保証"] },
-  { id: "automation", label: "自動化", sortOrder: 70, keywords: ["automation", "自動化", "workflow", "ci/cd"] },
-  { id: "engineering-management", label: "Engineering Management", sortOrder: 80, keywords: ["engineering management", "マネジメント", "組織"] },
-  { id: "flutter", label: "Flutter", sortOrder: 90, keywords: ["flutter", "dart"] },
-  { id: "python", label: "Python", sortOrder: 100, keywords: ["python", "django", "fastapi"] },
-  { id: "ai", label: "AI", sortOrder: 110, keywords: ["ai", "machine learning", "deep learning"] },
-  { id: "devops", label: "DevOps", sortOrder: 120, keywords: ["docker", "kubernetes", "devops", "platform engineering"] },
-  { id: "general", label: "General", sortOrder: 999, keywords: [] },
-];
+const {
+  searchKeywords: SEARCH_KEYWORDS,
+  filterKeywords: FILTER_KEYWORDS,
+  tagRules: TAG_RULES,
+} = loadSearchConfig();
 
 const MAX_BOOKS = 200;
 const KEYWORD_DELAY_MS = 1500;

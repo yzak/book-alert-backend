@@ -1,0 +1,118 @@
+{
+  "searchKeywords": [
+    "AWS",
+    "Python",
+    "生成AI",
+    "LLM",
+    "AIエージェント",
+    "RAG",
+    "ChatGPT",
+    "Claude",
+    "Docker",
+    "Kubernetes",
+    "SQL",
+    "アーキテクチャ",
+    "Software Architecture",
+    "Flutter",
+    "エンジニアリングマネジメント"
+  ],
+  "filterKeywords": [
+    "aws",
+    "ai",
+    "python",
+    "docker",
+    "kubernetes",
+    "sql",
+    "データベース",
+    "アーキテクチャ",
+    "プログラミング",
+    "llm",
+    "生成ai",
+    "chatgpt",
+    "claude",
+    "rag",
+    "bedrock",
+    "flutter",
+    "engineering management"
+  ],
+  "tagRules": [
+    {
+      "id": "aws",
+      "label": "AWS",
+      "sortOrder": 10,
+      "keywords": ["aws", "amazon web services", "bedrock"]
+    },
+    {
+      "id": "genai",
+      "label": "生成AI",
+      "sortOrder": 20,
+      "keywords": ["生成ai", "generative ai", "stable diffusion", "chatgpt", "claude"]
+    },
+    {
+      "id": "llm",
+      "label": "LLM",
+      "sortOrder": 30,
+      "keywords": ["llm", "rag", "langchain", "openai", "claude", "aiエージェント", "agent"]
+    },
+    {
+      "id": "architecture",
+      "label": "アーキテクチャ",
+      "sortOrder": 40,
+      "keywords": ["architecture", "アーキテクチャ", "設計", "system design"]
+    },
+    {
+      "id": "database",
+      "label": "Database",
+      "sortOrder": 50,
+      "keywords": ["database", "sql", "データベース", "postgresql", "mysql"]
+    },
+    {
+      "id": "software-test",
+      "label": "ソフトウェアテスト",
+      "sortOrder": 60,
+      "keywords": ["test", "testing", "ソフトウェアテスト", "qa", "品質保証"]
+    },
+    {
+      "id": "automation",
+      "label": "自動化",
+      "sortOrder": 70,
+      "keywords": ["automation", "自動化", "workflow", "ci/cd"]
+    },
+    {
+      "id": "engineering-management",
+      "label": "Engineering Management",
+      "sortOrder": 80,
+      "keywords": ["engineering management", "マネジメント", "組織", "team topologies"]
+    },
+    {
+      "id": "flutter",
+      "label": "Flutter",
+      "sortOrder": 90,
+      "keywords": ["flutter", "dart"]
+    },
+    {
+      "id": "python",
+      "label": "Python",
+      "sortOrder": 100,
+      "keywords": ["python", "django", "fastapi"]
+    },
+    {
+      "id": "ai",
+      "label": "AI",
+      "sortOrder": 110,
+      "keywords": ["ai", "machine learning", "deep learning", "neural network"]
+    },
+    {
+      "id": "devops",
+      "label": "DevOps",
+      "sortOrder": 120,
+      "keywords": ["docker", "kubernetes", "devops", "platform engineering", "sre"]
+    },
+    {
+      "id": "general",
+      "label": "General",
+      "sortOrder": 999,
+      "keywords": []
+    }
+  ]
+}
