@@ -1,4 +1,21 @@
 {
+  "releaseWindowDays": 30,
+  "computerItCategoryKeywords": [
+    "コンピュータ・it",
+    "プログラミング",
+    "アプリケーション",
+    "インターネット・web開発",
+    "データベース",
+    "ネットワーク",
+    "os",
+    "ハードウェア・周辺機器",
+    "デザイン・グラフィックス",
+    "一般・入門書",
+    "computer & technology",
+    "computers & technology",
+    "programming",
+    "software"
+  ],
   "searchKeywords": [
     "AWS",
     "Python",

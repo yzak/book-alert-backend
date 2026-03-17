@@ -45,6 +45,8 @@ export class CreatorsApiClient {
     itemCount = 10,
     searchIndex = "Books",
     resources = [
+      "browseNodeInfo.browseNodes",
+      "browseNodeInfo.browseNodes.ancestor",
       "images.primary.medium",
       "itemInfo.byLineInfo",
       "itemInfo.classifications",

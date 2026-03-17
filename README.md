@@ -107,7 +107,8 @@ GitHub Pages は `docs/` ディレクトリ公開を使います。
 - OAuth2 `client_credentials` で Login with Amazon アクセストークンを取得します
 - 3.3 / JP 前提では `https://api.amazon.co.jp/auth/o2/token` と `scope=creatorsapi::default` を使います
 - SearchItems は `https://creatorsapi.amazon/catalog/v1/searchItems` へ `Authorization: Bearer <token>` と `x-marketplace: www.amazon.co.jp` を付けて呼びます
-- 新刊候補はタイトルキーワードでエンジニア向けに絞り込みます
+- 新刊候補は `コンピュータ・IT` 寄りのカテゴリ判定とタイトルキーワードでエンジニア向けに絞り込みます
+- `releaseDate` が直近30日以内の本だけを新刊として採用します
 - JSON は release date 降順、重複除外、最大 200 件に制限します
 - 検索語、技術書判定キーワード、タグ付けルールは `config/search-config.json` で管理します
 - 現在の主な検索語は `AWS`, `Python`, `生成AI`, `LLM`, `AIエージェント`, `RAG`, `ChatGPT`, `Claude`, `Docker`, `Kubernetes`, `SQL`, `アーキテクチャ`, `Software Architecture`, `Flutter`, `エンジニアリングマネジメント` です

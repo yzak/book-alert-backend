@@ -4,6 +4,8 @@ const {
   searchKeywords: SEARCH_KEYWORDS,
   filterKeywords: FILTER_KEYWORDS,
   tagRules: TAG_RULES,
+  releaseWindowDays: RELEASE_WINDOW_DAYS,
+  computerItCategoryKeywords: COMPUTER_IT_CATEGORY_KEYWORDS,
 } = loadSearchConfig();
 
 const MAX_BOOKS = 200;
@@ -32,6 +34,73 @@ export function buildAffiliateUrl(detailPageUrl, asin, associateTag) {
 export function isEngineeringBook(title = "") {
   const normalized = title.toLowerCase();
   return FILTER_KEYWORDS.some((keyword) => normalized.includes(keyword));
+}
+
+export function extractBrowseNodeNames(item) {
+  const nodeNames = new Set();
+
+  function addName(value) {
+    if (typeof value !== "string") {
+      return;
+    }
+
+    const trimmed = value.trim();
+    if (trimmed) {
+      nodeNames.add(trimmed);
+    }
+  }
+
+  function collectNode(node) {
+    if (!node || typeof node !== "object") {
+      return;
+    }
+
+    addName(node.displayName ?? node.DisplayName);
+    addName(node.contextFreeName ?? node.ContextFreeName);
+    addName(node.name ?? node.Name);
+
+    const ancestors = [
+      ...(Array.isArray(node.ancestors ?? node.Ancestors)
+        ? (node.ancestors ?? node.Ancestors)
+        : []),
+      ...(node.ancestor ?? node.Ancestor ? [node.ancestor ?? node.Ancestor] : []),
+    ];
+
+    for (const ancestor of ancestors) {
+      collectNode(ancestor);
+    }
+  }
+
+  const browseNodes = [
+    ...(item?.browseNodeInfo?.browseNodes ?? []),
+    ...(item?.BrowseNodeInfo?.BrowseNodes ?? []),
+  ];
+
+  for (const node of browseNodes) {
+    collectNode(node);
+  }
+
+  return [...nodeNames];
+}
+
+export function matchesComputerItCategory(
+  item,
+  {
+    sourceText = "",
+    categoryKeywords = COMPUTER_IT_CATEGORY_KEYWORDS,
+  } = {},
+) {
+  if (isEngineeringBook(sourceText)) {
+    return true;
+  }
+
+  const normalizedNodeNames = extractBrowseNodeNames(item).map((name) =>
+    name.toLowerCase(),
+  );
+
+  return normalizedNodeNames.some((name) =>
+    categoryKeywords.some((keyword) => name.includes(keyword)),
+  );
 }
 
 export function generateTags(sourceText) {
@@ -75,16 +144,46 @@ export function normalizeReleaseDate(rawValue) {
   return null;
 }
 
-export function normalizeBook(item, associateTag) {
+export function isReleaseWithinWindow(
+  releaseDate,
+  {
+    now = new Date(),
+    releaseWindowDays = RELEASE_WINDOW_DAYS,
+  } = {},
+) {
+  if (!releaseDate) {
+    return false;
+  }
+
+  const parsed = new Date(`${releaseDate}T00:00:00Z`);
+  if (Number.isNaN(parsed.getTime())) {
+    return false;
+  }
+
+  const todayUtc = new Date(
+    Date.UTC(now.getUTCFullYear(), now.getUTCMonth(), now.getUTCDate()),
+  );
+  const diffDays = Math.floor(
+    (todayUtc.getTime() - parsed.getTime()) / (1000 * 60 * 60 * 24),
+  );
+
+  return diffDays >= 0 && diffDays <= releaseWindowDays;
+}
+
+export function normalizeBook(
+  item,
+  associateTag,
+  {
+    now = new Date(),
+    releaseWindowDays = RELEASE_WINDOW_DAYS,
+    categoryKeywords = COMPUTER_IT_CATEGORY_KEYWORDS,
+  } = {},
+) {
   const asin = item?.asin ?? item?.ASIN;
   const title =
     item?.itemInfo?.title?.displayValue ??
     item?.ItemInfo?.Title?.DisplayValue ??
     "";
-  if (!asin || !title || !isEngineeringBook(title)) {
-    return null;
-  }
-
   const authors = (
     item?.itemInfo?.byLineInfo?.contributors ??
     item?.ItemInfo?.ByLineInfo?.Contributors ??
@@ -101,7 +200,28 @@ export function normalizeBook(item, associateTag) {
       item?.ItemInfo?.ProductInfo?.ReleaseDate?.DisplayValue ??
       item?.itemInfo?.contentInfo?.publicationDate?.displayValue ??
       item?.ItemInfo?.ContentInfo?.PublicationDate?.DisplayValue,
-  ) ?? new Date().toISOString().slice(0, 10);
+  );
+  const sourceText = [title, publisher, authors.join(" ")]
+    .filter(Boolean)
+    .join(" ");
+
+  if (!asin || !title || !releaseDate) {
+    return null;
+  }
+
+  if (
+    !matchesComputerItCategory(item, {
+      sourceText,
+      categoryKeywords,
+    })
+  ) {
+    return null;
+  }
+
+  if (!isReleaseWithinWindow(releaseDate, { now, releaseWindowDays })) {
+    return null;
+  }
+
   const image =
     item?.images?.primary?.medium?.url ??
     item?.Images?.Primary?.Medium?.URL ??
@@ -119,11 +239,7 @@ export function normalizeBook(item, associateTag) {
     asin,
     associateTag,
   );
-  const tags = generateTags(
-    [title, publisher, authors.join(" ")]
-      .filter(Boolean)
-      .join(" "),
-  );
+  const tags = generateTags(sourceText);
 
   return {
     id: asin,
@@ -186,6 +302,9 @@ export async function fetchBooks(
     searchKeywords = SEARCH_KEYWORDS,
     keywordDelayMs = KEYWORD_DELAY_MS,
     throttleBackoffMs = THROTTLE_BACKOFF_MS,
+    now = new Date(),
+    releaseWindowDays = RELEASE_WINDOW_DAYS,
+    categoryKeywords = COMPUTER_IT_CATEGORY_KEYWORDS,
   } = {},
 ) {
   const booksById = new Map();
@@ -202,7 +321,11 @@ export async function fetchBooks(
       );
       const items = data?.searchResult?.items ?? data?.SearchResult?.Items ?? [];
       for (const item of items) {
-        const normalized = normalizeBook(item, associateTag);
+        const normalized = normalizeBook(item, associateTag, {
+          now,
+          releaseWindowDays,
+          categoryKeywords,
+        });
         if (!normalized) {
           continue;
         }

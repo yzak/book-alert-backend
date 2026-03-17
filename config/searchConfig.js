@@ -13,5 +13,7 @@ export function loadSearchConfig() {
     searchKeywords: parsed.searchKeywords ?? [],
     filterKeywords: parsed.filterKeywords ?? [],
     tagRules: parsed.tagRules ?? [],
+    releaseWindowDays: parsed.releaseWindowDays ?? 30,
+    computerItCategoryKeywords: parsed.computerItCategoryKeywords ?? [],
   };
 }

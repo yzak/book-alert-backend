@@ -4,9 +4,12 @@ import assert from "node:assert/strict";
 import {
   AVAILABLE_TAGS,
   buildAffiliateUrl,
+  extractBrowseNodeNames,
   fetchBooks,
   generateTags,
   isEngineeringBook,
+  isReleaseWithinWindow,
+  matchesComputerItCategory,
   normalizeBook,
   normalizeReleaseDate,
 } from "../crawler/fetchBooks.js";
@@ -32,6 +35,57 @@ test("normalizeReleaseDate normalizes Japanese dates", () => {
   assert.equal(normalizeReleaseDate("2026年03月10日"), "2026-03-10");
   assert.equal(normalizeReleaseDate("2026/03"), "2026-03-01");
   assert.equal(normalizeReleaseDate("2026-03-10T00:00:00Z"), "2026-03-10");
+});
+
+test("isReleaseWithinWindow only accepts books from the past 30 days", () => {
+  const now = new Date("2026-03-17T00:00:00Z");
+
+  assert.equal(
+    isReleaseWithinWindow("2026-03-10", { now, releaseWindowDays: 30 }),
+    true,
+  );
+  assert.equal(
+    isReleaseWithinWindow("2026-02-10", { now, releaseWindowDays: 30 }),
+    false,
+  );
+  assert.equal(
+    isReleaseWithinWindow("2026-04-10", { now, releaseWindowDays: 30 }),
+    false,
+  );
+});
+
+test("browse node names can be extracted from creators api items", () => {
+  const names = extractBrowseNodeNames({
+    browseNodeInfo: {
+      browseNodes: [
+        {
+          displayName: "プログラミング",
+          ancestor: {
+            displayName: "コンピュータ・IT",
+          },
+        },
+      ],
+    },
+  });
+
+  assert.deepEqual(names, ["プログラミング", "コンピュータ・IT"]);
+});
+
+test("matchesComputerItCategory accepts computer it browse nodes", () => {
+  assert.equal(
+    matchesComputerItCategory(
+      {
+        browseNodeInfo: {
+          browseNodes: [{ displayName: "プログラミング" }],
+        },
+      },
+      {
+        sourceText: "タイトルだけでは判定しづらい本",
+        categoryKeywords: ["プログラミング"],
+      },
+    ),
+    true,
+  );
 });
 
 test("buildAffiliateUrl always appends associate tag", () => {
@@ -69,6 +123,7 @@ test("normalizeBook returns app-compatible fields", () => {
       },
     },
     "yzak-nra-22",
+    { now: new Date("2026-03-17T00:00:00Z") },
   );
 
   assert.equal(book.title, "AWSとPythonで学ぶ設計入門");
@@ -129,6 +184,7 @@ test("fetchBooks retries throttled requests and continues on partial failure", a
     searchKeywords: ["AWS", "Python"],
     keywordDelayMs: 0,
     throttleBackoffMs: [0, 0],
+    now: new Date("2026-03-17T00:00:00Z"),
   });
 
   assert.equal(awsAttempts, 3);
