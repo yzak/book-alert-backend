@@ -4,13 +4,16 @@ import assert from "node:assert/strict";
 import {
   AVAILABLE_TAGS,
   buildAffiliateUrl,
+  canonicalizeTitleForDedupe,
   extractBrowseNodeNames,
   fetchBooks,
   generateTags,
   isEngineeringBook,
   isReleaseWithinWindow,
+  mergeBookEntries,
   matchesComputerItCategory,
   normalizeBook,
+  preferBook,
   normalizeReleaseDate,
 } from "../crawler/fetchBooks.js";
 
@@ -88,11 +91,58 @@ test("matchesComputerItCategory accepts computer it browse nodes", () => {
   );
 });
 
+test("canonicalizeTitleForDedupe removes series suffix differences", () => {
+  assert.equal(
+    canonicalizeTitleForDedupe(
+      "Pythonではじめるクリーンアーキテクチャ (impress top gear)",
+    ),
+    canonicalizeTitleForDedupe(
+      "Pythonではじめるクリーンアーキテクチャ (impress top gearシリーズ)",
+    ),
+  );
+});
+
 test("buildAffiliateUrl always appends associate tag", () => {
   assert.equal(
     buildAffiliateUrl("https://www.amazon.co.jp/dp/1234567890", "1234567890", "yzak-nra-22"),
     "https://www.amazon.co.jp/dp/1234567890?tag=yzak-nra-22",
   );
+});
+
+test("preferBook prefers non-kindle asin over kindle asin", () => {
+  const physical = {
+    asin: "429502404X",
+    imageUrl: "https://example.com/physical.jpg",
+  };
+  const kindle = {
+    asin: "B0GQ98V5H3",
+    imageUrl: "https://example.com/kindle.jpg",
+  };
+
+  assert.deepEqual(preferBook(kindle, physical), physical);
+  assert.deepEqual(preferBook(physical, kindle), physical);
+});
+
+test("mergeBookEntries merges tags while keeping preferred edition", () => {
+  const result = mergeBookEntries(
+    {
+      asin: "B0GQ98V5H3",
+      title: "Pythonではじめるクリーンアーキテクチャ",
+      authors: ["A"],
+      imageUrl: "https://example.com/kindle.jpg",
+      tags: ["python"],
+    },
+    {
+      asin: "429502404X",
+      title: "Pythonではじめるクリーンアーキテクチャ",
+      authors: ["A"],
+      imageUrl: "https://example.com/physical.jpg",
+      tags: ["architecture"],
+    },
+  );
+
+  assert.equal(result.asin, "429502404X");
+  assert.deepEqual(result.tags, ["architecture", "python"]);
 });
 
 test("normalizeBook returns app-compatible fields", () => {
@@ -190,4 +240,73 @@ test("fetchBooks retries throttled requests and continues on partial failure", a
   assert.equal(awsAttempts, 3);
   assert.equal(books.length, 1);
   assert.equal(books[0].asin, "111");
+});
+
+test("fetchBooks dedupes kindle and physical editions into one book", async () => {
+  const apiClient = {
+    async searchItems() {
+      return {
+        searchResult: {
+          items: [
+            {
+              asin: "429502404X",
+              detailPageURL: "https://www.amazon.co.jp/dp/429502404X",
+              itemInfo: {
+                title: {
+                  displayValue:
+                    "Pythonではじめるクリーンアーキテクチャ (impress top gear)",
+                },
+                byLineInfo: {
+                  contributors: [{ name: "著者A" }],
+                  manufacturer: { displayValue: "インプレス" },
+                },
+                contentInfo: {
+                  publicationDate: { displayValue: "2026-03-04" },
+                },
+              },
+              images: {
+                primary: {
+                  medium: { url: "https://example.com/physical.jpg" },
+                },
+              },
+            },
+            {
+              asin: "B0GQ98V5H3",
+              detailPageURL: "https://www.amazon.co.jp/dp/B0GQ98V5H3",
+              itemInfo: {
+                title: {
+                  displayValue:
+                    "Pythonではじめるクリーンアーキテクチャ (impress top gearシリーズ)",
+                },
+                byLineInfo: {
+                  contributors: [{ name: "著者A" }],
+                  manufacturer: { displayValue: "インプレス" },
+                },
+                contentInfo: {
+                  publicationDate: { displayValue: "2026-03-04" },
+                },
+              },
+              images: {
+                primary: {
+                  medium: { url: "https://example.com/kindle.jpg" },
+                },
+              },
+            },
+          ],
+        },
+      };
+    },
+  };
+
+  const books = await fetchBooks(apiClient, {
+    associateTag: "yzak-nra-22",
+    logger: { info() {}, warn() {}, error() {} },
+    searchKeywords: ["Python"],
+    keywordDelayMs: 0,
+    throttleBackoffMs: [0],
+    now: new Date("2026-03-17T00:00:00Z"),
+  });
+
+  assert.equal(books.length, 1);
+  assert.equal(books[0].asin, "429502404X");
 });

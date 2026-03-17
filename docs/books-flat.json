@@ -1,163 +1,35 @@
 [
   {
-    "title": "改訂新版 Pythonエンジニア育成推進協会監修 Python実践レシピ",
-    "author": "鈴木 たかのり, 筒井 隆次, 門脇 諭, 杉田 雅子, 福田 隼也, 寺田 学",
-    "image": "https://m.media-amazon.com/images/I/5125S+fnakL._SL160_.jpg",
-    "releaseDate": "2026-03-16",
-    "amazonUrl": "https://www.amazon.co.jp/dp/4297154897?tag=yzak-nra-22",
+    "title": "実践AWSアーキテクチャ 第2版",
+    "author": "山田 太郎",
+    "image": "https://placehold.jp/240x320.png?text=AWS",
+    "releaseDate": "2026-03-10",
+    "amazonUrl": "https://www.amazon.co.jp/dp/4297146080?tag=yzak-nra-22",
     "tags": [
-      "python"
-    ]
-  },
-  {
-    "title": "【Amazon.co.jp 限定】作業時間が１/10になる！　はじめての生成AI×資料作成テクニック (特典: 書籍未収録「スライドデザイン完全プロンプト集」データ配信)",
-    "author": "まいぺる",
-    "image": "https://m.media-amazon.com/images/I/51XjjQOP2aL._SL160_.jpg",
-    "releaseDate": "2026-03-16",
-    "amazonUrl": "https://www.amazon.co.jp/dp/4046080094?tag=yzak-nra-22",
-    "tags": [
-      "genai",
-      "ai"
-    ]
-  },
-  {
-    "title": "最速でわかる生成AI実践ガイド",
-    "author": "山田 博啓",
-    "image": "https://m.media-amazon.com/images/I/51Mq2OcBKTL._SL160_.jpg",
-    "releaseDate": "2026-03-12",
-    "amazonUrl": "https://www.amazon.co.jp/dp/B0GPVWYCGG?tag=yzak-nra-22",
-    "tags": [
-      "genai",
-      "ai"
-    ]
-  },
-  {
-    "title": "ソフトウェアアーキテクチャの基礎 第2版 ―エンジニアリングに基づく体系的アプローチ",
-    "author": "Mark Richards, Neal Ford, 島田 浩二（翻訳）",
-    "image": "https://m.media-amazon.com/images/I/41GxMmtaQAL._SL160_.jpg",
-    "releaseDate": "2026-03-06",
-    "amazonUrl": "https://www.amazon.co.jp/dp/4814401558?tag=yzak-nra-22",
-    "tags": [
+      "aws",
       "architecture"
     ]
   },
   {
-    "title": "ChatGPT＆Gemini生成AI活用ガイド (日経BPパソコンベストムック)",
-    "author": "日経パソコン",
-    "image": "https://m.media-amazon.com/images/I/51+KLDlAJBL._SL160_.jpg",
+    "title": "生成AIアプリ開発入門",
+    "author": "鈴木 花子",
+    "image": "https://placehold.jp/240x320.png?text=AI",
+    "releaseDate": "2026-03-08",
+    "amazonUrl": "https://www.amazon.co.jp/dp/4798188888?tag=yzak-nra-22",
+    "tags": [
+      "genai",
+      "python",
+      "ai"
+    ]
+  },
+  {
+    "title": "KubernetesとDocker運用実践",
+    "author": "高橋 次郎",
+    "image": "https://placehold.jp/240x320.png?text=DevOps",
     "releaseDate": "2026-03-05",
-    "amazonUrl": "https://www.amazon.co.jp/dp/4296210580?tag=yzak-nra-22",
+    "amazonUrl": "https://www.amazon.co.jp/dp/4815612345?tag=yzak-nra-22",
     "tags": [
-      "genai",
-      "ai"
-    ]
-  },
-  {
-    "title": "Pythonではじめるクリーンアーキテクチャ　SOLID原則／ドメイン駆動設計／テスト駆動開発を実践 (impress top gear)",
-    "author": "Sam Keen, 株式会社クイープ",
-    "image": "https://m.media-amazon.com/images/I/51TwCEAbxHL._SL160_.jpg",
-    "releaseDate": "2026-03-04",
-    "amazonUrl": "https://www.amazon.co.jp/dp/429502404X?tag=yzak-nra-22",
-    "tags": [
-      "architecture",
-      "python"
-    ]
-  },
-  {
-    "title": "Pythonではじめるクリーンアーキテクチャ　SOLID原則／ドメイン駆動設計／テスト駆動開発を実践 (impress top gearシリーズ)",
-    "author": "Sam Keen, 株式会社クイープ",
-    "image": "https://m.media-amazon.com/images/I/51ew0C46rPL._SL160_.jpg",
-    "releaseDate": "2026-03-04",
-    "amazonUrl": "https://www.amazon.co.jp/dp/B0GQ98V5H3?tag=yzak-nra-22",
-    "tags": [
-      "architecture",
-      "python"
-    ]
-  },
-  {
-    "title": "世界一やさしい Claude Code 入門の教科書: インストールからアプリ作成までこれ1冊",
-    "author": "中尾友一",
-    "image": "https://m.media-amazon.com/images/I/412Qzf8ZeAL._SL160_.jpg",
-    "releaseDate": "2026-03-01",
-    "amazonUrl": "https://www.amazon.co.jp/dp/B0GQP8RSDH?tag=yzak-nra-22",
-    "tags": [
-      "genai",
-      "llm"
-    ]
-  },
-  {
-    "title": "「そろそろ生成AIを戦力化したい」社長のためのChatGPT 経営入門",
-    "author": "高山 智壮",
-    "image": "https://m.media-amazon.com/images/I/514RULTtHDL._SL160_.jpg",
-    "releaseDate": "2026-02-27",
-    "amazonUrl": "https://www.amazon.co.jp/dp/4569860885?tag=yzak-nra-22",
-    "tags": [
-      "ai",
-      "genai"
-    ]
-  },
-  {
-    "title": "AIエージェント仕事術　仕事時間は1/100に　成果は120％になる",
-    "author": "佐藤 傑",
-    "image": "https://m.media-amazon.com/images/I/51ifhFJTFNL._SL160_.jpg",
-    "releaseDate": "2026-02-27",
-    "amazonUrl": "https://www.amazon.co.jp/dp/B0GC25YVRB?tag=yzak-nra-22",
-    "tags": [
-      "llm",
-      "ai"
-    ]
-  },
-  {
-    "title": "GraphRAG完全ガイド　RAGを越えた検索体験の実現に向けて 技術の泉シリーズ",
-    "author": "さしみもち",
-    "image": "https://m.media-amazon.com/images/I/51rGiQH2TML._SL160_.jpg",
-    "releaseDate": "2026-02-27",
-    "amazonUrl": "https://www.amazon.co.jp/dp/B0GPW6KMXC?tag=yzak-nra-22",
-    "tags": [
-      "llm"
-    ]
-  },
-  {
-    "title": "晋遊舎ムック お得技シリーズ289　生成AI お得技ベストセレクション",
-    "author": "晋遊舎",
-    "image": "https://m.media-amazon.com/images/I/512YOx44huL._SL160_.jpg",
-    "releaseDate": "2026-02-26",
-    "amazonUrl": "https://www.amazon.co.jp/dp/B0GPW16QC2?tag=yzak-nra-22",
-    "tags": [
-      "genai",
-      "ai"
-    ]
-  },
-  {
-    "title": "アーキテクチャモダナイゼーション【リフロー型】 組織とビジネスの未来を設計する",
-    "author": "Nick Tune, Jean-Georges Perrin, 元内 柊也, 岩﨑 勇生, 角谷 太雅, 加藤 岳明, 佐藤 慧太",
-    "image": "https://m.media-amazon.com/images/I/51X5tgiZdNL._SL160_.jpg",
-    "releaseDate": "2026-02-24",
-    "amazonUrl": "https://www.amazon.co.jp/dp/B0GFCP156B?tag=yzak-nra-22",
-    "tags": [
-      "architecture",
-      "engineering-management"
-    ]
-  },
-  {
-    "title": "ミックの楽しいSQLパズル　解いて身につくSQLの考え方＆書き方",
-    "author": "ミック",
-    "image": "https://m.media-amazon.com/images/I/41xPRA4iA0L._SL160_.jpg",
-    "releaseDate": "2026-02-20",
-    "amazonUrl": "https://www.amazon.co.jp/dp/4295023787?tag=yzak-nra-22",
-    "tags": [
-      "database"
-    ]
-  },
-  {
-    "title": "医師による医師のためのChatGPT入門3（アイデアがパッと論文に変わる！AI超・時短執筆術）",
-    "author": "大塚篤司",
-    "image": "https://m.media-amazon.com/images/I/51DBgl8fHxL._SL160_.jpg",
-    "releaseDate": "2026-02-16",
-    "amazonUrl": "https://www.amazon.co.jp/dp/4260064878?tag=yzak-nra-22",
-    "tags": [
-      "genai",
-      "ai"
+      "devops"
     ]
   }
 ]

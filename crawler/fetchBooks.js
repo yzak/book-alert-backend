@@ -110,6 +110,66 @@ export function generateTags(sourceText) {
   ).map(({ id }) => id);
 }
 
+export function canonicalizeTitleForDedupe(title) {
+  return title
+    .toLowerCase()
+    .replace(/（[^）]*）/g, "")
+    .replace(/\([^)]*\)/g, "")
+    .replace(/[【】\[\]「」『』]/g, "")
+    .replace(/[‐‑–—ー]/g, "")
+    .replace(/[\/／]/g, "")
+    .replace(/[：:]/g, "")
+    .replace(/\s+/g, "")
+    .trim();
+}
+
+function dedupeKey(book) {
+  return [
+    canonicalizeTitleForDedupe(book.title),
+    book.publisher.toLowerCase().trim(),
+    book.releaseDate,
+  ].join("::");
+}
+
+function isLikelyKindleAsin(asin) {
+  return typeof asin === "string" && asin.toUpperCase().startsWith("B0");
+}
+
+export function preferBook(current, candidate) {
+  if (!current) {
+    return candidate;
+  }
+
+  if (isLikelyKindleAsin(current.asin) && !isLikelyKindleAsin(candidate.asin)) {
+    return candidate;
+  }
+
+  if (!isLikelyKindleAsin(current.asin) && isLikelyKindleAsin(candidate.asin)) {
+    return current;
+  }
+
+  if (current.imageUrl.includes("placehold") && !candidate.imageUrl.includes("placehold")) {
+    return candidate;
+  }
+
+  if (!current.imageUrl.includes("placehold") && candidate.imageUrl.includes("placehold")) {
+    return current;
+  }
+
+  return current;
+}
+
+export function mergeBookEntries(current, candidate) {
+  const preferred = preferBook(current, candidate);
+  const secondary = preferred === current ? candidate : current;
+
+  return {
+    ...preferred,
+    tags: [...new Set([...(current?.tags ?? []), ...(candidate?.tags ?? [])])].sort(),
+    authors: [...new Set([...(preferred.authors ?? []), ...(secondary?.authors ?? [])])],
+  };
+}
+
 export function normalizeReleaseDate(rawValue) {
   if (!rawValue) {
     return null;
@@ -362,7 +422,14 @@ export async function fetchBooks(
     );
   }
 
-  return [...booksById.values()]
+  const dedupedBooks = new Map();
+  for (const book of booksById.values()) {
+    const key = dedupeKey(book);
+    const current = dedupedBooks.get(key);
+    dedupedBooks.set(key, mergeBookEntries(current, book));
+  }
+
+  return [...dedupedBooks.values()]
     .sort((left, right) => right.releaseDate.localeCompare(left.releaseDate))
     .slice(0, MAX_BOOKS);
 }
