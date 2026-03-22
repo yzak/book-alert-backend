@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-03-17T11:35:55.382Z",
+  "updatedAt": "2026-03-22T00:47:31.188Z",
   "availableTags": [
     {
       "id": "aws",
@@ -69,6 +69,53 @@
   ],
   "books": [
     {
+      "id": "4296208624",
+      "asin": "4296208624",
+      "title": "AIエージェント 設計＆実装 完全ガイド ローコード開発やユースケースを徹底解説",
+      "author": "アビームコンサルティング",
+      "authors": [
+        "アビームコンサルティング"
+      ],
+      "publisher": "日経BP",
+      "releaseDate": "2026-03-20",
+      "publishedAt": "2026-03-20",
+      "image": "https://m.media-amazon.com/images/I/41JhFtQnjTL._SL160_.jpg",
+      "imageUrl": "https://m.media-amazon.com/images/I/41JhFtQnjTL._SL160_.jpg",
+      "amazonUrl": "https://www.amazon.co.jp/dp/4296208624?tag=yzak-nra-22",
+      "detailPageUrl": "https://www.amazon.co.jp/dp/4296208624?tag=yzak-nra-22",
+      "tags": [
+        "ai",
+        "architecture",
+        "llm"
+      ],
+      "price": 3190,
+      "currency": "JPY"
+    },
+    {
+      "id": "B0GSSVRR2H",
+      "asin": "B0GSSVRR2H",
+      "title": "作ってわかる大規模言語モデルの仕組み",
+      "author": "井上 顧基, 下垣内 隆太, 高島 直也, 澤 風吹",
+      "authors": [
+        "井上 顧基",
+        "下垣内 隆太",
+        "高島 直也",
+        "澤 風吹"
+      ],
+      "publisher": "日経BP",
+      "releaseDate": "2026-03-19",
+      "publishedAt": "2026-03-19",
+      "image": "https://m.media-amazon.com/images/I/51JBED3S87L._SL160_.jpg",
+      "imageUrl": "https://m.media-amazon.com/images/I/51JBED3S87L._SL160_.jpg",
+      "amazonUrl": "https://www.amazon.co.jp/dp/B0GSSVRR2H?tag=yzak-nra-22",
+      "detailPageUrl": "https://www.amazon.co.jp/dp/B0GSSVRR2H?tag=yzak-nra-22",
+      "tags": [
+        "general"
+      ],
+      "price": 3630,
+      "currency": "JPY"
+    },
+    {
       "id": "4297154897",
       "asin": "4297154897",
       "title": "改訂新版 Pythonエンジニア育成推進協会監修 Python実践レシピ",
@@ -114,6 +161,29 @@
         "genai"
       ],
       "price": 1980,
+      "currency": "JPY"
+    },
+    {
+      "id": "B0GSMMHCGG",
+      "asin": "B0GSMMHCGG",
+      "title": "はじめてのClaude Cowork入門 : AIエージェントに仕事を「丸投げ」する新時代の働き方 (FindU アカデミー)",
+      "author": "中村 祐太",
+      "authors": [
+        "中村 祐太"
+      ],
+      "publisher": "",
+      "releaseDate": "2026-03-15",
+      "publishedAt": "2026-03-15",
+      "image": "https://m.media-amazon.com/images/I/51R7f2zWOtL._SL160_.jpg",
+      "imageUrl": "https://m.media-amazon.com/images/I/51R7f2zWOtL._SL160_.jpg",
+      "amazonUrl": "https://www.amazon.co.jp/dp/B0GSMMHCGG?tag=yzak-nra-22",
+      "detailPageUrl": "https://www.amazon.co.jp/dp/B0GSMMHCGG?tag=yzak-nra-22",
+      "tags": [
+        "ai",
+        "genai",
+        "llm"
+      ],
+      "price": 0,
       "currency": "JPY"
     },
     {
@@ -251,6 +321,29 @@
       "currency": "JPY"
     },
     {
+      "id": "4535790493",
+      "asin": "4535790493",
+      "title": "生成AIにできること、できないこと　「フランケンシュタインの怪物」を飼いならす",
+      "author": "藤本 浩司, 柴原 一友",
+      "authors": [
+        "藤本 浩司",
+        "柴原 一友"
+      ],
+      "publisher": "日本評論社",
+      "releaseDate": "2026-02-27",
+      "publishedAt": "2026-02-27",
+      "image": "https://m.media-amazon.com/images/I/51bA49fckiL._SL160_.jpg",
+      "imageUrl": "https://m.media-amazon.com/images/I/51bA49fckiL._SL160_.jpg",
+      "amazonUrl": "https://www.amazon.co.jp/dp/4535790493?tag=yzak-nra-22",
+      "detailPageUrl": "https://www.amazon.co.jp/dp/4535790493?tag=yzak-nra-22",
+      "tags": [
+        "ai",
+        "genai"
+      ],
+      "price": 2530,
+      "currency": "JPY"
+    },
+    {
       "id": "B0GC25YVRB",
       "asin": "B0GC25YVRB",
       "title": "AIエージェント仕事術　仕事時間は1/100に　成果は120％になる",
@@ -269,7 +362,7 @@
         "ai",
         "llm"
       ],
-      "price": 1881,
+      "price": 2048,
       "currency": "JPY"
     },
     {
@@ -362,28 +455,6 @@
         "database"
       ],
       "price": 2750,
-      "currency": "JPY"
-    },
-    {
-      "id": "4260064878",
-      "asin": "4260064878",
-      "title": "医師による医師のためのChatGPT入門3（アイデアがパッと論文に変わる！AI超・時短執筆術）",
-      "author": "大塚篤司",
-      "authors": [
-        "大塚篤司"
-      ],
-      "publisher": "医学書院",
-      "releaseDate": "2026-02-16",
-      "publishedAt": "2026-02-16",
-      "image": "https://m.media-amazon.com/images/I/51DBgl8fHxL._SL160_.jpg",
-      "imageUrl": "https://m.media-amazon.com/images/I/51DBgl8fHxL._SL160_.jpg",
-      "amazonUrl": "https://www.amazon.co.jp/dp/4260064878?tag=yzak-nra-22",
-      "detailPageUrl": "https://www.amazon.co.jp/dp/4260064878?tag=yzak-nra-22",
-      "tags": [
-        "ai",
-        "genai"
-      ],
-      "price": 3960,
       "currency": "JPY"
     }
   ]

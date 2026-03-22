@@ -1,5 +1,27 @@
 [
   {
+    "title": "AIエージェント 設計＆実装 完全ガイド ローコード開発やユースケースを徹底解説",
+    "author": "アビームコンサルティング",
+    "image": "https://m.media-amazon.com/images/I/41JhFtQnjTL._SL160_.jpg",
+    "releaseDate": "2026-03-20",
+    "amazonUrl": "https://www.amazon.co.jp/dp/4296208624?tag=yzak-nra-22",
+    "tags": [
+      "ai",
+      "architecture",
+      "llm"
+    ]
+  },
+  {
+    "title": "作ってわかる大規模言語モデルの仕組み",
+    "author": "井上 顧基, 下垣内 隆太, 高島 直也, 澤 風吹",
+    "image": "https://m.media-amazon.com/images/I/51JBED3S87L._SL160_.jpg",
+    "releaseDate": "2026-03-19",
+    "amazonUrl": "https://www.amazon.co.jp/dp/B0GSSVRR2H?tag=yzak-nra-22",
+    "tags": [
+      "general"
+    ]
+  },
+  {
     "title": "改訂新版 Pythonエンジニア育成推進協会監修 Python実践レシピ",
     "author": "鈴木 たかのり, 筒井 隆次, 門脇 諭, 杉田 雅子, 福田 隼也, 寺田 学",
     "image": "https://m.media-amazon.com/images/I/5125S+fnakL._SL160_.jpg",
@@ -18,6 +40,18 @@
     "tags": [
       "ai",
       "genai"
+    ]
+  },
+  {
+    "title": "はじめてのClaude Cowork入門 : AIエージェントに仕事を「丸投げ」する新時代の働き方 (FindU アカデミー)",
+    "author": "中村 祐太",
+    "image": "https://m.media-amazon.com/images/I/51R7f2zWOtL._SL160_.jpg",
+    "releaseDate": "2026-03-15",
+    "amazonUrl": "https://www.amazon.co.jp/dp/B0GSMMHCGG?tag=yzak-nra-22",
+    "tags": [
+      "ai",
+      "genai",
+      "llm"
     ]
   },
   {
@@ -86,6 +120,17 @@
     ]
   },
   {
+    "title": "生成AIにできること、できないこと　「フランケンシュタインの怪物」を飼いならす",
+    "author": "藤本 浩司, 柴原 一友",
+    "image": "https://m.media-amazon.com/images/I/51bA49fckiL._SL160_.jpg",
+    "releaseDate": "2026-02-27",
+    "amazonUrl": "https://www.amazon.co.jp/dp/4535790493?tag=yzak-nra-22",
+    "tags": [
+      "ai",
+      "genai"
+    ]
+  },
+  {
     "title": "AIエージェント仕事術　仕事時間は1/100に　成果は120％になる",
     "author": "佐藤 傑",
     "image": "https://m.media-amazon.com/images/I/51ifhFJTFNL._SL160_.jpg",
@@ -136,17 +181,6 @@
     "amazonUrl": "https://www.amazon.co.jp/dp/4295023787?tag=yzak-nra-22",
     "tags": [
       "database"
-    ]
-  },
-  {
-    "title": "医師による医師のためのChatGPT入門3（アイデアがパッと論文に変わる！AI超・時短執筆術）",
-    "author": "大塚篤司",
-    "image": "https://m.media-amazon.com/images/I/51DBgl8fHxL._SL160_.jpg",
-    "releaseDate": "2026-02-16",
-    "amazonUrl": "https://www.amazon.co.jp/dp/4260064878?tag=yzak-nra-22",
-    "tags": [
-      "ai",
-      "genai"
     ]
   }
 ]
