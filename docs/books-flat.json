@@ -1,5 +1,36 @@
 [
   {
+    "title": "この一冊で全部わかる　ChatGPT & Copilotの教科書［改訂第2版］",
+    "author": "中島大介, 西宏章",
+    "image": "https://m.media-amazon.com/images/I/51VN-1vjvYL._SL160_.jpg",
+    "releaseDate": "2026-04-02",
+    "amazonUrl": "https://www.amazon.co.jp/dp/4815641374?tag=yzak-nra-22",
+    "tags": [
+      "genai"
+    ]
+  },
+  {
+    "title": "ひとつひとつしっかり身につく　Pythonの教科書 (基礎から丁寧に学ぶ教科書シリーズ)",
+    "author": "菅原　朋子",
+    "image": "https://m.media-amazon.com/images/I/513FkrQsC5L._SL160_.jpg",
+    "releaseDate": "2026-04-01",
+    "amazonUrl": "https://www.amazon.co.jp/dp/4815630615?tag=yzak-nra-22",
+    "tags": [
+      "python"
+    ]
+  },
+  {
+    "title": "生成AIを活用したデータサイエンス入門: 実例で学ぶ教科書",
+    "author": "竹村 彰通, 今井 貴史, 松原 悠, 市川 治, 青木 高明, 岩崎 悟, 太田 智美, 奥村 太一, 小松 尚登, 齋藤 邦彦, 佐藤 健一, 鈴木 清, 陳 峻冬, チャン ディン トゥアン, 南條 浩輝, 今井 貴史, 松原 悠, 市川 治",
+    "image": "https://m.media-amazon.com/images/I/41GrMyE1llL._SL160_.jpg",
+    "releaseDate": "2026-03-30",
+    "amazonUrl": "https://www.amazon.co.jp/dp/4780614147?tag=yzak-nra-22",
+    "tags": [
+      "ai",
+      "genai"
+    ]
+  },
+  {
     "title": "AIエージェント×業務改革 実践の教科書",
     "author": "フォーティエンスコンサルティング",
     "image": "https://m.media-amazon.com/images/I/41e+A-NLffL._SL160_.jpg",
@@ -34,18 +65,6 @@
     ]
   },
   {
-    "title": "生成AI&AIエージェント2026 実践活用術 (POWER MOOK)",
-    "author": "",
-    "image": "https://m.media-amazon.com/images/I/51vDuKJusfL._SL160_.jpg",
-    "releaseDate": "2026-03-26",
-    "amazonUrl": "https://www.amazon.co.jp/dp/4813086977?tag=yzak-nra-22",
-    "tags": [
-      "ai",
-      "genai",
-      "llm"
-    ]
-  },
-  {
     "title": "［入門］LLMアプリ開発　——基本・LLMのしくみ・MCP・AIセキュリティ Software Design別冊",
     "author": "松本 和高, 藤本 敬介, 大田 竹蔵, 藤原 知樹, 大谷 真也, 服部 響, 江頭 貴史, 御田 稔, 岩本 隆史, 江崎 広太, 大久保 諒, 川喜田 将之",
     "image": "https://m.media-amazon.com/images/I/412rJLnSQDL._SL160_.jpg",
@@ -54,17 +73,6 @@
     "tags": [
       "ai",
       "llm"
-    ]
-  },
-  {
-    "title": "Copilotエージェントの教科書 AIによる業務自動化の大本命",
-    "author": "吉田 大貴, 吉田 まみな",
-    "image": "https://m.media-amazon.com/images/I/41kFWrwd7BL._SL160_.jpg",
-    "releaseDate": "2026-03-26",
-    "amazonUrl": "https://www.amazon.co.jp/dp/B0GTHMLSJD?tag=yzak-nra-22",
-    "tags": [
-      "ai",
-      "automation"
     ]
   },
   {
@@ -79,31 +87,6 @@
     ]
   },
   {
-    "title": "ChatGPT止まりの人のための Claude Code仕事術: 非エンジニアでも今日から始められるAI自動化入門",
-    "author": "菊池優",
-    "image": "https://m.media-amazon.com/images/I/41bWQgFCU3L._SL160_.jpg",
-    "releaseDate": "2026-03-22",
-    "amazonUrl": "https://www.amazon.co.jp/dp/B0GTJH8WNG?tag=yzak-nra-22",
-    "tags": [
-      "ai",
-      "automation",
-      "genai",
-      "llm"
-    ]
-  },
-  {
-    "title": "結局、Claudeって何ができるの？ これがClaudeのすべて！ 2026年版 AI初心者のための完全理解マニュアル: 最新機能から実践テクニックまで網羅！あなたの毎日を変えるAIアシスタントの使いこなし方",
-    "author": "倉沢 らく",
-    "image": "https://m.media-amazon.com/images/I/51U+H10zyjL._SL160_.jpg",
-    "releaseDate": "2026-03-21",
-    "amazonUrl": "https://www.amazon.co.jp/dp/B0GTCHQZGJ?tag=yzak-nra-22",
-    "tags": [
-      "ai",
-      "genai",
-      "llm"
-    ]
-  },
-  {
     "title": "AWSではじめるAIエージェント開発・運用",
     "author": "掌田 津耶乃",
     "image": "https://m.media-amazon.com/images/I/51Q+ZopM7UL._SL160_.jpg",
@@ -112,6 +95,18 @@
     "tags": [
       "ai",
       "aws",
+      "llm"
+    ]
+  },
+  {
+    "title": "AIエージェント 設計＆実装 完全ガイド ローコード開発やユースケースを徹底解説",
+    "author": "アビームコンサルティング",
+    "image": "https://m.media-amazon.com/images/I/41JhFtQnjTL._SL160_.jpg",
+    "releaseDate": "2026-03-20",
+    "amazonUrl": "https://www.amazon.co.jp/dp/4296208624?tag=yzak-nra-22",
+    "tags": [
+      "ai",
+      "architecture",
       "llm"
     ]
   },
@@ -159,18 +154,6 @@
     ]
   },
   {
-    "title": "アイデアを形にするClaude Code: コードが書けなくても作れるAI開発入門",
-    "author": "ハル",
-    "image": "https://m.media-amazon.com/images/I/51yn9Gyi69L._SL160_.jpg",
-    "releaseDate": "2026-03-15",
-    "amazonUrl": "https://www.amazon.co.jp/dp/B0GT7HXD9Z?tag=yzak-nra-22",
-    "tags": [
-      "ai",
-      "genai",
-      "llm"
-    ]
-  },
-  {
     "title": "最速でわかる生成AI実践ガイド",
     "author": "山田 博啓",
     "image": "https://m.media-amazon.com/images/I/51Mq2OcBKTL._SL160_.jpg",
@@ -189,71 +172,6 @@
     "amazonUrl": "https://www.amazon.co.jp/dp/4814401558?tag=yzak-nra-22",
     "tags": [
       "architecture"
-    ]
-  },
-  {
-    "title": "ChatGPT＆Gemini生成AI活用ガイド (日経BPパソコンベストムック)",
-    "author": "日経パソコン",
-    "image": "https://m.media-amazon.com/images/I/51+KLDlAJBL._SL160_.jpg",
-    "releaseDate": "2026-03-05",
-    "amazonUrl": "https://www.amazon.co.jp/dp/4296210580?tag=yzak-nra-22",
-    "tags": [
-      "ai",
-      "genai"
-    ]
-  },
-  {
-    "title": "Pythonではじめるクリーンアーキテクチャ　SOLID原則／ドメイン駆動設計／テスト駆動開発を実践 (impress top gear)",
-    "author": "Sam Keen, 株式会社クイープ",
-    "image": "https://m.media-amazon.com/images/I/51TwCEAbxHL._SL160_.jpg",
-    "releaseDate": "2026-03-04",
-    "amazonUrl": "https://www.amazon.co.jp/dp/429502404X?tag=yzak-nra-22",
-    "tags": [
-      "architecture",
-      "python"
-    ]
-  },
-  {
-    "title": "生成AIにできること、できないこと　「フランケンシュタインの怪物」を飼いならす",
-    "author": "藤本 浩司, 柴原 一友",
-    "image": "https://m.media-amazon.com/images/I/51bA49fckiL._SL160_.jpg",
-    "releaseDate": "2026-02-27",
-    "amazonUrl": "https://www.amazon.co.jp/dp/4535790493?tag=yzak-nra-22",
-    "tags": [
-      "ai",
-      "genai"
-    ]
-  },
-  {
-    "title": "AIエージェント仕事術　仕事時間は1/100に　成果は120％になる",
-    "author": "佐藤 傑",
-    "image": "https://m.media-amazon.com/images/I/51ifhFJTFNL._SL160_.jpg",
-    "releaseDate": "2026-02-27",
-    "amazonUrl": "https://www.amazon.co.jp/dp/B0GC25YVRB?tag=yzak-nra-22",
-    "tags": [
-      "ai",
-      "llm"
-    ]
-  },
-  {
-    "title": "GraphRAG完全ガイド　RAGを越えた検索体験の実現に向けて 技術の泉シリーズ",
-    "author": "さしみもち",
-    "image": "https://m.media-amazon.com/images/I/51rGiQH2TML._SL160_.jpg",
-    "releaseDate": "2026-02-27",
-    "amazonUrl": "https://www.amazon.co.jp/dp/B0GPW6KMXC?tag=yzak-nra-22",
-    "tags": [
-      "llm"
-    ]
-  },
-  {
-    "title": "「そろそろ生成AIを戦力化したい」社長のためのChatGPT 経営入門",
-    "author": "高山 智壮",
-    "image": "https://m.media-amazon.com/images/I/514RULTtHDL._SL160_.jpg",
-    "releaseDate": "2026-02-27",
-    "amazonUrl": "https://www.amazon.co.jp/dp/4569860885?tag=yzak-nra-22",
-    "tags": [
-      "ai",
-      "genai"
     ]
   }
 ]
