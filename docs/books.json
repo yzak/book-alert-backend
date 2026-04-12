@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-04-05T00:52:20.950Z",
+  "updatedAt": "2026-04-12T00:54:37.149Z",
   "availableTags": [
     {
       "id": "aws",
@@ -112,42 +112,6 @@
       "currency": "JPY"
     },
     {
-      "id": "4780614147",
-      "asin": "4780614147",
-      "title": "生成AIを活用したデータサイエンス入門: 実例で学ぶ教科書",
-      "author": "竹村 彰通, 今井 貴史, 松原 悠, 市川 治, 青木 高明, 岩崎 悟, 太田 智美, 奥村 太一, 小松 尚登, 齋藤 邦彦, 佐藤 健一, 鈴木 清, 陳 峻冬, チャン ディン トゥアン, 南條 浩輝, 今井 貴史, 松原 悠, 市川 治",
-      "authors": [
-        "竹村 彰通",
-        "今井 貴史",
-        "松原 悠",
-        "市川 治",
-        "青木 高明",
-        "岩崎 悟",
-        "太田 智美",
-        "奥村 太一",
-        "小松 尚登",
-        "齋藤 邦彦",
-        "佐藤 健一",
-        "鈴木 清",
-        "陳 峻冬",
-        "チャン ディン トゥアン",
-        "南條 浩輝"
-      ],
-      "publisher": "学術図書出版社",
-      "releaseDate": "2026-03-30",
-      "publishedAt": "2026-03-30",
-      "image": "https://m.media-amazon.com/images/I/41GrMyE1llL._SL160_.jpg",
-      "imageUrl": "https://m.media-amazon.com/images/I/41GrMyE1llL._SL160_.jpg",
-      "amazonUrl": "https://www.amazon.co.jp/dp/4780614147?tag=yzak-nra-22",
-      "detailPageUrl": "https://www.amazon.co.jp/dp/4780614147?tag=yzak-nra-22",
-      "tags": [
-        "ai",
-        "genai"
-      ],
-      "price": 2420,
-      "currency": "JPY"
-    },
-    {
       "id": "4296209876",
       "asin": "4296209876",
       "title": "AIエージェント×業務改革 実践の教科書",
@@ -167,6 +131,29 @@
         "llm"
       ],
       "price": 2530,
+      "currency": "JPY"
+    },
+    {
+      "id": "4296208667",
+      "asin": "4296208667",
+      "title": "Copilotエージェントの教科書 AIによる業務自動化の大本命",
+      "author": "吉田 大貴, 吉田 まみな",
+      "authors": [
+        "吉田 大貴",
+        "吉田 まみな"
+      ],
+      "publisher": "日経BP",
+      "releaseDate": "2026-03-27",
+      "publishedAt": "2026-03-27",
+      "image": "https://m.media-amazon.com/images/I/41YprD4hW1L._SL160_.jpg",
+      "imageUrl": "https://m.media-amazon.com/images/I/41YprD4hW1L._SL160_.jpg",
+      "amazonUrl": "https://www.amazon.co.jp/dp/4296208667?tag=yzak-nra-22",
+      "detailPageUrl": "https://www.amazon.co.jp/dp/4296208667?tag=yzak-nra-22",
+      "tags": [
+        "ai",
+        "automation"
+      ],
+      "price": 4290,
       "currency": "JPY"
     },
     {
@@ -271,26 +258,25 @@
       "currency": "JPY"
     },
     {
-      "id": "4296209884",
-      "asin": "4296209884",
-      "title": "AWSではじめるAIエージェント開発・運用",
-      "author": "掌田 津耶乃",
+      "id": "4757444583",
+      "asin": "4757444583",
+      "title": "今日からはじめるChatGPT英会話　新AI時代の超独学スピーキングブック",
+      "author": "山田 優",
       "authors": [
-        "掌田 津耶乃"
+        "山田 優"
       ],
-      "publisher": "日経BP",
-      "releaseDate": "2026-03-20",
-      "publishedAt": "2026-03-20",
-      "image": "https://m.media-amazon.com/images/I/51Q+ZopM7UL._SL160_.jpg",
-      "imageUrl": "https://m.media-amazon.com/images/I/51Q+ZopM7UL._SL160_.jpg",
-      "amazonUrl": "https://www.amazon.co.jp/dp/4296209884?tag=yzak-nra-22",
-      "detailPageUrl": "https://www.amazon.co.jp/dp/4296209884?tag=yzak-nra-22",
+      "publisher": "アルク",
+      "releaseDate": "2026-03-23",
+      "publishedAt": "2026-03-23",
+      "image": "https://m.media-amazon.com/images/I/51oRk18yivL._SL160_.jpg",
+      "imageUrl": "https://m.media-amazon.com/images/I/51oRk18yivL._SL160_.jpg",
+      "amazonUrl": "https://www.amazon.co.jp/dp/4757444583?tag=yzak-nra-22",
+      "detailPageUrl": "https://www.amazon.co.jp/dp/4757444583?tag=yzak-nra-22",
       "tags": [
         "ai",
-        "aws",
-        "llm"
+        "genai"
       ],
-      "price": 3520,
+      "price": 2090,
       "currency": "JPY"
     },
     {
@@ -317,6 +303,30 @@
       "currency": "JPY"
     },
     {
+      "id": "B0GT4T4F2B",
+      "asin": "B0GT4T4F2B",
+      "title": "ClaudeCode いちばんやさしい 教科書: 非エンジニア 初心者 素人 でも安心 使い方 マニュアル AI副業にもコンテンツ作成にもKindle出版にも！ 生成AI活用シリーズ",
+      "author": "AIアイデア工房, 黒川 葵 ",
+      "authors": [
+        "AIアイデア工房",
+        "黒川 葵 "
+      ],
+      "publisher": "",
+      "releaseDate": "2026-03-20",
+      "publishedAt": "2026-03-20",
+      "image": "https://m.media-amazon.com/images/I/51ouR6WTSLL._SL160_.jpg",
+      "imageUrl": "https://m.media-amazon.com/images/I/51ouR6WTSLL._SL160_.jpg",
+      "amazonUrl": "https://www.amazon.co.jp/dp/B0GT4T4F2B?tag=yzak-nra-22",
+      "detailPageUrl": "https://www.amazon.co.jp/dp/B0GT4T4F2B?tag=yzak-nra-22",
+      "tags": [
+        "ai",
+        "genai",
+        "llm"
+      ],
+      "price": 99,
+      "currency": "JPY"
+    },
+    {
       "id": "B0GSSVRR2H",
       "asin": "B0GSSVRR2H",
       "title": "作ってわかる大規模言語モデルの仕組み",
@@ -338,32 +348,6 @@
         "general"
       ],
       "price": 3267,
-      "currency": "JPY"
-    },
-    {
-      "id": "4297154897",
-      "asin": "4297154897",
-      "title": "改訂新版 Pythonエンジニア育成推進協会監修 Python実践レシピ",
-      "author": "鈴木 たかのり, 筒井 隆次, 門脇 諭, 杉田 雅子, 福田 隼也, 寺田 学",
-      "authors": [
-        "鈴木 たかのり",
-        "筒井 隆次",
-        "門脇 諭",
-        "杉田 雅子",
-        "福田 隼也",
-        "寺田 学"
-      ],
-      "publisher": "技術評論社",
-      "releaseDate": "2026-03-16",
-      "publishedAt": "2026-03-16",
-      "image": "https://m.media-amazon.com/images/I/5125S+fnakL._SL160_.jpg",
-      "imageUrl": "https://m.media-amazon.com/images/I/5125S+fnakL._SL160_.jpg",
-      "amazonUrl": "https://www.amazon.co.jp/dp/4297154897?tag=yzak-nra-22",
-      "detailPageUrl": "https://www.amazon.co.jp/dp/4297154897?tag=yzak-nra-22",
-      "tags": [
-        "python"
-      ],
-      "price": 3520,
       "currency": "JPY"
     },
     {
@@ -409,51 +393,6 @@
         "llm"
       ],
       "price": 980,
-      "currency": "JPY"
-    },
-    {
-      "id": "B0GPVWYCGG",
-      "asin": "B0GPVWYCGG",
-      "title": "最速でわかる生成AI実践ガイド",
-      "author": "山田 博啓",
-      "authors": [
-        "山田 博啓"
-      ],
-      "publisher": "技術評論社",
-      "releaseDate": "2026-03-12",
-      "publishedAt": "2026-03-12",
-      "image": "https://m.media-amazon.com/images/I/51Mq2OcBKTL._SL160_.jpg",
-      "imageUrl": "https://m.media-amazon.com/images/I/51Mq2OcBKTL._SL160_.jpg",
-      "amazonUrl": "https://www.amazon.co.jp/dp/B0GPVWYCGG?tag=yzak-nra-22",
-      "detailPageUrl": "https://www.amazon.co.jp/dp/B0GPVWYCGG?tag=yzak-nra-22",
-      "tags": [
-        "ai",
-        "genai"
-      ],
-      "price": 3450,
-      "currency": "JPY"
-    },
-    {
-      "id": "4814401558",
-      "asin": "4814401558",
-      "title": "ソフトウェアアーキテクチャの基礎 第2版 ―エンジニアリングに基づく体系的アプローチ",
-      "author": "Mark Richards, Neal Ford, 島田 浩二（翻訳）",
-      "authors": [
-        "Mark Richards",
-        "Neal Ford",
-        "島田 浩二（翻訳）"
-      ],
-      "publisher": "オライリー・ジャパン",
-      "releaseDate": "2026-03-06",
-      "publishedAt": "2026-03-06",
-      "image": "https://m.media-amazon.com/images/I/41GxMmtaQAL._SL160_.jpg",
-      "imageUrl": "https://m.media-amazon.com/images/I/41GxMmtaQAL._SL160_.jpg",
-      "amazonUrl": "https://www.amazon.co.jp/dp/4814401558?tag=yzak-nra-22",
-      "detailPageUrl": "https://www.amazon.co.jp/dp/4814401558?tag=yzak-nra-22",
-      "tags": [
-        "architecture"
-      ],
-      "price": 4950,
       "currency": "JPY"
     }
   ]
