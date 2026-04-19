@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-04-12T00:54:37.149Z",
+  "updatedAt": "2026-04-19T00:56:16.985Z",
   "availableTags": [
     {
       "id": "aws",
@@ -69,6 +69,50 @@
   ],
   "books": [
     {
+      "id": "B0GKZDMGN6",
+      "asin": "B0GKZDMGN6",
+      "title": "図解まるわかり AIエージェントのしくみ",
+      "author": "上野 真裕",
+      "authors": [
+        "上野 真裕"
+      ],
+      "publisher": "翔泳社",
+      "releaseDate": "2026-04-13",
+      "publishedAt": "2026-04-13",
+      "image": "https://m.media-amazon.com/images/I/51FGDX2LNqL._SL160_.jpg",
+      "imageUrl": "https://m.media-amazon.com/images/I/51FGDX2LNqL._SL160_.jpg",
+      "amazonUrl": "https://www.amazon.co.jp/dp/B0GKZDMGN6?tag=yzak-nra-22",
+      "detailPageUrl": "https://www.amazon.co.jp/dp/B0GKZDMGN6?tag=yzak-nra-22",
+      "tags": [
+        "ai",
+        "llm"
+      ],
+      "price": 2027,
+      "currency": "JPY"
+    },
+    {
+      "id": "B0GWWV45H6",
+      "asin": "B0GWWV45H6",
+      "title": "0から始めるClaude Code入門 これ一冊で脱初心者",
+      "author": "経営者兼投資家ケン",
+      "authors": [
+        "経営者兼投資家ケン"
+      ],
+      "publisher": "",
+      "releaseDate": "2026-04-12",
+      "publishedAt": "2026-04-12",
+      "image": "https://m.media-amazon.com/images/I/51OXzbPEdML._SL160_.jpg",
+      "imageUrl": "https://m.media-amazon.com/images/I/51OXzbPEdML._SL160_.jpg",
+      "amazonUrl": "https://www.amazon.co.jp/dp/B0GWWV45H6?tag=yzak-nra-22",
+      "detailPageUrl": "https://www.amazon.co.jp/dp/B0GWWV45H6?tag=yzak-nra-22",
+      "tags": [
+        "genai",
+        "llm"
+      ],
+      "price": 0,
+      "currency": "JPY"
+    },
+    {
       "id": "4815641374",
       "asin": "4815641374",
       "title": "この一冊で全部わかる　ChatGPT & Copilotの教科書［改訂第2版］",
@@ -112,25 +156,39 @@
       "currency": "JPY"
     },
     {
-      "id": "4296209876",
-      "asin": "4296209876",
-      "title": "AIエージェント×業務改革 実践の教科書",
-      "author": "フォーティエンスコンサルティング",
+      "id": "4780614147",
+      "asin": "4780614147",
+      "title": "生成AIを活用したデータサイエンス入門: 実例で学ぶ教科書",
+      "author": "竹村 彰通, 今井 貴史, 松原 悠, 市川 治, 青木 高明, 岩崎 悟, 太田 智美, 奥村 太一, 小松 尚登, 齋藤 邦彦, 佐藤 健一, 鈴木 清, 陳 峻冬, チャン ディン トゥアン, 南條 浩輝, 今井 貴史, 松原 悠, 市川 治",
       "authors": [
-        "フォーティエンスコンサルティング"
+        "竹村 彰通",
+        "今井 貴史",
+        "松原 悠",
+        "市川 治",
+        "青木 高明",
+        "岩崎 悟",
+        "太田 智美",
+        "奥村 太一",
+        "小松 尚登",
+        "齋藤 邦彦",
+        "佐藤 健一",
+        "鈴木 清",
+        "陳 峻冬",
+        "チャン ディン トゥアン",
+        "南條 浩輝"
       ],
-      "publisher": "日経BP",
-      "releaseDate": "2026-03-27",
-      "publishedAt": "2026-03-27",
-      "image": "https://m.media-amazon.com/images/I/41e+A-NLffL._SL160_.jpg",
-      "imageUrl": "https://m.media-amazon.com/images/I/41e+A-NLffL._SL160_.jpg",
-      "amazonUrl": "https://www.amazon.co.jp/dp/4296209876?tag=yzak-nra-22",
-      "detailPageUrl": "https://www.amazon.co.jp/dp/4296209876?tag=yzak-nra-22",
+      "publisher": "学術図書出版社",
+      "releaseDate": "2026-03-30",
+      "publishedAt": "2026-03-30",
+      "image": "https://m.media-amazon.com/images/I/41GrMyE1llL._SL160_.jpg",
+      "imageUrl": "https://m.media-amazon.com/images/I/41GrMyE1llL._SL160_.jpg",
+      "amazonUrl": "https://www.amazon.co.jp/dp/4780614147?tag=yzak-nra-22",
+      "detailPageUrl": "https://www.amazon.co.jp/dp/4780614147?tag=yzak-nra-22",
       "tags": [
         "ai",
-        "llm"
+        "genai"
       ],
-      "price": 2530,
+      "price": 2420,
       "currency": "JPY"
     },
     {
@@ -203,6 +261,49 @@
       "currency": "JPY"
     },
     {
+      "id": "B0GTYW12X6",
+      "asin": "B0GTYW12X6",
+      "title": "はじめてのPythonプログラミング入門: 初心者OK！ゼロからの独学で AI時代の基礎スキルを手に入れよう (FindU アカデミー)",
+      "author": "中村 祐太",
+      "authors": [
+        "中村 祐太"
+      ],
+      "publisher": "",
+      "releaseDate": "2026-03-26",
+      "publishedAt": "2026-03-26",
+      "image": "https://m.media-amazon.com/images/I/51fT1yHC1tL._SL160_.jpg",
+      "imageUrl": "https://m.media-amazon.com/images/I/51fT1yHC1tL._SL160_.jpg",
+      "amazonUrl": "https://www.amazon.co.jp/dp/B0GTYW12X6?tag=yzak-nra-22",
+      "detailPageUrl": "https://www.amazon.co.jp/dp/B0GTYW12X6?tag=yzak-nra-22",
+      "tags": [
+        "ai",
+        "python"
+      ],
+      "price": 0,
+      "currency": "JPY"
+    },
+    {
+      "id": "4813086977",
+      "asin": "4813086977",
+      "title": "生成AI&AIエージェント2026 実践活用術 (POWER MOOK)",
+      "author": "",
+      "authors": [],
+      "publisher": "大洋図書",
+      "releaseDate": "2026-03-26",
+      "publishedAt": "2026-03-26",
+      "image": "https://m.media-amazon.com/images/I/51vDuKJusfL._SL160_.jpg",
+      "imageUrl": "https://m.media-amazon.com/images/I/51vDuKJusfL._SL160_.jpg",
+      "amazonUrl": "https://www.amazon.co.jp/dp/4813086977?tag=yzak-nra-22",
+      "detailPageUrl": "https://www.amazon.co.jp/dp/4813086977?tag=yzak-nra-22",
+      "tags": [
+        "ai",
+        "genai",
+        "llm"
+      ],
+      "price": 1180,
+      "currency": "JPY"
+    },
+    {
       "id": "B0GRT14X9Y",
       "asin": "B0GRT14X9Y",
       "title": "［入門］LLMアプリ開発　——基本・LLMのしくみ・MCP・AIセキュリティ Software Design別冊",
@@ -233,6 +334,28 @@
         "llm"
       ],
       "price": 2372,
+      "currency": "JPY"
+    },
+    {
+      "id": "B0GTV3TMXC",
+      "asin": "B0GTV3TMXC",
+      "title": "AIエージェント×業務改革 実践の教科書",
+      "author": "フォーティエンスコンサルティング",
+      "authors": [
+        "フォーティエンスコンサルティング"
+      ],
+      "publisher": "日経BP",
+      "releaseDate": "2026-03-26",
+      "publishedAt": "2026-03-26",
+      "image": "https://m.media-amazon.com/images/I/41qF-HHPdnL._SL160_.jpg",
+      "imageUrl": "https://m.media-amazon.com/images/I/41qF-HHPdnL._SL160_.jpg",
+      "amazonUrl": "https://www.amazon.co.jp/dp/B0GTV3TMXC?tag=yzak-nra-22",
+      "detailPageUrl": "https://www.amazon.co.jp/dp/B0GTV3TMXC?tag=yzak-nra-22",
+      "tags": [
+        "ai",
+        "llm"
+      ],
+      "price": 2479,
       "currency": "JPY"
     },
     {
@@ -324,75 +447,6 @@
         "llm"
       ],
       "price": 99,
-      "currency": "JPY"
-    },
-    {
-      "id": "B0GSSVRR2H",
-      "asin": "B0GSSVRR2H",
-      "title": "作ってわかる大規模言語モデルの仕組み",
-      "author": "井上 顧基, 下垣内 隆太, 高島 直也, 澤 風吹",
-      "authors": [
-        "井上 顧基",
-        "下垣内 隆太",
-        "高島 直也",
-        "澤 風吹"
-      ],
-      "publisher": "日経BP",
-      "releaseDate": "2026-03-19",
-      "publishedAt": "2026-03-19",
-      "image": "https://m.media-amazon.com/images/I/51JBED3S87L._SL160_.jpg",
-      "imageUrl": "https://m.media-amazon.com/images/I/51JBED3S87L._SL160_.jpg",
-      "amazonUrl": "https://www.amazon.co.jp/dp/B0GSSVRR2H?tag=yzak-nra-22",
-      "detailPageUrl": "https://www.amazon.co.jp/dp/B0GSSVRR2H?tag=yzak-nra-22",
-      "tags": [
-        "general"
-      ],
-      "price": 3267,
-      "currency": "JPY"
-    },
-    {
-      "id": "4046080094",
-      "asin": "4046080094",
-      "title": "【Amazon.co.jp 限定】作業時間が１/10になる！　はじめての生成AI×資料作成テクニック (特典: 書籍未収録「スライドデザイン完全プロンプト集」データ配信)",
-      "author": "まいぺる",
-      "authors": [
-        "まいぺる"
-      ],
-      "publisher": "KADOKAWA",
-      "releaseDate": "2026-03-16",
-      "publishedAt": "2026-03-16",
-      "image": "https://m.media-amazon.com/images/I/51XjjQOP2aL._SL160_.jpg",
-      "imageUrl": "https://m.media-amazon.com/images/I/51XjjQOP2aL._SL160_.jpg",
-      "amazonUrl": "https://www.amazon.co.jp/dp/4046080094?tag=yzak-nra-22",
-      "detailPageUrl": "https://www.amazon.co.jp/dp/4046080094?tag=yzak-nra-22",
-      "tags": [
-        "ai",
-        "genai"
-      ],
-      "price": 1980,
-      "currency": "JPY"
-    },
-    {
-      "id": "B0GSMMHCGG",
-      "asin": "B0GSMMHCGG",
-      "title": "はじめてのClaude Cowork入門 : AIエージェントに仕事を「丸投げ」する新時代の働き方 (FindU アカデミー)",
-      "author": "中村 祐太",
-      "authors": [
-        "中村 祐太"
-      ],
-      "publisher": "",
-      "releaseDate": "2026-03-15",
-      "publishedAt": "2026-03-15",
-      "image": "https://m.media-amazon.com/images/I/51R7f2zWOtL._SL160_.jpg",
-      "imageUrl": "https://m.media-amazon.com/images/I/51R7f2zWOtL._SL160_.jpg",
-      "amazonUrl": "https://www.amazon.co.jp/dp/B0GSMMHCGG?tag=yzak-nra-22",
-      "detailPageUrl": "https://www.amazon.co.jp/dp/B0GSMMHCGG?tag=yzak-nra-22",
-      "tags": [
-        "ai",
-        "genai",
-        "llm"
-      ],
-      "price": 980,
       "currency": "JPY"
     }
   ]
