@@ -1,21 +1,44 @@
 [
   {
-    "title": "図解まるわかり AIエージェントのしくみ",
-    "author": "上野 真裕",
-    "image": "https://m.media-amazon.com/images/I/51FGDX2LNqL._SL160_.jpg",
-    "releaseDate": "2026-04-13",
-    "amazonUrl": "https://www.amazon.co.jp/dp/B0GKZDMGN6?tag=yzak-nra-22",
+    "title": "作って学ぶAIエージェント──TypeScriptとLLMで切り拓くAI時代のエンジニアリング (エンジニア選書)",
+    "author": "laiso",
+    "image": "https://m.media-amazon.com/images/I/51oeSp-ApuL._SL160_.jpg",
+    "releaseDate": "2026-04-20",
+    "amazonUrl": "https://www.amazon.co.jp/dp/4297155656?tag=yzak-nra-22",
     "tags": [
       "ai",
       "llm"
     ]
   },
   {
-    "title": "0から始めるClaude Code入門 これ一冊で脱初心者",
-    "author": "経営者兼投資家ケン",
-    "image": "https://m.media-amazon.com/images/I/51OXzbPEdML._SL160_.jpg",
-    "releaseDate": "2026-04-12",
-    "amazonUrl": "https://www.amazon.co.jp/dp/B0GWWV45H6?tag=yzak-nra-22",
+    "title": "作って学ぶAIエージェント──TypeScriptとLLMで切り拓くAI時代のエンジニアリング エンジニア選書",
+    "author": "laiso",
+    "image": "https://m.media-amazon.com/images/I/51oeSp-ApuL._SL160_.jpg",
+    "releaseDate": "2026-04-20",
+    "amazonUrl": "https://www.amazon.co.jp/dp/B0GTPPNKW4?tag=yzak-nra-22",
+    "tags": [
+      "ai",
+      "llm"
+    ]
+  },
+  {
+    "title": "はじめてのClaude入門: 基本操作からプロンプトのコツ・ビジネス活用まで、これ1冊でわかる対話AI入門 (FindU アカデミー)",
+    "author": "中村 祐太",
+    "image": "https://m.media-amazon.com/images/I/51gS3ts-UML._SL160_.jpg",
+    "releaseDate": "2026-04-20",
+    "amazonUrl": "https://www.amazon.co.jp/dp/B0GX4668L3?tag=yzak-nra-22",
+    "tags": [
+      "ai",
+      "genai",
+      "llm"
+    ]
+  },
+  {
+    "title": "３時間で身につくClaude活用術",
+    "author": "尾藤　克之",
+    "image": "https://m.media-amazon.com/images/I/5111aK1EfhL._SL160_.jpg",
+    "releaseDate": "2026-04-20",
+    "amazonUrl": "https://www.amazon.co.jp/dp/B0GX3B4R8C?tag=yzak-nra-22",
     "tags": [
       "genai",
       "llm"
@@ -29,16 +52,6 @@
     "amazonUrl": "https://www.amazon.co.jp/dp/4815641374?tag=yzak-nra-22",
     "tags": [
       "genai"
-    ]
-  },
-  {
-    "title": "ひとつひとつしっかり身につく　Pythonの教科書 (基礎から丁寧に学ぶ教科書シリーズ)",
-    "author": "菅原　朋子",
-    "image": "https://m.media-amazon.com/images/I/513FkrQsC5L._SL160_.jpg",
-    "releaseDate": "2026-04-01",
-    "amazonUrl": "https://www.amazon.co.jp/dp/4815630615?tag=yzak-nra-22",
-    "tags": [
-      "python"
     ]
   },
   {
@@ -69,108 +82,6 @@
     "image": "https://m.media-amazon.com/images/I/51y8i+SXiIL._SL160_.jpg",
     "releaseDate": "2026-03-27",
     "amazonUrl": "https://www.amazon.co.jp/dp/4866749075?tag=yzak-nra-22",
-    "tags": [
-      "ai",
-      "genai",
-      "llm"
-    ]
-  },
-  {
-    "title": "退屈なことはPythonにやらせよう 第3版 ―ノンプログラマーにもできる自動化処理プログラミング",
-    "author": "Al Sweigart, 相川 愛三（翻訳）",
-    "image": "https://m.media-amazon.com/images/I/51Ul+pC9OsL._SL160_.jpg",
-    "releaseDate": "2026-03-26",
-    "amazonUrl": "https://www.amazon.co.jp/dp/4814401523?tag=yzak-nra-22",
-    "tags": [
-      "automation",
-      "python"
-    ]
-  },
-  {
-    "title": "はじめてのPythonプログラミング入門: 初心者OK！ゼロからの独学で AI時代の基礎スキルを手に入れよう (FindU アカデミー)",
-    "author": "中村 祐太",
-    "image": "https://m.media-amazon.com/images/I/51fT1yHC1tL._SL160_.jpg",
-    "releaseDate": "2026-03-26",
-    "amazonUrl": "https://www.amazon.co.jp/dp/B0GTYW12X6?tag=yzak-nra-22",
-    "tags": [
-      "ai",
-      "python"
-    ]
-  },
-  {
-    "title": "生成AI&AIエージェント2026 実践活用術 (POWER MOOK)",
-    "author": "",
-    "image": "https://m.media-amazon.com/images/I/51vDuKJusfL._SL160_.jpg",
-    "releaseDate": "2026-03-26",
-    "amazonUrl": "https://www.amazon.co.jp/dp/4813086977?tag=yzak-nra-22",
-    "tags": [
-      "ai",
-      "genai",
-      "llm"
-    ]
-  },
-  {
-    "title": "［入門］LLMアプリ開発　——基本・LLMのしくみ・MCP・AIセキュリティ Software Design別冊",
-    "author": "松本 和高, 藤本 敬介, 大田 竹蔵, 藤原 知樹, 大谷 真也, 服部 響, 江頭 貴史, 御田 稔, 岩本 隆史, 江崎 広太, 大久保 諒, 川喜田 将之",
-    "image": "https://m.media-amazon.com/images/I/412rJLnSQDL._SL160_.jpg",
-    "releaseDate": "2026-03-26",
-    "amazonUrl": "https://www.amazon.co.jp/dp/B0GRT14X9Y?tag=yzak-nra-22",
-    "tags": [
-      "ai",
-      "llm"
-    ]
-  },
-  {
-    "title": "AIエージェント×業務改革 実践の教科書",
-    "author": "フォーティエンスコンサルティング",
-    "image": "https://m.media-amazon.com/images/I/41qF-HHPdnL._SL160_.jpg",
-    "releaseDate": "2026-03-26",
-    "amazonUrl": "https://www.amazon.co.jp/dp/B0GTV3TMXC?tag=yzak-nra-22",
-    "tags": [
-      "ai",
-      "llm"
-    ]
-  },
-  {
-    "title": "最高の答えを引き出す 生成AIプロンプトの技法",
-    "author": "高桑宗一郎",
-    "image": "https://m.media-amazon.com/images/I/51J6sw6vrrL._SL160_.jpg",
-    "releaseDate": "2026-03-23",
-    "amazonUrl": "https://www.amazon.co.jp/dp/4800721563?tag=yzak-nra-22",
-    "tags": [
-      "ai",
-      "genai"
-    ]
-  },
-  {
-    "title": "今日からはじめるChatGPT英会話　新AI時代の超独学スピーキングブック",
-    "author": "山田 優",
-    "image": "https://m.media-amazon.com/images/I/51oRk18yivL._SL160_.jpg",
-    "releaseDate": "2026-03-23",
-    "amazonUrl": "https://www.amazon.co.jp/dp/4757444583?tag=yzak-nra-22",
-    "tags": [
-      "ai",
-      "genai"
-    ]
-  },
-  {
-    "title": "AIエージェント 設計＆実装 完全ガイド ローコード開発やユースケースを徹底解説",
-    "author": "アビームコンサルティング",
-    "image": "https://m.media-amazon.com/images/I/41JhFtQnjTL._SL160_.jpg",
-    "releaseDate": "2026-03-20",
-    "amazonUrl": "https://www.amazon.co.jp/dp/4296208624?tag=yzak-nra-22",
-    "tags": [
-      "ai",
-      "architecture",
-      "llm"
-    ]
-  },
-  {
-    "title": "ClaudeCode いちばんやさしい 教科書: 非エンジニア 初心者 素人 でも安心 使い方 マニュアル AI副業にもコンテンツ作成にもKindle出版にも！ 生成AI活用シリーズ",
-    "author": "AIアイデア工房, 黒川 葵 ",
-    "image": "https://m.media-amazon.com/images/I/51ouR6WTSLL._SL160_.jpg",
-    "releaseDate": "2026-03-20",
-    "amazonUrl": "https://www.amazon.co.jp/dp/B0GT4T4F2B?tag=yzak-nra-22",
     "tags": [
       "ai",
       "genai",
