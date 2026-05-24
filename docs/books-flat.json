@@ -1,91 +1,66 @@
 [
   {
-    "title": "作って学ぶAIエージェント──TypeScriptとLLMで切り拓くAI時代のエンジニアリング (エンジニア選書)",
-    "author": "laiso",
-    "image": "https://m.media-amazon.com/images/I/51oeSp-ApuL._SL160_.jpg",
-    "releaseDate": "2026-04-20",
-    "amazonUrl": "https://www.amazon.co.jp/dp/4297155656?tag=yzak-nra-22",
+    "title": "エンジニアリング戦略の作り方 ―エンジニアリングの難局を打破する意思決定",
+    "author": "Will Larson, 岩瀬 義昌（翻訳）, 岩瀬 迪子（翻訳）",
+    "image": "https://m.media-amazon.com/images/I/41gZB0mO5DL._SL160_.jpg",
+    "releaseDate": "2026-05-22",
+    "amazonUrl": "https://www.amazon.co.jp/dp/4814401701?tag=yzak-nra-22",
     "tags": [
-      "ai",
-      "llm"
+      "general"
     ]
   },
   {
-    "title": "作って学ぶAIエージェント──TypeScriptとLLMで切り拓くAI時代のエンジニアリング エンジニア選書",
-    "author": "laiso",
-    "image": "https://m.media-amazon.com/images/I/51oeSp-ApuL._SL160_.jpg",
-    "releaseDate": "2026-04-20",
-    "amazonUrl": "https://www.amazon.co.jp/dp/B0GTPPNKW4?tag=yzak-nra-22",
+    "title": "シニアエンジニアリングリーダーのしごと ―組織を導き、育てる力を磨く (オライリー・ジャパン)",
+    "author": "James Stanier, 風間 勇志（翻訳）, 高口 太朗（翻訳）",
+    "image": "https://m.media-amazon.com/images/I/410lgpX-MhL._SL160_.jpg",
+    "releaseDate": "2026-05-20",
+    "amazonUrl": "https://www.amazon.co.jp/dp/481440168X?tag=yzak-nra-22",
     "tags": [
-      "ai",
-      "llm"
+      "engineering-management"
     ]
   },
   {
-    "title": "はじめてのClaude入門: 基本操作からプロンプトのコツ・ビジネス活用まで、これ1冊でわかる対話AI入門 (FindU アカデミー)",
-    "author": "中村 祐太",
-    "image": "https://m.media-amazon.com/images/I/51gS3ts-UML._SL160_.jpg",
-    "releaseDate": "2026-04-20",
-    "amazonUrl": "https://www.amazon.co.jp/dp/B0GX4668L3?tag=yzak-nra-22",
-    "tags": [
-      "ai",
-      "genai",
-      "llm"
-    ]
-  },
-  {
-    "title": "３時間で身につくClaude活用術",
-    "author": "尾藤　克之",
-    "image": "https://m.media-amazon.com/images/I/5111aK1EfhL._SL160_.jpg",
-    "releaseDate": "2026-04-20",
-    "amazonUrl": "https://www.amazon.co.jp/dp/B0GX3B4R8C?tag=yzak-nra-22",
+    "title": "開発効率をアップする！ Claude Code 実用入門",
+    "author": "大澤文孝",
+    "image": "https://m.media-amazon.com/images/I/51hbD0SmKDL._SL160_.jpg",
+    "releaseDate": "2026-05-19",
+    "amazonUrl": "https://www.amazon.co.jp/dp/B0GTYFCFXQ?tag=yzak-nra-22",
     "tags": [
       "genai",
       "llm"
     ]
   },
   {
-    "title": "この一冊で全部わかる　ChatGPT & Copilotの教科書［改訂第2版］",
-    "author": "中島大介, 西宏章",
-    "image": "https://m.media-amazon.com/images/I/51VN-1vjvYL._SL160_.jpg",
-    "releaseDate": "2026-04-02",
-    "amazonUrl": "https://www.amazon.co.jp/dp/4815641374?tag=yzak-nra-22",
+    "title": "スマートワークを実現する エンタープライズアーキテクチャ 理論と実践",
+    "author": "中村 祥",
+    "image": "https://m.media-amazon.com/images/I/51u-BxhK8AL._SL160_.jpg",
+    "releaseDate": "2026-05-18",
+    "amazonUrl": "https://www.amazon.co.jp/dp/4297156229?tag=yzak-nra-22",
     "tags": [
-      "genai"
+      "architecture"
     ]
   },
   {
-    "title": "生成AIを活用したデータサイエンス入門: 実例で学ぶ教科書",
-    "author": "竹村 彰通, 今井 貴史, 松原 悠, 市川 治, 青木 高明, 岩崎 悟, 太田 智美, 奥村 太一, 小松 尚登, 齋藤 邦彦, 佐藤 健一, 鈴木 清, 陳 峻冬, チャン ディン トゥアン, 南條 浩輝, 今井 貴史, 松原 悠, 市川 治",
-    "image": "https://m.media-amazon.com/images/I/41GrMyE1llL._SL160_.jpg",
-    "releaseDate": "2026-03-30",
-    "amazonUrl": "https://www.amazon.co.jp/dp/4780614147?tag=yzak-nra-22",
+    "title": "実践 AIエージェント開発 ―マルチエージェントシステムの設計と実装",
+    "author": "Michael Albada, 鈴木 駿（翻訳）, 高山 洪銘（翻訳）, 山下 正浩（翻訳）",
+    "image": "https://m.media-amazon.com/images/I/41tLlYWmVkL._SL160_.jpg",
+    "releaseDate": "2026-04-28",
+    "amazonUrl": "https://www.amazon.co.jp/dp/4814401590?tag=yzak-nra-22",
+    "tags": [
+      "ai",
+      "architecture",
+      "llm"
+    ]
+  },
+  {
+    "title": "生成AI副業2026 効率的ワークフロー入門編 (POWER MOOK)",
+    "author": "",
+    "image": "https://m.media-amazon.com/images/I/61S1HuoXWNL._SL160_.jpg",
+    "releaseDate": "2026-04-27",
+    "amazonUrl": "https://www.amazon.co.jp/dp/4813086993?tag=yzak-nra-22",
     "tags": [
       "ai",
       "genai"
-    ]
-  },
-  {
-    "title": "Copilotエージェントの教科書 AIによる業務自動化の大本命",
-    "author": "吉田 大貴, 吉田 まみな",
-    "image": "https://m.media-amazon.com/images/I/41YprD4hW1L._SL160_.jpg",
-    "releaseDate": "2026-03-27",
-    "amazonUrl": "https://www.amazon.co.jp/dp/4296208667?tag=yzak-nra-22",
-    "tags": [
-      "ai",
-      "automation"
-    ]
-  },
-  {
-    "title": "無料で使える3大AI　ChatGPT・Gemini・Claude徹底マスター (メディアックスMOOK)",
-    "author": "メディアックス編集部",
-    "image": "https://m.media-amazon.com/images/I/51y8i+SXiIL._SL160_.jpg",
-    "releaseDate": "2026-03-27",
-    "amazonUrl": "https://www.amazon.co.jp/dp/4866749075?tag=yzak-nra-22",
-    "tags": [
-      "ai",
-      "genai",
-      "llm"
     ]
   }
 ]
