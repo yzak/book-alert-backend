@@ -131,6 +131,29 @@ async function main() {
 }
 
 main().catch((error) => {
+  // AssociateNotEligible means the account doesn't meet PA-API eligibility
+  // requirements. Treat as a soft failure: warn and exit 0 so GitHub Actions
+  // doesn't raise a failure notification, and preserve the existing books.json.
+  let parsedBody = {};
+  try {
+    parsedBody = JSON.parse(error.responseBody ?? "{}");
+  } catch {
+    // ignore parse error
+  }
+  if (parsedBody.reason === "AssociateNotEligible") {
+    console.warn(
+      [
+        "⚠️  Creators API へのアクセス権がありません",
+        "",
+        "過去30日間の発送済み商品数が10件を下回ったため、Creators API を呼び出す権利がなくなっています。",
+        "Amazonアソシエイト管理画面で発送済み商品数を確認してください。",
+        "",
+        "今回の更新はスキップし、既存の books.json をそのまま維持します。",
+      ].join("\n"),
+    );
+    return;
+  }
+
   console.error(error);
   process.exitCode = 1;
 });
