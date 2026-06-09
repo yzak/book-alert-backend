@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-05-24T01:09:15.218Z",
+  "updatedAt": "2026-06-09T12:29:27.963Z",
   "availableTags": [
     {
       "id": "aws",
@@ -69,6 +69,142 @@
   ],
   "books": [
     {
+      "id": "4297156989",
+      "asin": "4297156989",
+      "title": "Claude Codeで学ぶ Agent Skills入門",
+      "author": "佐藤 亮",
+      "authors": [
+        "佐藤 亮"
+      ],
+      "publisher": "技術評論社",
+      "releaseDate": "2026-06-08",
+      "publishedAt": "2026-06-08",
+      "image": "https://m.media-amazon.com/images/I/5155wtWA4hL._SL160_.jpg",
+      "imageUrl": "https://m.media-amazon.com/images/I/5155wtWA4hL._SL160_.jpg",
+      "amazonUrl": "https://www.amazon.co.jp/dp/4297156989?tag=yzak-nra-22",
+      "detailPageUrl": "https://www.amazon.co.jp/dp/4297156989?tag=yzak-nra-22",
+      "tags": [
+        "genai",
+        "llm"
+      ],
+      "price": 2860,
+      "currency": "JPY"
+    },
+    {
+      "id": "B0H2BVB8KM",
+      "asin": "B0H2BVB8KM",
+      "title": "モバイルアプリ開発の知識地図：一冊でiOS/Android/Flutterの開発技術が学べる本",
+      "author": "國師 誠也, 佐藤 隼, 下村 一将, 和田 佳大",
+      "authors": [
+        "國師 誠也",
+        "佐藤 隼",
+        "下村 一将",
+        "和田 佳大"
+      ],
+      "publisher": "技術評論社",
+      "releaseDate": "2026-06-04",
+      "publishedAt": "2026-06-04",
+      "image": "https://m.media-amazon.com/images/I/512+e5VnwGL._SL160_.jpg",
+      "imageUrl": "https://m.media-amazon.com/images/I/512+e5VnwGL._SL160_.jpg",
+      "amazonUrl": "https://www.amazon.co.jp/dp/B0H2BVB8KM?tag=yzak-nra-22",
+      "detailPageUrl": "https://www.amazon.co.jp/dp/B0H2BVB8KM?tag=yzak-nra-22",
+      "tags": [
+        "flutter"
+      ],
+      "price": 3018,
+      "currency": "JPY"
+    },
+    {
+      "id": "4814401612",
+      "asin": "4814401612",
+      "title": "ゼロから作るDeep Learning ❻ ―LLM編",
+      "author": "斎藤 康毅",
+      "authors": [
+        "斎藤 康毅"
+      ],
+      "publisher": "オライリー・ジャパン",
+      "releaseDate": "2026-06-03",
+      "publishedAt": "2026-06-03",
+      "image": "https://m.media-amazon.com/images/I/41eDMaUwnfL._SL160_.jpg",
+      "imageUrl": "https://m.media-amazon.com/images/I/41eDMaUwnfL._SL160_.jpg",
+      "amazonUrl": "https://www.amazon.co.jp/dp/4814401612?tag=yzak-nra-22",
+      "detailPageUrl": "https://www.amazon.co.jp/dp/4814401612?tag=yzak-nra-22",
+      "tags": [
+        "ai",
+        "llm"
+      ],
+      "price": 4400,
+      "currency": "JPY"
+    },
+    {
+      "id": "4815641234",
+      "asin": "4815641234",
+      "title": "Amazon Bedrock AgentCore 実践入門 Strands Agentsで構築するAIエージェント [AWS深掘りガイド]",
+      "author": "御田 稔, 森田 和明, 熊田 寛",
+      "authors": [
+        "御田 稔",
+        "森田 和明",
+        "熊田 寛"
+      ],
+      "publisher": "SBクリエイティブ",
+      "releaseDate": "2026-05-29",
+      "publishedAt": "2026-05-29",
+      "image": "https://m.media-amazon.com/images/I/51oUj+im-VL._SL160_.jpg",
+      "imageUrl": "https://m.media-amazon.com/images/I/51oUj+im-VL._SL160_.jpg",
+      "amazonUrl": "https://www.amazon.co.jp/dp/4815641234?tag=yzak-nra-22",
+      "detailPageUrl": "https://www.amazon.co.jp/dp/4815641234?tag=yzak-nra-22",
+      "tags": [
+        "ai",
+        "aws",
+        "llm"
+      ],
+      "price": 3960,
+      "currency": "JPY"
+    },
+    {
+      "id": "B0GYHHW8MC",
+      "asin": "B0GYHHW8MC",
+      "title": "Interface 2026年 7月号",
+      "author": "Interface編集部",
+      "authors": [
+        "Interface編集部"
+      ],
+      "publisher": "CQ出版",
+      "releaseDate": "2026-05-25",
+      "publishedAt": "2026-05-25",
+      "image": "https://m.media-amazon.com/images/I/51FgqVahVzL._SL160_.jpg",
+      "imageUrl": "https://m.media-amazon.com/images/I/51FgqVahVzL._SL160_.jpg",
+      "amazonUrl": "https://www.amazon.co.jp/dp/B0GYHHW8MC?tag=yzak-nra-22",
+      "detailPageUrl": "https://www.amazon.co.jp/dp/B0GYHHW8MC?tag=yzak-nra-22",
+      "tags": [
+        "general"
+      ],
+      "price": 1430,
+      "currency": "JPY"
+    },
+    {
+      "id": "4801826903",
+      "asin": "4801826903",
+      "title": "【完全ガイドシリーズ419】ChatGPT・Gemini・Copilot 頭がいい人の最新AIの使い方完全ガイド　よりぬきお得版 (100％ムックシリーズ)",
+      "author": "晋遊舎",
+      "authors": [
+        "晋遊舎"
+      ],
+      "publisher": "晋遊舎",
+      "releaseDate": "2026-05-25",
+      "publishedAt": "2026-05-25",
+      "image": "https://m.media-amazon.com/images/I/619qHreF8oL._SL160_.jpg",
+      "imageUrl": "https://m.media-amazon.com/images/I/619qHreF8oL._SL160_.jpg",
+      "amazonUrl": "https://www.amazon.co.jp/dp/4801826903?tag=yzak-nra-22",
+      "detailPageUrl": "https://www.amazon.co.jp/dp/4801826903?tag=yzak-nra-22",
+      "tags": [
+        "ai",
+        "genai"
+      ],
+      "price": 580,
+      "currency": "JPY"
+    },
+    {
       "id": "4814401701",
       "asin": "4814401701",
       "title": "エンジニアリング戦略の作り方 ―エンジニアリングの難局を打破する意思決定",
@@ -133,12 +269,12 @@
         "genai",
         "llm"
       ],
-      "price": 3234,
+      "price": 2970,
       "currency": "JPY"
     },
     {
-      "id": "4297156229",
-      "asin": "4297156229",
+      "id": "B0GX3B6PVX",
+      "asin": "B0GX3B6PVX",
       "title": "スマートワークを実現する エンタープライズアーキテクチャ 理論と実践",
       "author": "中村 祥",
       "authors": [
@@ -147,60 +283,60 @@
       "publisher": "技術評論社",
       "releaseDate": "2026-05-18",
       "publishedAt": "2026-05-18",
-      "image": "https://m.media-amazon.com/images/I/51u-BxhK8AL._SL160_.jpg",
-      "imageUrl": "https://m.media-amazon.com/images/I/51u-BxhK8AL._SL160_.jpg",
-      "amazonUrl": "https://www.amazon.co.jp/dp/4297156229?tag=yzak-nra-22",
-      "detailPageUrl": "https://www.amazon.co.jp/dp/4297156229?tag=yzak-nra-22",
+      "image": "https://m.media-amazon.com/images/I/51u5pKt90-L._SL160_.jpg",
+      "imageUrl": "https://m.media-amazon.com/images/I/51u5pKt90-L._SL160_.jpg",
+      "amazonUrl": "https://www.amazon.co.jp/dp/B0GX3B6PVX?tag=yzak-nra-22",
+      "detailPageUrl": "https://www.amazon.co.jp/dp/B0GX3B6PVX?tag=yzak-nra-22",
       "tags": [
         "architecture"
       ],
-      "price": 3520,
+      "price": 3450,
       "currency": "JPY"
     },
     {
-      "id": "4814401590",
-      "asin": "4814401590",
-      "title": "実践 AIエージェント開発 ―マルチエージェントシステムの設計と実装",
-      "author": "Michael Albada, 鈴木 駿（翻訳）, 高山 洪銘（翻訳）, 山下 正浩（翻訳）",
+      "id": "4295024295",
+      "asin": "4295024295",
+      "title": "徹底攻略AWS認定CloudOpsエンジニアｰアソシエイト教科書＆問題集［SOA-C03］対応",
+      "author": "株式会社NTTデータ 長澤 美波, 株式会社NTTデータビジネスシステムズ 日暮 拓也, 株式会社NTTデータ九州 山下 千紗, 株式会社JSOL 奥井 務, 株式会社NTTデータグループ 川畑 光平",
       "authors": [
-        "Michael Albada",
-        "鈴木 駿（翻訳）",
-        "高山 洪銘（翻訳）",
-        "山下 正浩（翻訳）"
+        "株式会社NTTデータ 長澤 美波",
+        "株式会社NTTデータビジネスシステムズ 日暮 拓也",
+        "株式会社NTTデータ九州 山下 千紗",
+        "株式会社JSOL 奥井 務",
+        "株式会社NTTデータグループ 川畑 光平"
       ],
-      "publisher": "オライリー・ジャパン",
-      "releaseDate": "2026-04-28",
-      "publishedAt": "2026-04-28",
-      "image": "https://m.media-amazon.com/images/I/41tLlYWmVkL._SL160_.jpg",
-      "imageUrl": "https://m.media-amazon.com/images/I/41tLlYWmVkL._SL160_.jpg",
-      "amazonUrl": "https://www.amazon.co.jp/dp/4814401590?tag=yzak-nra-22",
-      "detailPageUrl": "https://www.amazon.co.jp/dp/4814401590?tag=yzak-nra-22",
+      "publisher": "インプレス",
+      "releaseDate": "2026-05-15",
+      "publishedAt": "2026-05-15",
+      "image": "https://m.media-amazon.com/images/I/51yvzQVNWIL._SL160_.jpg",
+      "imageUrl": "https://m.media-amazon.com/images/I/51yvzQVNWIL._SL160_.jpg",
+      "amazonUrl": "https://www.amazon.co.jp/dp/4295024295?tag=yzak-nra-22",
+      "detailPageUrl": "https://www.amazon.co.jp/dp/4295024295?tag=yzak-nra-22",
       "tags": [
-        "ai",
-        "architecture",
-        "llm"
+        "aws"
       ],
-      "price": 4620,
+      "price": 4070,
       "currency": "JPY"
     },
     {
-      "id": "4813086993",
-      "asin": "4813086993",
-      "title": "生成AI副業2026 効率的ワークフロー入門編 (POWER MOOK)",
-      "author": "",
-      "authors": [],
-      "publisher": "大洋図書",
-      "releaseDate": "2026-04-27",
-      "publishedAt": "2026-04-27",
-      "image": "https://m.media-amazon.com/images/I/61S1HuoXWNL._SL160_.jpg",
-      "imageUrl": "https://m.media-amazon.com/images/I/61S1HuoXWNL._SL160_.jpg",
-      "amazonUrl": "https://www.amazon.co.jp/dp/4813086993?tag=yzak-nra-22",
-      "detailPageUrl": "https://www.amazon.co.jp/dp/4813086993?tag=yzak-nra-22",
-      "tags": [
-        "ai",
-        "genai"
+      "id": "4297155834",
+      "asin": "4297155834",
+      "title": "Gemini AI活用 最強の教科書",
+      "author": "桑名 由美",
+      "authors": [
+        "桑名 由美"
       ],
-      "price": 1180,
+      "publisher": "技術評論社",
+      "releaseDate": "2026-05-12",
+      "publishedAt": "2026-05-12",
+      "image": "https://m.media-amazon.com/images/I/515AWAD7JxL._SL160_.jpg",
+      "imageUrl": "https://m.media-amazon.com/images/I/515AWAD7JxL._SL160_.jpg",
+      "amazonUrl": "https://www.amazon.co.jp/dp/4297155834?tag=yzak-nra-22",
+      "detailPageUrl": "https://www.amazon.co.jp/dp/4297155834?tag=yzak-nra-22",
+      "tags": [
+        "ai"
+      ],
+      "price": 1980,
       "currency": "JPY"
     }
   ]

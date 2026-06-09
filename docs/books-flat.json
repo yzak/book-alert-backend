@@ -1,5 +1,70 @@
 [
   {
+    "title": "Claude Codeで学ぶ Agent Skills入門",
+    "author": "佐藤 亮",
+    "image": "https://m.media-amazon.com/images/I/5155wtWA4hL._SL160_.jpg",
+    "releaseDate": "2026-06-08",
+    "amazonUrl": "https://www.amazon.co.jp/dp/4297156989?tag=yzak-nra-22",
+    "tags": [
+      "genai",
+      "llm"
+    ]
+  },
+  {
+    "title": "モバイルアプリ開発の知識地図：一冊でiOS/Android/Flutterの開発技術が学べる本",
+    "author": "國師 誠也, 佐藤 隼, 下村 一将, 和田 佳大",
+    "image": "https://m.media-amazon.com/images/I/512+e5VnwGL._SL160_.jpg",
+    "releaseDate": "2026-06-04",
+    "amazonUrl": "https://www.amazon.co.jp/dp/B0H2BVB8KM?tag=yzak-nra-22",
+    "tags": [
+      "flutter"
+    ]
+  },
+  {
+    "title": "ゼロから作るDeep Learning ❻ ―LLM編",
+    "author": "斎藤 康毅",
+    "image": "https://m.media-amazon.com/images/I/41eDMaUwnfL._SL160_.jpg",
+    "releaseDate": "2026-06-03",
+    "amazonUrl": "https://www.amazon.co.jp/dp/4814401612?tag=yzak-nra-22",
+    "tags": [
+      "ai",
+      "llm"
+    ]
+  },
+  {
+    "title": "Amazon Bedrock AgentCore 実践入門 Strands Agentsで構築するAIエージェント [AWS深掘りガイド]",
+    "author": "御田 稔, 森田 和明, 熊田 寛",
+    "image": "https://m.media-amazon.com/images/I/51oUj+im-VL._SL160_.jpg",
+    "releaseDate": "2026-05-29",
+    "amazonUrl": "https://www.amazon.co.jp/dp/4815641234?tag=yzak-nra-22",
+    "tags": [
+      "ai",
+      "aws",
+      "llm"
+    ]
+  },
+  {
+    "title": "Interface 2026年 7月号",
+    "author": "Interface編集部",
+    "image": "https://m.media-amazon.com/images/I/51FgqVahVzL._SL160_.jpg",
+    "releaseDate": "2026-05-25",
+    "amazonUrl": "https://www.amazon.co.jp/dp/B0GYHHW8MC?tag=yzak-nra-22",
+    "tags": [
+      "general"
+    ]
+  },
+  {
+    "title": "【完全ガイドシリーズ419】ChatGPT・Gemini・Copilot 頭がいい人の最新AIの使い方完全ガイド　よりぬきお得版 (100％ムックシリーズ)",
+    "author": "晋遊舎",
+    "image": "https://m.media-amazon.com/images/I/619qHreF8oL._SL160_.jpg",
+    "releaseDate": "2026-05-25",
+    "amazonUrl": "https://www.amazon.co.jp/dp/4801826903?tag=yzak-nra-22",
+    "tags": [
+      "ai",
+      "genai"
+    ]
+  },
+  {
     "title": "エンジニアリング戦略の作り方 ―エンジニアリングの難局を打破する意思決定",
     "author": "Will Larson, 岩瀬 義昌（翻訳）, 岩瀬 迪子（翻訳）",
     "image": "https://m.media-amazon.com/images/I/41gZB0mO5DL._SL160_.jpg",
@@ -33,34 +98,31 @@
   {
     "title": "スマートワークを実現する エンタープライズアーキテクチャ 理論と実践",
     "author": "中村 祥",
-    "image": "https://m.media-amazon.com/images/I/51u-BxhK8AL._SL160_.jpg",
+    "image": "https://m.media-amazon.com/images/I/51u5pKt90-L._SL160_.jpg",
     "releaseDate": "2026-05-18",
-    "amazonUrl": "https://www.amazon.co.jp/dp/4297156229?tag=yzak-nra-22",
+    "amazonUrl": "https://www.amazon.co.jp/dp/B0GX3B6PVX?tag=yzak-nra-22",
     "tags": [
       "architecture"
     ]
   },
   {
-    "title": "実践 AIエージェント開発 ―マルチエージェントシステムの設計と実装",
-    "author": "Michael Albada, 鈴木 駿（翻訳）, 高山 洪銘（翻訳）, 山下 正浩（翻訳）",
-    "image": "https://m.media-amazon.com/images/I/41tLlYWmVkL._SL160_.jpg",
-    "releaseDate": "2026-04-28",
-    "amazonUrl": "https://www.amazon.co.jp/dp/4814401590?tag=yzak-nra-22",
+    "title": "徹底攻略AWS認定CloudOpsエンジニアｰアソシエイト教科書＆問題集［SOA-C03］対応",
+    "author": "株式会社NTTデータ 長澤 美波, 株式会社NTTデータビジネスシステムズ 日暮 拓也, 株式会社NTTデータ九州 山下 千紗, 株式会社JSOL 奥井 務, 株式会社NTTデータグループ 川畑 光平",
+    "image": "https://m.media-amazon.com/images/I/51yvzQVNWIL._SL160_.jpg",
+    "releaseDate": "2026-05-15",
+    "amazonUrl": "https://www.amazon.co.jp/dp/4295024295?tag=yzak-nra-22",
     "tags": [
-      "ai",
-      "architecture",
-      "llm"
+      "aws"
     ]
   },
   {
-    "title": "生成AI副業2026 効率的ワークフロー入門編 (POWER MOOK)",
-    "author": "",
-    "image": "https://m.media-amazon.com/images/I/61S1HuoXWNL._SL160_.jpg",
-    "releaseDate": "2026-04-27",
-    "amazonUrl": "https://www.amazon.co.jp/dp/4813086993?tag=yzak-nra-22",
+    "title": "Gemini AI活用 最強の教科書",
+    "author": "桑名 由美",
+    "image": "https://m.media-amazon.com/images/I/515AWAD7JxL._SL160_.jpg",
+    "releaseDate": "2026-05-12",
+    "amazonUrl": "https://www.amazon.co.jp/dp/4297155834?tag=yzak-nra-22",
     "tags": [
-      "ai",
-      "genai"
+      "ai"
     ]
   }
 ]
