@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-06-09T12:29:27.963Z",
+  "updatedAt": "2026-06-14T01:17:58.352Z",
   "availableTags": [
     {
       "id": "aws",
@@ -69,6 +69,75 @@
   ],
   "books": [
     {
+      "id": "4534062753",
+      "asin": "4534062753",
+      "title": "Before/Afterでよくわかる　生成AI×経理・会計 実務入門",
+      "author": "白井 敬祐",
+      "authors": [
+        "白井 敬祐"
+      ],
+      "publisher": "日本実業出版社",
+      "releaseDate": "2026-06-12",
+      "publishedAt": "2026-06-12",
+      "image": "https://m.media-amazon.com/images/I/51s9KjmZrSL._SL160_.jpg",
+      "imageUrl": "https://m.media-amazon.com/images/I/51s9KjmZrSL._SL160_.jpg",
+      "amazonUrl": "https://www.amazon.co.jp/dp/4534062753?tag=yzak-nra-22",
+      "detailPageUrl": "https://www.amazon.co.jp/dp/4534062753?tag=yzak-nra-22",
+      "tags": [
+        "ai",
+        "genai"
+      ],
+      "price": 2200,
+      "currency": "JPY"
+    },
+    {
+      "id": "B0H2TX9WYS",
+      "asin": "B0H2TX9WYS",
+      "title": "イメージで理解！Kubernetesを始める人が最初に読む本",
+      "author": "福田敦史",
+      "authors": [
+        "福田敦史"
+      ],
+      "publisher": "シーアンドアール研究所",
+      "releaseDate": "2026-06-10",
+      "publishedAt": "2026-06-10",
+      "image": "https://m.media-amazon.com/images/I/51HBdRhnM-L._SL160_.jpg",
+      "imageUrl": "https://m.media-amazon.com/images/I/51HBdRhnM-L._SL160_.jpg",
+      "amazonUrl": "https://www.amazon.co.jp/dp/B0H2TX9WYS?tag=yzak-nra-22",
+      "detailPageUrl": "https://www.amazon.co.jp/dp/B0H2TX9WYS?tag=yzak-nra-22",
+      "tags": [
+        "devops"
+      ],
+      "price": 2693,
+      "currency": "JPY"
+    },
+    {
+      "id": "4863545029",
+      "asin": "4863545029",
+      "title": "Flutterアプリ開発で実践する学びのAI活用術",
+      "author": "和泉田 領一, 高橋 秀明, 西村 凌, 室山 大輔, 渡部 陽太",
+      "authors": [
+        "和泉田 領一",
+        "高橋 秀明",
+        "西村 凌",
+        "室山 大輔",
+        "渡部 陽太"
+      ],
+      "publisher": "シーアンドアール研究所",
+      "releaseDate": "2026-06-10",
+      "publishedAt": "2026-06-10",
+      "image": "https://m.media-amazon.com/images/I/51+oB6b2DeL._SL160_.jpg",
+      "imageUrl": "https://m.media-amazon.com/images/I/51+oB6b2DeL._SL160_.jpg",
+      "amazonUrl": "https://www.amazon.co.jp/dp/4863545029?tag=yzak-nra-22",
+      "detailPageUrl": "https://www.amazon.co.jp/dp/4863545029?tag=yzak-nra-22",
+      "tags": [
+        "ai",
+        "flutter"
+      ],
+      "price": 2552,
+      "currency": "JPY"
+    },
+    {
       "id": "4297156989",
       "asin": "4297156989",
       "title": "Claude Codeで学ぶ Agent Skills入門",
@@ -134,6 +203,27 @@
         "llm"
       ],
       "price": 4400,
+      "currency": "JPY"
+    },
+    {
+      "id": "B0H3FYWC8J",
+      "asin": "B0H3FYWC8J",
+      "title": "イラストで速攻理解IT入門SQL: 初心者向けに基礎から実務まで図解で学ぶデータベース操作の基本",
+      "author": "ライフハックゴリラ",
+      "authors": [
+        "ライフハックゴリラ"
+      ],
+      "publisher": "",
+      "releaseDate": "2026-05-30",
+      "publishedAt": "2026-05-30",
+      "image": "https://m.media-amazon.com/images/I/51Xflvkf0mL._SL160_.jpg",
+      "imageUrl": "https://m.media-amazon.com/images/I/51Xflvkf0mL._SL160_.jpg",
+      "amazonUrl": "https://www.amazon.co.jp/dp/B0H3FYWC8J?tag=yzak-nra-22",
+      "detailPageUrl": "https://www.amazon.co.jp/dp/B0H3FYWC8J?tag=yzak-nra-22",
+      "tags": [
+        "database"
+      ],
+      "price": 0,
       "currency": "JPY"
     },
     {
@@ -316,27 +406,6 @@
         "aws"
       ],
       "price": 4070,
-      "currency": "JPY"
-    },
-    {
-      "id": "4297155834",
-      "asin": "4297155834",
-      "title": "Gemini AI活用 最強の教科書",
-      "author": "桑名 由美",
-      "authors": [
-        "桑名 由美"
-      ],
-      "publisher": "技術評論社",
-      "releaseDate": "2026-05-12",
-      "publishedAt": "2026-05-12",
-      "image": "https://m.media-amazon.com/images/I/515AWAD7JxL._SL160_.jpg",
-      "imageUrl": "https://m.media-amazon.com/images/I/515AWAD7JxL._SL160_.jpg",
-      "amazonUrl": "https://www.amazon.co.jp/dp/4297155834?tag=yzak-nra-22",
-      "detailPageUrl": "https://www.amazon.co.jp/dp/4297155834?tag=yzak-nra-22",
-      "tags": [
-        "ai"
-      ],
-      "price": 1980,
       "currency": "JPY"
     }
   ]

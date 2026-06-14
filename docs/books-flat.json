@@ -1,5 +1,37 @@
 [
   {
+    "title": "Before/Afterでよくわかる　生成AI×経理・会計 実務入門",
+    "author": "白井 敬祐",
+    "image": "https://m.media-amazon.com/images/I/51s9KjmZrSL._SL160_.jpg",
+    "releaseDate": "2026-06-12",
+    "amazonUrl": "https://www.amazon.co.jp/dp/4534062753?tag=yzak-nra-22",
+    "tags": [
+      "ai",
+      "genai"
+    ]
+  },
+  {
+    "title": "イメージで理解！Kubernetesを始める人が最初に読む本",
+    "author": "福田敦史",
+    "image": "https://m.media-amazon.com/images/I/51HBdRhnM-L._SL160_.jpg",
+    "releaseDate": "2026-06-10",
+    "amazonUrl": "https://www.amazon.co.jp/dp/B0H2TX9WYS?tag=yzak-nra-22",
+    "tags": [
+      "devops"
+    ]
+  },
+  {
+    "title": "Flutterアプリ開発で実践する学びのAI活用術",
+    "author": "和泉田 領一, 高橋 秀明, 西村 凌, 室山 大輔, 渡部 陽太",
+    "image": "https://m.media-amazon.com/images/I/51+oB6b2DeL._SL160_.jpg",
+    "releaseDate": "2026-06-10",
+    "amazonUrl": "https://www.amazon.co.jp/dp/4863545029?tag=yzak-nra-22",
+    "tags": [
+      "ai",
+      "flutter"
+    ]
+  },
+  {
     "title": "Claude Codeで学ぶ Agent Skills入門",
     "author": "佐藤 亮",
     "image": "https://m.media-amazon.com/images/I/5155wtWA4hL._SL160_.jpg",
@@ -29,6 +61,16 @@
     "tags": [
       "ai",
       "llm"
+    ]
+  },
+  {
+    "title": "イラストで速攻理解IT入門SQL: 初心者向けに基礎から実務まで図解で学ぶデータベース操作の基本",
+    "author": "ライフハックゴリラ",
+    "image": "https://m.media-amazon.com/images/I/51Xflvkf0mL._SL160_.jpg",
+    "releaseDate": "2026-05-30",
+    "amazonUrl": "https://www.amazon.co.jp/dp/B0H3FYWC8J?tag=yzak-nra-22",
+    "tags": [
+      "database"
     ]
   },
   {
@@ -113,16 +155,6 @@
     "amazonUrl": "https://www.amazon.co.jp/dp/4295024295?tag=yzak-nra-22",
     "tags": [
       "aws"
-    ]
-  },
-  {
-    "title": "Gemini AI活用 最強の教科書",
-    "author": "桑名 由美",
-    "image": "https://m.media-amazon.com/images/I/515AWAD7JxL._SL160_.jpg",
-    "releaseDate": "2026-05-12",
-    "amazonUrl": "https://www.amazon.co.jp/dp/4297155834?tag=yzak-nra-22",
-    "tags": [
-      "ai"
     ]
   }
 ]
