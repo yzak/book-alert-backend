@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-06-14T01:17:58.352Z",
+  "updatedAt": "2026-06-21T01:20:06.368Z",
   "availableTags": [
     {
       "id": "aws",
@@ -69,6 +69,27 @@
   ],
   "books": [
     {
+      "id": "4814401647",
+      "asin": "4814401647",
+      "title": "入門 Python 3 第3版",
+      "author": "Bill Lubanovic",
+      "authors": [
+        "Bill Lubanovic"
+      ],
+      "publisher": "オライリー・ジャパン",
+      "releaseDate": "2026-06-16",
+      "publishedAt": "2026-06-16",
+      "image": "https://m.media-amazon.com/images/I/41CwWNYsvvL._SL160_.jpg",
+      "imageUrl": "https://m.media-amazon.com/images/I/41CwWNYsvvL._SL160_.jpg",
+      "amazonUrl": "https://www.amazon.co.jp/dp/4814401647?tag=yzak-nra-22",
+      "detailPageUrl": "https://www.amazon.co.jp/dp/4814401647?tag=yzak-nra-22",
+      "tags": [
+        "python"
+      ],
+      "price": 4620,
+      "currency": "JPY"
+    },
+    {
       "id": "4534062753",
       "asin": "4534062753",
       "title": "Before/Afterでよくわかる　生成AI×経理・会計 実務入門",
@@ -112,34 +133,34 @@
       "currency": "JPY"
     },
     {
-      "id": "4863545029",
-      "asin": "4863545029",
+      "id": "B0H3T172H1",
+      "asin": "B0H3T172H1",
       "title": "Flutterアプリ開発で実践する学びのAI活用術",
-      "author": "和泉田 領一, 高橋 秀明, 西村 凌, 室山 大輔, 渡部 陽太",
+      "author": "和泉田領一, 高橋秀明, 西村凌, 室山大輔, 渡部陽太",
       "authors": [
-        "和泉田 領一",
-        "高橋 秀明",
-        "西村 凌",
-        "室山 大輔",
-        "渡部 陽太"
+        "和泉田領一",
+        "高橋秀明",
+        "西村凌",
+        "室山大輔",
+        "渡部陽太"
       ],
       "publisher": "シーアンドアール研究所",
       "releaseDate": "2026-06-10",
       "publishedAt": "2026-06-10",
-      "image": "https://m.media-amazon.com/images/I/51+oB6b2DeL._SL160_.jpg",
-      "imageUrl": "https://m.media-amazon.com/images/I/51+oB6b2DeL._SL160_.jpg",
-      "amazonUrl": "https://www.amazon.co.jp/dp/4863545029?tag=yzak-nra-22",
-      "detailPageUrl": "https://www.amazon.co.jp/dp/4863545029?tag=yzak-nra-22",
+      "image": "https://m.media-amazon.com/images/I/41CawqnIi-L._SL160_.jpg",
+      "imageUrl": "https://m.media-amazon.com/images/I/41CawqnIi-L._SL160_.jpg",
+      "amazonUrl": "https://www.amazon.co.jp/dp/B0H3T172H1?tag=yzak-nra-22",
+      "detailPageUrl": "https://www.amazon.co.jp/dp/B0H3T172H1?tag=yzak-nra-22",
       "tags": [
         "ai",
         "flutter"
       ],
-      "price": 2552,
+      "price": 2297,
       "currency": "JPY"
     },
     {
-      "id": "4297156989",
-      "asin": "4297156989",
+      "id": "B0H1K97PG6",
+      "asin": "B0H1K97PG6",
       "title": "Claude Codeで学ぶ Agent Skills入門",
       "author": "佐藤 亮",
       "authors": [
@@ -150,13 +171,13 @@
       "publishedAt": "2026-06-08",
       "image": "https://m.media-amazon.com/images/I/5155wtWA4hL._SL160_.jpg",
       "imageUrl": "https://m.media-amazon.com/images/I/5155wtWA4hL._SL160_.jpg",
-      "amazonUrl": "https://www.amazon.co.jp/dp/4297156989?tag=yzak-nra-22",
-      "detailPageUrl": "https://www.amazon.co.jp/dp/4297156989?tag=yzak-nra-22",
+      "amazonUrl": "https://www.amazon.co.jp/dp/B0H1K97PG6?tag=yzak-nra-22",
+      "detailPageUrl": "https://www.amazon.co.jp/dp/B0H1K97PG6?tag=yzak-nra-22",
       "tags": [
         "genai",
         "llm"
       ],
-      "price": 2860,
+      "price": 2803,
       "currency": "JPY"
     },
     {
@@ -206,27 +227,6 @@
       "currency": "JPY"
     },
     {
-      "id": "B0H3FYWC8J",
-      "asin": "B0H3FYWC8J",
-      "title": "イラストで速攻理解IT入門SQL: 初心者向けに基礎から実務まで図解で学ぶデータベース操作の基本",
-      "author": "ライフハックゴリラ",
-      "authors": [
-        "ライフハックゴリラ"
-      ],
-      "publisher": "",
-      "releaseDate": "2026-05-30",
-      "publishedAt": "2026-05-30",
-      "image": "https://m.media-amazon.com/images/I/51Xflvkf0mL._SL160_.jpg",
-      "imageUrl": "https://m.media-amazon.com/images/I/51Xflvkf0mL._SL160_.jpg",
-      "amazonUrl": "https://www.amazon.co.jp/dp/B0H3FYWC8J?tag=yzak-nra-22",
-      "detailPageUrl": "https://www.amazon.co.jp/dp/B0H3FYWC8J?tag=yzak-nra-22",
-      "tags": [
-        "database"
-      ],
-      "price": 0,
-      "currency": "JPY"
-    },
-    {
       "id": "4815641234",
       "asin": "4815641234",
       "title": "Amazon Bedrock AgentCore 実践入門 Strands Agentsで構築するAIエージェント [AWS深掘りガイド]",
@@ -273,28 +273,6 @@
       "currency": "JPY"
     },
     {
-      "id": "4801826903",
-      "asin": "4801826903",
-      "title": "【完全ガイドシリーズ419】ChatGPT・Gemini・Copilot 頭がいい人の最新AIの使い方完全ガイド　よりぬきお得版 (100％ムックシリーズ)",
-      "author": "晋遊舎",
-      "authors": [
-        "晋遊舎"
-      ],
-      "publisher": "晋遊舎",
-      "releaseDate": "2026-05-25",
-      "publishedAt": "2026-05-25",
-      "image": "https://m.media-amazon.com/images/I/619qHreF8oL._SL160_.jpg",
-      "imageUrl": "https://m.media-amazon.com/images/I/619qHreF8oL._SL160_.jpg",
-      "amazonUrl": "https://www.amazon.co.jp/dp/4801826903?tag=yzak-nra-22",
-      "detailPageUrl": "https://www.amazon.co.jp/dp/4801826903?tag=yzak-nra-22",
-      "tags": [
-        "ai",
-        "genai"
-      ],
-      "price": 580,
-      "currency": "JPY"
-    },
-    {
       "id": "4814401701",
       "asin": "4814401701",
       "title": "エンジニアリング戦略の作り方 ―エンジニアリングの難局を打破する意思決定",
@@ -315,97 +293,6 @@
         "general"
       ],
       "price": 4180,
-      "currency": "JPY"
-    },
-    {
-      "id": "481440168X",
-      "asin": "481440168X",
-      "title": "シニアエンジニアリングリーダーのしごと ―組織を導き、育てる力を磨く (オライリー・ジャパン)",
-      "author": "James Stanier, 風間 勇志（翻訳）, 高口 太朗（翻訳）",
-      "authors": [
-        "James Stanier",
-        "風間 勇志（翻訳）",
-        "高口 太朗（翻訳）"
-      ],
-      "publisher": "オライリー・ジャパン",
-      "releaseDate": "2026-05-20",
-      "publishedAt": "2026-05-20",
-      "image": "https://m.media-amazon.com/images/I/410lgpX-MhL._SL160_.jpg",
-      "imageUrl": "https://m.media-amazon.com/images/I/410lgpX-MhL._SL160_.jpg",
-      "amazonUrl": "https://www.amazon.co.jp/dp/481440168X?tag=yzak-nra-22",
-      "detailPageUrl": "https://www.amazon.co.jp/dp/481440168X?tag=yzak-nra-22",
-      "tags": [
-        "engineering-management"
-      ],
-      "price": 4180,
-      "currency": "JPY"
-    },
-    {
-      "id": "B0GTYFCFXQ",
-      "asin": "B0GTYFCFXQ",
-      "title": "開発効率をアップする！ Claude Code 実用入門",
-      "author": "大澤文孝",
-      "authors": [
-        "大澤文孝"
-      ],
-      "publisher": "マイナビ出版",
-      "releaseDate": "2026-05-19",
-      "publishedAt": "2026-05-19",
-      "image": "https://m.media-amazon.com/images/I/51hbD0SmKDL._SL160_.jpg",
-      "imageUrl": "https://m.media-amazon.com/images/I/51hbD0SmKDL._SL160_.jpg",
-      "amazonUrl": "https://www.amazon.co.jp/dp/B0GTYFCFXQ?tag=yzak-nra-22",
-      "detailPageUrl": "https://www.amazon.co.jp/dp/B0GTYFCFXQ?tag=yzak-nra-22",
-      "tags": [
-        "genai",
-        "llm"
-      ],
-      "price": 2970,
-      "currency": "JPY"
-    },
-    {
-      "id": "B0GX3B6PVX",
-      "asin": "B0GX3B6PVX",
-      "title": "スマートワークを実現する エンタープライズアーキテクチャ 理論と実践",
-      "author": "中村 祥",
-      "authors": [
-        "中村 祥"
-      ],
-      "publisher": "技術評論社",
-      "releaseDate": "2026-05-18",
-      "publishedAt": "2026-05-18",
-      "image": "https://m.media-amazon.com/images/I/51u5pKt90-L._SL160_.jpg",
-      "imageUrl": "https://m.media-amazon.com/images/I/51u5pKt90-L._SL160_.jpg",
-      "amazonUrl": "https://www.amazon.co.jp/dp/B0GX3B6PVX?tag=yzak-nra-22",
-      "detailPageUrl": "https://www.amazon.co.jp/dp/B0GX3B6PVX?tag=yzak-nra-22",
-      "tags": [
-        "architecture"
-      ],
-      "price": 3450,
-      "currency": "JPY"
-    },
-    {
-      "id": "4295024295",
-      "asin": "4295024295",
-      "title": "徹底攻略AWS認定CloudOpsエンジニアｰアソシエイト教科書＆問題集［SOA-C03］対応",
-      "author": "株式会社NTTデータ 長澤 美波, 株式会社NTTデータビジネスシステムズ 日暮 拓也, 株式会社NTTデータ九州 山下 千紗, 株式会社JSOL 奥井 務, 株式会社NTTデータグループ 川畑 光平",
-      "authors": [
-        "株式会社NTTデータ 長澤 美波",
-        "株式会社NTTデータビジネスシステムズ 日暮 拓也",
-        "株式会社NTTデータ九州 山下 千紗",
-        "株式会社JSOL 奥井 務",
-        "株式会社NTTデータグループ 川畑 光平"
-      ],
-      "publisher": "インプレス",
-      "releaseDate": "2026-05-15",
-      "publishedAt": "2026-05-15",
-      "image": "https://m.media-amazon.com/images/I/51yvzQVNWIL._SL160_.jpg",
-      "imageUrl": "https://m.media-amazon.com/images/I/51yvzQVNWIL._SL160_.jpg",
-      "amazonUrl": "https://www.amazon.co.jp/dp/4295024295?tag=yzak-nra-22",
-      "detailPageUrl": "https://www.amazon.co.jp/dp/4295024295?tag=yzak-nra-22",
-      "tags": [
-        "aws"
-      ],
-      "price": 4070,
       "currency": "JPY"
     }
   ]

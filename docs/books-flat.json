@@ -1,5 +1,15 @@
 [
   {
+    "title": "入門 Python 3 第3版",
+    "author": "Bill Lubanovic",
+    "image": "https://m.media-amazon.com/images/I/41CwWNYsvvL._SL160_.jpg",
+    "releaseDate": "2026-06-16",
+    "amazonUrl": "https://www.amazon.co.jp/dp/4814401647?tag=yzak-nra-22",
+    "tags": [
+      "python"
+    ]
+  },
+  {
     "title": "Before/Afterでよくわかる　生成AI×経理・会計 実務入門",
     "author": "白井 敬祐",
     "image": "https://m.media-amazon.com/images/I/51s9KjmZrSL._SL160_.jpg",
@@ -22,10 +32,10 @@
   },
   {
     "title": "Flutterアプリ開発で実践する学びのAI活用術",
-    "author": "和泉田 領一, 高橋 秀明, 西村 凌, 室山 大輔, 渡部 陽太",
-    "image": "https://m.media-amazon.com/images/I/51+oB6b2DeL._SL160_.jpg",
+    "author": "和泉田領一, 高橋秀明, 西村凌, 室山大輔, 渡部陽太",
+    "image": "https://m.media-amazon.com/images/I/41CawqnIi-L._SL160_.jpg",
     "releaseDate": "2026-06-10",
-    "amazonUrl": "https://www.amazon.co.jp/dp/4863545029?tag=yzak-nra-22",
+    "amazonUrl": "https://www.amazon.co.jp/dp/B0H3T172H1?tag=yzak-nra-22",
     "tags": [
       "ai",
       "flutter"
@@ -36,7 +46,7 @@
     "author": "佐藤 亮",
     "image": "https://m.media-amazon.com/images/I/5155wtWA4hL._SL160_.jpg",
     "releaseDate": "2026-06-08",
-    "amazonUrl": "https://www.amazon.co.jp/dp/4297156989?tag=yzak-nra-22",
+    "amazonUrl": "https://www.amazon.co.jp/dp/B0H1K97PG6?tag=yzak-nra-22",
     "tags": [
       "genai",
       "llm"
@@ -64,16 +74,6 @@
     ]
   },
   {
-    "title": "イラストで速攻理解IT入門SQL: 初心者向けに基礎から実務まで図解で学ぶデータベース操作の基本",
-    "author": "ライフハックゴリラ",
-    "image": "https://m.media-amazon.com/images/I/51Xflvkf0mL._SL160_.jpg",
-    "releaseDate": "2026-05-30",
-    "amazonUrl": "https://www.amazon.co.jp/dp/B0H3FYWC8J?tag=yzak-nra-22",
-    "tags": [
-      "database"
-    ]
-  },
-  {
     "title": "Amazon Bedrock AgentCore 実践入門 Strands Agentsで構築するAIエージェント [AWS深掘りガイド]",
     "author": "御田 稔, 森田 和明, 熊田 寛",
     "image": "https://m.media-amazon.com/images/I/51oUj+im-VL._SL160_.jpg",
@@ -96,17 +96,6 @@
     ]
   },
   {
-    "title": "【完全ガイドシリーズ419】ChatGPT・Gemini・Copilot 頭がいい人の最新AIの使い方完全ガイド　よりぬきお得版 (100％ムックシリーズ)",
-    "author": "晋遊舎",
-    "image": "https://m.media-amazon.com/images/I/619qHreF8oL._SL160_.jpg",
-    "releaseDate": "2026-05-25",
-    "amazonUrl": "https://www.amazon.co.jp/dp/4801826903?tag=yzak-nra-22",
-    "tags": [
-      "ai",
-      "genai"
-    ]
-  },
-  {
     "title": "エンジニアリング戦略の作り方 ―エンジニアリングの難局を打破する意思決定",
     "author": "Will Larson, 岩瀬 義昌（翻訳）, 岩瀬 迪子（翻訳）",
     "image": "https://m.media-amazon.com/images/I/41gZB0mO5DL._SL160_.jpg",
@@ -114,47 +103,6 @@
     "amazonUrl": "https://www.amazon.co.jp/dp/4814401701?tag=yzak-nra-22",
     "tags": [
       "general"
-    ]
-  },
-  {
-    "title": "シニアエンジニアリングリーダーのしごと ―組織を導き、育てる力を磨く (オライリー・ジャパン)",
-    "author": "James Stanier, 風間 勇志（翻訳）, 高口 太朗（翻訳）",
-    "image": "https://m.media-amazon.com/images/I/410lgpX-MhL._SL160_.jpg",
-    "releaseDate": "2026-05-20",
-    "amazonUrl": "https://www.amazon.co.jp/dp/481440168X?tag=yzak-nra-22",
-    "tags": [
-      "engineering-management"
-    ]
-  },
-  {
-    "title": "開発効率をアップする！ Claude Code 実用入門",
-    "author": "大澤文孝",
-    "image": "https://m.media-amazon.com/images/I/51hbD0SmKDL._SL160_.jpg",
-    "releaseDate": "2026-05-19",
-    "amazonUrl": "https://www.amazon.co.jp/dp/B0GTYFCFXQ?tag=yzak-nra-22",
-    "tags": [
-      "genai",
-      "llm"
-    ]
-  },
-  {
-    "title": "スマートワークを実現する エンタープライズアーキテクチャ 理論と実践",
-    "author": "中村 祥",
-    "image": "https://m.media-amazon.com/images/I/51u5pKt90-L._SL160_.jpg",
-    "releaseDate": "2026-05-18",
-    "amazonUrl": "https://www.amazon.co.jp/dp/B0GX3B6PVX?tag=yzak-nra-22",
-    "tags": [
-      "architecture"
-    ]
-  },
-  {
-    "title": "徹底攻略AWS認定CloudOpsエンジニアｰアソシエイト教科書＆問題集［SOA-C03］対応",
-    "author": "株式会社NTTデータ 長澤 美波, 株式会社NTTデータビジネスシステムズ 日暮 拓也, 株式会社NTTデータ九州 山下 千紗, 株式会社JSOL 奥井 務, 株式会社NTTデータグループ 川畑 光平",
-    "image": "https://m.media-amazon.com/images/I/51yvzQVNWIL._SL160_.jpg",
-    "releaseDate": "2026-05-15",
-    "amazonUrl": "https://www.amazon.co.jp/dp/4295024295?tag=yzak-nra-22",
-    "tags": [
-      "aws"
     ]
   }
 ]
