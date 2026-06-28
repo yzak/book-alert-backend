@@ -1,12 +1,87 @@
 [
   {
+    "title": "ステップアップPython すぐに使える!実践スキル35 (KS情報科学専門書)",
+    "author": "杉浦 哲郎",
+    "image": "https://m.media-amazon.com/images/I/41E7CajaXRL._SL160_.jpg",
+    "releaseDate": "2026-06-25",
+    "amazonUrl": "https://www.amazon.co.jp/dp/4065439361?tag=yzak-nra-22",
+    "tags": [
+      "python"
+    ]
+  },
+  {
+    "title": "Pythonによるプログラミング入門 東京大学教養学部テキスト 第2版: アルゴリズムと情報科学の基礎を学ぶ",
+    "author": "森畑 明昌",
+    "image": "https://m.media-amazon.com/images/I/51L2I+PgloL._SL160_.jpg",
+    "releaseDate": "2026-06-25",
+    "amazonUrl": "https://www.amazon.co.jp/dp/4130624695?tag=yzak-nra-22",
+    "tags": [
+      "python"
+    ]
+  },
+  {
+    "title": "AIエージェント 導入・開発・運用 トータルガイド",
+    "author": "上田 雄登, 小坂 佳範",
+    "image": "https://m.media-amazon.com/images/I/51YZBEEdnZL._SL160_.jpg",
+    "releaseDate": "2026-06-25",
+    "amazonUrl": "https://www.amazon.co.jp/dp/B0H6CYK5YT?tag=yzak-nra-22",
+    "tags": [
+      "ai",
+      "llm"
+    ]
+  },
+  {
+    "title": "生成AIの安全性入門",
+    "author": "綿岡 晃輝",
+    "image": "https://m.media-amazon.com/images/I/51q4MrLiTSL._SL160_.jpg",
+    "releaseDate": "2026-06-24",
+    "amazonUrl": "https://www.amazon.co.jp/dp/4297157020?tag=yzak-nra-22",
+    "tags": [
+      "ai",
+      "genai"
+    ]
+  },
+  {
+    "title": "AWS入門 図解で速攻理解: 初心者SEのためのVPC IAM EC2 S3 Lambda クラウド設計と運用の基礎 イラストで速攻理解IT入門",
+    "author": "ライフハックゴリラ",
+    "image": "https://m.media-amazon.com/images/I/51KkmoZYfkL._SL160_.jpg",
+    "releaseDate": "2026-06-21",
+    "amazonUrl": "https://www.amazon.co.jp/dp/B0H67LXZKJ?tag=yzak-nra-22",
+    "tags": [
+      "architecture",
+      "aws"
+    ]
+  },
+  {
+    "title": "入門マルチモーダルRAG: 図表を読み解くAIアプリケーションの実装",
+    "author": "新納 浩幸",
+    "image": "https://m.media-amazon.com/images/I/41zozI1WICL._SL160_.jpg",
+    "releaseDate": "2026-06-17",
+    "amazonUrl": "https://www.amazon.co.jp/dp/4274234932?tag=yzak-nra-22",
+    "tags": [
+      "ai",
+      "llm"
+    ]
+  },
+  {
     "title": "入門 Python 3 第3版",
-    "author": "Bill Lubanovic",
+    "author": "Bill Lubanovic, 鈴木 駿, 長尾 高弘",
     "image": "https://m.media-amazon.com/images/I/41CwWNYsvvL._SL160_.jpg",
     "releaseDate": "2026-06-16",
     "amazonUrl": "https://www.amazon.co.jp/dp/4814401647?tag=yzak-nra-22",
     "tags": [
       "python"
+    ]
+  },
+  {
+    "title": "イラストで速攻理解IT入門 RAG: 検索×生成で、信頼できるAI活用をはじめよう",
+    "author": "ライフハックゴリラ",
+    "image": "https://m.media-amazon.com/images/I/51dsdrrLZ2L._SL160_.jpg",
+    "releaseDate": "2026-06-14",
+    "amazonUrl": "https://www.amazon.co.jp/dp/B0H58KDBLW?tag=yzak-nra-22",
+    "tags": [
+      "ai",
+      "llm"
     ]
   },
   {
@@ -74,35 +149,15 @@
     ]
   },
   {
-    "title": "Amazon Bedrock AgentCore 実践入門 Strands Agentsで構築するAIエージェント [AWS深掘りガイド]",
+    "title": "Amazon Bedrock AgentCore 実践入門　Strands Agentsで構築するAIエージェント［AWS深掘りガイド］",
     "author": "御田 稔, 森田 和明, 熊田 寛",
-    "image": "https://m.media-amazon.com/images/I/51oUj+im-VL._SL160_.jpg",
+    "image": "https://m.media-amazon.com/images/I/51N6oMWuDvL._SL160_.jpg",
     "releaseDate": "2026-05-29",
-    "amazonUrl": "https://www.amazon.co.jp/dp/4815641234?tag=yzak-nra-22",
+    "amazonUrl": "https://www.amazon.co.jp/dp/B0GTSMR7GT?tag=yzak-nra-22",
     "tags": [
       "ai",
       "aws",
       "llm"
-    ]
-  },
-  {
-    "title": "Interface 2026年 7月号",
-    "author": "Interface編集部",
-    "image": "https://m.media-amazon.com/images/I/51FgqVahVzL._SL160_.jpg",
-    "releaseDate": "2026-05-25",
-    "amazonUrl": "https://www.amazon.co.jp/dp/B0GYHHW8MC?tag=yzak-nra-22",
-    "tags": [
-      "general"
-    ]
-  },
-  {
-    "title": "エンジニアリング戦略の作り方 ―エンジニアリングの難局を打破する意思決定",
-    "author": "Will Larson, 岩瀬 義昌（翻訳）, 岩瀬 迪子（翻訳）",
-    "image": "https://m.media-amazon.com/images/I/41gZB0mO5DL._SL160_.jpg",
-    "releaseDate": "2026-05-22",
-    "amazonUrl": "https://www.amazon.co.jp/dp/4814401701?tag=yzak-nra-22",
-    "tags": [
-      "general"
     ]
   }
 ]
