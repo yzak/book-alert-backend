@@ -1,5 +1,36 @@
 [
   {
+    "title": "建築士のためのChatGPT入門",
+    "author": "石川 聖也",
+    "image": "https://m.media-amazon.com/images/I/51dO2PSmdzL._SL160_.jpg",
+    "releaseDate": "2026-07-05",
+    "amazonUrl": "https://www.amazon.co.jp/dp/4767835895?tag=yzak-nra-22",
+    "tags": [
+      "genai"
+    ]
+  },
+  {
+    "title": "モダンTransformer　モデルの内部構造から、マルチモーダル／RAG／SLMの実装と最適化まで (impress top gear)",
+    "author": "Nicole Koenigstein, 株式会社クイープ",
+    "image": "https://m.media-amazon.com/images/I/51zDoi2QcSL._SL160_.jpg",
+    "releaseDate": "2026-07-02",
+    "amazonUrl": "https://www.amazon.co.jp/dp/4295024465?tag=yzak-nra-22",
+    "tags": [
+      "llm"
+    ]
+  },
+  {
+    "title": "生成AI時代に士業が生き残る技術",
+    "author": "横須賀 輝尚",
+    "image": "https://m.media-amazon.com/images/I/41aecOgJVSL._SL160_.jpg",
+    "releaseDate": "2026-06-30",
+    "amazonUrl": "https://www.amazon.co.jp/dp/4300121397?tag=yzak-nra-22",
+    "tags": [
+      "ai",
+      "genai"
+    ]
+  },
+  {
     "title": "ステップアップPython すぐに使える!実践スキル35 (KS情報科学専門書)",
     "author": "杉浦 哲郎",
     "image": "https://m.media-amazon.com/images/I/41E7CajaXRL._SL160_.jpg",
@@ -39,17 +70,6 @@
     "tags": [
       "ai",
       "genai"
-    ]
-  },
-  {
-    "title": "AWS入門 図解で速攻理解: 初心者SEのためのVPC IAM EC2 S3 Lambda クラウド設計と運用の基礎 イラストで速攻理解IT入門",
-    "author": "ライフハックゴリラ",
-    "image": "https://m.media-amazon.com/images/I/51KkmoZYfkL._SL160_.jpg",
-    "releaseDate": "2026-06-21",
-    "amazonUrl": "https://www.amazon.co.jp/dp/B0H67LXZKJ?tag=yzak-nra-22",
-    "tags": [
-      "architecture",
-      "aws"
     ]
   },
   {
@@ -114,50 +134,6 @@
     "tags": [
       "ai",
       "flutter"
-    ]
-  },
-  {
-    "title": "Claude Codeで学ぶ Agent Skills入門",
-    "author": "佐藤 亮",
-    "image": "https://m.media-amazon.com/images/I/5155wtWA4hL._SL160_.jpg",
-    "releaseDate": "2026-06-08",
-    "amazonUrl": "https://www.amazon.co.jp/dp/B0H1K97PG6?tag=yzak-nra-22",
-    "tags": [
-      "genai",
-      "llm"
-    ]
-  },
-  {
-    "title": "モバイルアプリ開発の知識地図：一冊でiOS/Android/Flutterの開発技術が学べる本",
-    "author": "國師 誠也, 佐藤 隼, 下村 一将, 和田 佳大",
-    "image": "https://m.media-amazon.com/images/I/512+e5VnwGL._SL160_.jpg",
-    "releaseDate": "2026-06-04",
-    "amazonUrl": "https://www.amazon.co.jp/dp/B0H2BVB8KM?tag=yzak-nra-22",
-    "tags": [
-      "flutter"
-    ]
-  },
-  {
-    "title": "ゼロから作るDeep Learning ❻ ―LLM編",
-    "author": "斎藤 康毅",
-    "image": "https://m.media-amazon.com/images/I/41eDMaUwnfL._SL160_.jpg",
-    "releaseDate": "2026-06-03",
-    "amazonUrl": "https://www.amazon.co.jp/dp/4814401612?tag=yzak-nra-22",
-    "tags": [
-      "ai",
-      "llm"
-    ]
-  },
-  {
-    "title": "Amazon Bedrock AgentCore 実践入門　Strands Agentsで構築するAIエージェント［AWS深掘りガイド］",
-    "author": "御田 稔, 森田 和明, 熊田 寛",
-    "image": "https://m.media-amazon.com/images/I/51N6oMWuDvL._SL160_.jpg",
-    "releaseDate": "2026-05-29",
-    "amazonUrl": "https://www.amazon.co.jp/dp/B0GTSMR7GT?tag=yzak-nra-22",
-    "tags": [
-      "ai",
-      "aws",
-      "llm"
     ]
   }
 ]
