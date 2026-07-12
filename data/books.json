@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-07-05T00:58:15.499Z",
+  "updatedAt": "2026-07-12T03:32:09.314Z",
   "availableTags": [
     {
       "id": "aws",
@@ -69,68 +69,71 @@
   ],
   "books": [
     {
-      "id": "4767835895",
-      "asin": "4767835895",
-      "title": "建築士のためのChatGPT入門",
-      "author": "石川 聖也",
+      "id": "B0H7XJG1L4",
+      "asin": "B0H7XJG1L4",
+      "title": "主婦にもわかる AIエージェント入門: 「もう1人の私」が、家事も副業も手伝ってくれる",
+      "author": "ゆか",
       "authors": [
-        "石川 聖也"
+        "ゆか"
       ],
-      "publisher": "エクスナレッジ",
-      "releaseDate": "2026-07-05",
-      "publishedAt": "2026-07-05",
-      "image": "https://m.media-amazon.com/images/I/51dO2PSmdzL._SL160_.jpg",
-      "imageUrl": "https://m.media-amazon.com/images/I/51dO2PSmdzL._SL160_.jpg",
-      "amazonUrl": "https://www.amazon.co.jp/dp/4767835895?tag=yzak-nra-22",
-      "detailPageUrl": "https://www.amazon.co.jp/dp/4767835895?tag=yzak-nra-22",
+      "publisher": "",
+      "releaseDate": "2026-07-07",
+      "publishedAt": "2026-07-07",
+      "image": "https://m.media-amazon.com/images/I/418H9fjjw5L._SL160_.jpg",
+      "imageUrl": "https://m.media-amazon.com/images/I/418H9fjjw5L._SL160_.jpg",
+      "amazonUrl": "https://www.amazon.co.jp/dp/B0H7XJG1L4?tag=yzak-nra-22",
+      "detailPageUrl": "https://www.amazon.co.jp/dp/B0H7XJG1L4?tag=yzak-nra-22",
       "tags": [
-        "genai"
-      ],
-      "price": 2860,
-      "currency": "JPY"
-    },
-    {
-      "id": "4295024465",
-      "asin": "4295024465",
-      "title": "モダンTransformer　モデルの内部構造から、マルチモーダル／RAG／SLMの実装と最適化まで (impress top gear)",
-      "author": "Nicole Koenigstein, 株式会社クイープ",
-      "authors": [
-        "Nicole Koenigstein",
-        "株式会社クイープ"
-      ],
-      "publisher": "インプレス",
-      "releaseDate": "2026-07-02",
-      "publishedAt": "2026-07-02",
-      "image": "https://m.media-amazon.com/images/I/51zDoi2QcSL._SL160_.jpg",
-      "imageUrl": "https://m.media-amazon.com/images/I/51zDoi2QcSL._SL160_.jpg",
-      "amazonUrl": "https://www.amazon.co.jp/dp/4295024465?tag=yzak-nra-22",
-      "detailPageUrl": "https://www.amazon.co.jp/dp/4295024465?tag=yzak-nra-22",
-      "tags": [
+        "ai",
         "llm"
       ],
-      "price": 3630,
+      "price": 0,
       "currency": "JPY"
     },
     {
-      "id": "4300121397",
-      "asin": "4300121397",
-      "title": "生成AI時代に士業が生き残る技術",
-      "author": "横須賀 輝尚",
+      "id": "4297157233",
+      "asin": "4297157233",
+      "title": "ITエンジニアのためのMarkdown実践入門 ── 生成AI時代の\"伝わる\"書き方",
+      "author": "平田 賀一",
       "authors": [
-        "横須賀 輝尚"
+        "平田 賀一"
       ],
-      "publisher": "TAC出版",
-      "releaseDate": "2026-06-30",
-      "publishedAt": "2026-06-30",
-      "image": "https://m.media-amazon.com/images/I/41aecOgJVSL._SL160_.jpg",
-      "imageUrl": "https://m.media-amazon.com/images/I/41aecOgJVSL._SL160_.jpg",
-      "amazonUrl": "https://www.amazon.co.jp/dp/4300121397?tag=yzak-nra-22",
-      "detailPageUrl": "https://www.amazon.co.jp/dp/4300121397?tag=yzak-nra-22",
+      "publisher": "技術評論社",
+      "releaseDate": "2026-07-06",
+      "publishedAt": "2026-07-06",
+      "image": "https://m.media-amazon.com/images/I/41FNX0NVcEL._SL160_.jpg",
+      "imageUrl": "https://m.media-amazon.com/images/I/41FNX0NVcEL._SL160_.jpg",
+      "amazonUrl": "https://www.amazon.co.jp/dp/4297157233?tag=yzak-nra-22",
+      "detailPageUrl": "https://www.amazon.co.jp/dp/4297157233?tag=yzak-nra-22",
       "tags": [
         "ai",
         "genai"
       ],
-      "price": 2200,
+      "price": 2640,
+      "currency": "JPY"
+    },
+    {
+      "id": "4297157667",
+      "asin": "4297157667",
+      "title": "MastraによるAIエージェント開発・運用［実践入門］",
+      "author": "上田 瀟逸, 伊野瀬 出, 御田 稔",
+      "authors": [
+        "上田 瀟逸",
+        "伊野瀬 出",
+        "御田 稔"
+      ],
+      "publisher": "技術評論社",
+      "releaseDate": "2026-07-06",
+      "publishedAt": "2026-07-06",
+      "image": "https://m.media-amazon.com/images/I/516To9IC8FL._SL160_.jpg",
+      "imageUrl": "https://m.media-amazon.com/images/I/516To9IC8FL._SL160_.jpg",
+      "amazonUrl": "https://www.amazon.co.jp/dp/4297157667?tag=yzak-nra-22",
+      "detailPageUrl": "https://www.amazon.co.jp/dp/4297157667?tag=yzak-nra-22",
+      "tags": [
+        "ai",
+        "llm"
+      ],
+      "price": 3960,
       "currency": "JPY"
     },
     {
@@ -152,27 +155,6 @@
         "python"
       ],
       "price": 3960,
-      "currency": "JPY"
-    },
-    {
-      "id": "4130624695",
-      "asin": "4130624695",
-      "title": "Pythonによるプログラミング入門 東京大学教養学部テキスト 第2版: アルゴリズムと情報科学の基礎を学ぶ",
-      "author": "森畑 明昌",
-      "authors": [
-        "森畑 明昌"
-      ],
-      "publisher": "東京大学出版会",
-      "releaseDate": "2026-06-25",
-      "publishedAt": "2026-06-25",
-      "image": "https://m.media-amazon.com/images/I/51L2I+PgloL._SL160_.jpg",
-      "imageUrl": "https://m.media-amazon.com/images/I/51L2I+PgloL._SL160_.jpg",
-      "amazonUrl": "https://www.amazon.co.jp/dp/4130624695?tag=yzak-nra-22",
-      "detailPageUrl": "https://www.amazon.co.jp/dp/4130624695?tag=yzak-nra-22",
-      "tags": [
-        "python"
-      ],
-      "price": 2530,
       "currency": "JPY"
     },
     {
@@ -307,53 +289,6 @@
         "genai"
       ],
       "price": 2200,
-      "currency": "JPY"
-    },
-    {
-      "id": "B0H2TX9WYS",
-      "asin": "B0H2TX9WYS",
-      "title": "イメージで理解！Kubernetesを始める人が最初に読む本",
-      "author": "福田敦史",
-      "authors": [
-        "福田敦史"
-      ],
-      "publisher": "シーアンドアール研究所",
-      "releaseDate": "2026-06-10",
-      "publishedAt": "2026-06-10",
-      "image": "https://m.media-amazon.com/images/I/51HBdRhnM-L._SL160_.jpg",
-      "imageUrl": "https://m.media-amazon.com/images/I/51HBdRhnM-L._SL160_.jpg",
-      "amazonUrl": "https://www.amazon.co.jp/dp/B0H2TX9WYS?tag=yzak-nra-22",
-      "detailPageUrl": "https://www.amazon.co.jp/dp/B0H2TX9WYS?tag=yzak-nra-22",
-      "tags": [
-        "devops"
-      ],
-      "price": 2693,
-      "currency": "JPY"
-    },
-    {
-      "id": "B0H3T172H1",
-      "asin": "B0H3T172H1",
-      "title": "Flutterアプリ開発で実践する学びのAI活用術",
-      "author": "和泉田領一, 高橋秀明, 西村凌, 室山大輔, 渡部陽太",
-      "authors": [
-        "和泉田領一",
-        "高橋秀明",
-        "西村凌",
-        "室山大輔",
-        "渡部陽太"
-      ],
-      "publisher": "シーアンドアール研究所",
-      "releaseDate": "2026-06-10",
-      "publishedAt": "2026-06-10",
-      "image": "https://m.media-amazon.com/images/I/41CawqnIi-L._SL160_.jpg",
-      "imageUrl": "https://m.media-amazon.com/images/I/41CawqnIi-L._SL160_.jpg",
-      "amazonUrl": "https://www.amazon.co.jp/dp/B0H3T172H1?tag=yzak-nra-22",
-      "detailPageUrl": "https://www.amazon.co.jp/dp/B0H3T172H1?tag=yzak-nra-22",
-      "tags": [
-        "ai",
-        "flutter"
-      ],
-      "price": 2297,
       "currency": "JPY"
     }
   ]

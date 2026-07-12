@@ -1,33 +1,35 @@
 [
   {
-    "title": "建築士のためのChatGPT入門",
-    "author": "石川 聖也",
-    "image": "https://m.media-amazon.com/images/I/51dO2PSmdzL._SL160_.jpg",
-    "releaseDate": "2026-07-05",
-    "amazonUrl": "https://www.amazon.co.jp/dp/4767835895?tag=yzak-nra-22",
+    "title": "主婦にもわかる AIエージェント入門: 「もう1人の私」が、家事も副業も手伝ってくれる",
+    "author": "ゆか",
+    "image": "https://m.media-amazon.com/images/I/418H9fjjw5L._SL160_.jpg",
+    "releaseDate": "2026-07-07",
+    "amazonUrl": "https://www.amazon.co.jp/dp/B0H7XJG1L4?tag=yzak-nra-22",
     "tags": [
-      "genai"
-    ]
-  },
-  {
-    "title": "モダンTransformer　モデルの内部構造から、マルチモーダル／RAG／SLMの実装と最適化まで (impress top gear)",
-    "author": "Nicole Koenigstein, 株式会社クイープ",
-    "image": "https://m.media-amazon.com/images/I/51zDoi2QcSL._SL160_.jpg",
-    "releaseDate": "2026-07-02",
-    "amazonUrl": "https://www.amazon.co.jp/dp/4295024465?tag=yzak-nra-22",
-    "tags": [
+      "ai",
       "llm"
     ]
   },
   {
-    "title": "生成AI時代に士業が生き残る技術",
-    "author": "横須賀 輝尚",
-    "image": "https://m.media-amazon.com/images/I/41aecOgJVSL._SL160_.jpg",
-    "releaseDate": "2026-06-30",
-    "amazonUrl": "https://www.amazon.co.jp/dp/4300121397?tag=yzak-nra-22",
+    "title": "ITエンジニアのためのMarkdown実践入門 ── 生成AI時代の\"伝わる\"書き方",
+    "author": "平田 賀一",
+    "image": "https://m.media-amazon.com/images/I/41FNX0NVcEL._SL160_.jpg",
+    "releaseDate": "2026-07-06",
+    "amazonUrl": "https://www.amazon.co.jp/dp/4297157233?tag=yzak-nra-22",
     "tags": [
       "ai",
       "genai"
+    ]
+  },
+  {
+    "title": "MastraによるAIエージェント開発・運用［実践入門］",
+    "author": "上田 瀟逸, 伊野瀬 出, 御田 稔",
+    "image": "https://m.media-amazon.com/images/I/516To9IC8FL._SL160_.jpg",
+    "releaseDate": "2026-07-06",
+    "amazonUrl": "https://www.amazon.co.jp/dp/4297157667?tag=yzak-nra-22",
+    "tags": [
+      "ai",
+      "llm"
     ]
   },
   {
@@ -36,16 +38,6 @@
     "image": "https://m.media-amazon.com/images/I/41E7CajaXRL._SL160_.jpg",
     "releaseDate": "2026-06-25",
     "amazonUrl": "https://www.amazon.co.jp/dp/4065439361?tag=yzak-nra-22",
-    "tags": [
-      "python"
-    ]
-  },
-  {
-    "title": "Pythonによるプログラミング入門 東京大学教養学部テキスト 第2版: アルゴリズムと情報科学の基礎を学ぶ",
-    "author": "森畑 明昌",
-    "image": "https://m.media-amazon.com/images/I/51L2I+PgloL._SL160_.jpg",
-    "releaseDate": "2026-06-25",
-    "amazonUrl": "https://www.amazon.co.jp/dp/4130624695?tag=yzak-nra-22",
     "tags": [
       "python"
     ]
@@ -113,27 +105,6 @@
     "tags": [
       "ai",
       "genai"
-    ]
-  },
-  {
-    "title": "イメージで理解！Kubernetesを始める人が最初に読む本",
-    "author": "福田敦史",
-    "image": "https://m.media-amazon.com/images/I/51HBdRhnM-L._SL160_.jpg",
-    "releaseDate": "2026-06-10",
-    "amazonUrl": "https://www.amazon.co.jp/dp/B0H2TX9WYS?tag=yzak-nra-22",
-    "tags": [
-      "devops"
-    ]
-  },
-  {
-    "title": "Flutterアプリ開発で実践する学びのAI活用術",
-    "author": "和泉田領一, 高橋秀明, 西村凌, 室山大輔, 渡部陽太",
-    "image": "https://m.media-amazon.com/images/I/41CawqnIi-L._SL160_.jpg",
-    "releaseDate": "2026-06-10",
-    "amazonUrl": "https://www.amazon.co.jp/dp/B0H3T172H1?tag=yzak-nra-22",
-    "tags": [
-      "ai",
-      "flutter"
     ]
   }
 ]
