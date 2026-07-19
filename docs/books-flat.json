@@ -1,19 +1,30 @@
 [
   {
-    "title": "主婦にもわかる AIエージェント入門: 「もう1人の私」が、家事も副業も手伝ってくれる",
-    "author": "ゆか",
-    "image": "https://m.media-amazon.com/images/I/418H9fjjw5L._SL160_.jpg",
-    "releaseDate": "2026-07-07",
-    "amazonUrl": "https://www.amazon.co.jp/dp/B0H7XJG1L4?tag=yzak-nra-22",
+    "title": "バイブコーディング　生成AI→チャット→エージェントによる「本番品質のソフトウェア」の未来",
+    "author": "Gene Kim, ジーン・キム, Steve Yegge, スティーブ・イェギ, 長尾 高弘",
+    "image": "https://m.media-amazon.com/images/I/41bLY7mf4kL._SL160_.jpg",
+    "releaseDate": "2026-07-18",
+    "amazonUrl": "https://www.amazon.co.jp/dp/4296071513?tag=yzak-nra-22",
     "tags": [
       "ai",
+      "genai"
+    ]
+  },
+  {
+    "title": "Claude仕事術　仕事時間は1/100に成果は200%になる",
+    "author": "佐藤 傑",
+    "image": "https://m.media-amazon.com/images/I/51pwx5jZ2TL._SL160_.jpg",
+    "releaseDate": "2026-07-16",
+    "amazonUrl": "https://www.amazon.co.jp/dp/B0GYLGN7DR?tag=yzak-nra-22",
+    "tags": [
+      "genai",
       "llm"
     ]
   },
   {
     "title": "ITエンジニアのためのMarkdown実践入門 ── 生成AI時代の\"伝わる\"書き方",
     "author": "平田 賀一",
-    "image": "https://m.media-amazon.com/images/I/41FNX0NVcEL._SL160_.jpg",
+    "image": "https://m.media-amazon.com/images/I/41GHpi94uFL._SL160_.jpg",
     "releaseDate": "2026-07-06",
     "amazonUrl": "https://www.amazon.co.jp/dp/4297157233?tag=yzak-nra-22",
     "tags": [
@@ -43,6 +54,16 @@
     ]
   },
   {
+    "title": "Pythonによるプログラミング入門 東京大学教養学部テキスト 第2版: アルゴリズムと情報科学の基礎を学ぶ",
+    "author": "森畑 明昌",
+    "image": "https://m.media-amazon.com/images/I/51L2I+PgloL._SL160_.jpg",
+    "releaseDate": "2026-06-25",
+    "amazonUrl": "https://www.amazon.co.jp/dp/4130624695?tag=yzak-nra-22",
+    "tags": [
+      "python"
+    ]
+  },
+  {
     "title": "AIエージェント 導入・開発・運用 トータルガイド",
     "author": "上田 雄登, 小坂 佳範",
     "image": "https://m.media-amazon.com/images/I/51YZBEEdnZL._SL160_.jpg",
@@ -59,49 +80,6 @@
     "image": "https://m.media-amazon.com/images/I/51q4MrLiTSL._SL160_.jpg",
     "releaseDate": "2026-06-24",
     "amazonUrl": "https://www.amazon.co.jp/dp/4297157020?tag=yzak-nra-22",
-    "tags": [
-      "ai",
-      "genai"
-    ]
-  },
-  {
-    "title": "入門マルチモーダルRAG: 図表を読み解くAIアプリケーションの実装",
-    "author": "新納 浩幸",
-    "image": "https://m.media-amazon.com/images/I/41zozI1WICL._SL160_.jpg",
-    "releaseDate": "2026-06-17",
-    "amazonUrl": "https://www.amazon.co.jp/dp/4274234932?tag=yzak-nra-22",
-    "tags": [
-      "ai",
-      "llm"
-    ]
-  },
-  {
-    "title": "入門 Python 3 第3版",
-    "author": "Bill Lubanovic, 鈴木 駿, 長尾 高弘",
-    "image": "https://m.media-amazon.com/images/I/41CwWNYsvvL._SL160_.jpg",
-    "releaseDate": "2026-06-16",
-    "amazonUrl": "https://www.amazon.co.jp/dp/4814401647?tag=yzak-nra-22",
-    "tags": [
-      "python"
-    ]
-  },
-  {
-    "title": "イラストで速攻理解IT入門 RAG: 検索×生成で、信頼できるAI活用をはじめよう",
-    "author": "ライフハックゴリラ",
-    "image": "https://m.media-amazon.com/images/I/51dsdrrLZ2L._SL160_.jpg",
-    "releaseDate": "2026-06-14",
-    "amazonUrl": "https://www.amazon.co.jp/dp/B0H58KDBLW?tag=yzak-nra-22",
-    "tags": [
-      "ai",
-      "llm"
-    ]
-  },
-  {
-    "title": "Before/Afterでよくわかる　生成AI×経理・会計 実務入門",
-    "author": "白井 敬祐",
-    "image": "https://m.media-amazon.com/images/I/51s9KjmZrSL._SL160_.jpg",
-    "releaseDate": "2026-06-12",
-    "amazonUrl": "https://www.amazon.co.jp/dp/4534062753?tag=yzak-nra-22",
     "tags": [
       "ai",
       "genai"
