@@ -1,13 +1,23 @@
 [
   {
-    "title": "バイブコーディング　生成AI→チャット→エージェントによる「本番品質のソフトウェア」の未来",
-    "author": "Gene Kim, ジーン・キム, Steve Yegge, スティーブ・イェギ, 長尾 高弘",
-    "image": "https://m.media-amazon.com/images/I/41bLY7mf4kL._SL160_.jpg",
-    "releaseDate": "2026-07-18",
-    "amazonUrl": "https://www.amazon.co.jp/dp/4296071513?tag=yzak-nra-22",
+    "title": "Interface2026年9月号",
+    "author": "Interface編集部",
+    "image": "https://m.media-amazon.com/images/I/51p7lEiW-bL._SL160_.jpg",
+    "releaseDate": "2026-07-24",
+    "amazonUrl": "https://www.amazon.co.jp/dp/B0H6FTFSK7?tag=yzak-nra-22",
+    "tags": [
+      "general"
+    ]
+  },
+  {
+    "title": "オラクルマスター教科書 Silver SQL 26ai Oracle AI Database 26ai SQL Associate（試験番号1Z0-171-JPN）／日本オラクル監修 出題範囲を網羅するテキスト＆問題集！練習問題＋模擬試験のWebアプリ付 (EXAMPRESS)",
+    "author": "日本オラクル株式会社, 株式会社コーソル, 渡部 亮太, 伊藤 大悟, 舛井 智行",
+    "image": "https://m.media-amazon.com/images/I/51hNQF1Z2PL._SL160_.jpg",
+    "releaseDate": "2026-07-22",
+    "amazonUrl": "https://www.amazon.co.jp/dp/4798195928?tag=yzak-nra-22",
     "tags": [
       "ai",
-      "genai"
+      "database"
     ]
   },
   {
@@ -27,59 +37,6 @@
     "image": "https://m.media-amazon.com/images/I/41GHpi94uFL._SL160_.jpg",
     "releaseDate": "2026-07-06",
     "amazonUrl": "https://www.amazon.co.jp/dp/4297157233?tag=yzak-nra-22",
-    "tags": [
-      "ai",
-      "genai"
-    ]
-  },
-  {
-    "title": "MastraによるAIエージェント開発・運用［実践入門］",
-    "author": "上田 瀟逸, 伊野瀬 出, 御田 稔",
-    "image": "https://m.media-amazon.com/images/I/516To9IC8FL._SL160_.jpg",
-    "releaseDate": "2026-07-06",
-    "amazonUrl": "https://www.amazon.co.jp/dp/4297157667?tag=yzak-nra-22",
-    "tags": [
-      "ai",
-      "llm"
-    ]
-  },
-  {
-    "title": "ステップアップPython すぐに使える!実践スキル35 (KS情報科学専門書)",
-    "author": "杉浦 哲郎",
-    "image": "https://m.media-amazon.com/images/I/41E7CajaXRL._SL160_.jpg",
-    "releaseDate": "2026-06-25",
-    "amazonUrl": "https://www.amazon.co.jp/dp/4065439361?tag=yzak-nra-22",
-    "tags": [
-      "python"
-    ]
-  },
-  {
-    "title": "Pythonによるプログラミング入門 東京大学教養学部テキスト 第2版: アルゴリズムと情報科学の基礎を学ぶ",
-    "author": "森畑 明昌",
-    "image": "https://m.media-amazon.com/images/I/51L2I+PgloL._SL160_.jpg",
-    "releaseDate": "2026-06-25",
-    "amazonUrl": "https://www.amazon.co.jp/dp/4130624695?tag=yzak-nra-22",
-    "tags": [
-      "python"
-    ]
-  },
-  {
-    "title": "AIエージェント 導入・開発・運用 トータルガイド",
-    "author": "上田 雄登, 小坂 佳範",
-    "image": "https://m.media-amazon.com/images/I/51YZBEEdnZL._SL160_.jpg",
-    "releaseDate": "2026-06-25",
-    "amazonUrl": "https://www.amazon.co.jp/dp/B0H6CYK5YT?tag=yzak-nra-22",
-    "tags": [
-      "ai",
-      "llm"
-    ]
-  },
-  {
-    "title": "生成AIの安全性入門",
-    "author": "綿岡 晃輝",
-    "image": "https://m.media-amazon.com/images/I/51q4MrLiTSL._SL160_.jpg",
-    "releaseDate": "2026-06-24",
-    "amazonUrl": "https://www.amazon.co.jp/dp/4297157020?tag=yzak-nra-22",
     "tags": [
       "ai",
       "genai"

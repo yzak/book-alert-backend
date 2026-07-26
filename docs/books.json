@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-07-19T03:28:33.409Z",
+  "updatedAt": "2026-07-26T03:33:54.843Z",
   "availableTags": [
     {
       "id": "aws",
@@ -69,29 +69,50 @@
   ],
   "books": [
     {
-      "id": "4296071513",
-      "asin": "4296071513",
-      "title": "バイブコーディング　生成AI→チャット→エージェントによる「本番品質のソフトウェア」の未来",
-      "author": "Gene Kim, ジーン・キム, Steve Yegge, スティーブ・イェギ, 長尾 高弘",
+      "id": "B0H6FTFSK7",
+      "asin": "B0H6FTFSK7",
+      "title": "Interface2026年9月号",
+      "author": "Interface編集部",
       "authors": [
-        "Gene Kim",
-        "ジーン・キム",
-        "Steve Yegge",
-        "スティーブ・イェギ",
-        "長尾 高弘"
+        "Interface編集部"
       ],
-      "publisher": "日経BP",
-      "releaseDate": "2026-07-18",
-      "publishedAt": "2026-07-18",
-      "image": "https://m.media-amazon.com/images/I/41bLY7mf4kL._SL160_.jpg",
-      "imageUrl": "https://m.media-amazon.com/images/I/41bLY7mf4kL._SL160_.jpg",
-      "amazonUrl": "https://www.amazon.co.jp/dp/4296071513?tag=yzak-nra-22",
-      "detailPageUrl": "https://www.amazon.co.jp/dp/4296071513?tag=yzak-nra-22",
+      "publisher": "CQ出版",
+      "releaseDate": "2026-07-24",
+      "publishedAt": "2026-07-24",
+      "image": "https://m.media-amazon.com/images/I/51p7lEiW-bL._SL160_.jpg",
+      "imageUrl": "https://m.media-amazon.com/images/I/51p7lEiW-bL._SL160_.jpg",
+      "amazonUrl": "https://www.amazon.co.jp/dp/B0H6FTFSK7?tag=yzak-nra-22",
+      "detailPageUrl": "https://www.amazon.co.jp/dp/B0H6FTFSK7?tag=yzak-nra-22",
+      "tags": [
+        "general"
+      ],
+      "price": 1430,
+      "currency": "JPY"
+    },
+    {
+      "id": "4798195928",
+      "asin": "4798195928",
+      "title": "オラクルマスター教科書 Silver SQL 26ai Oracle AI Database 26ai SQL Associate（試験番号1Z0-171-JPN）／日本オラクル監修 出題範囲を網羅するテキスト＆問題集！練習問題＋模擬試験のWebアプリ付 (EXAMPRESS)",
+      "author": "日本オラクル株式会社, 株式会社コーソル, 渡部 亮太, 伊藤 大悟, 舛井 智行",
+      "authors": [
+        "日本オラクル株式会社",
+        "株式会社コーソル",
+        "渡部 亮太",
+        "伊藤 大悟",
+        "舛井 智行"
+      ],
+      "publisher": "翔泳社",
+      "releaseDate": "2026-07-22",
+      "publishedAt": "2026-07-22",
+      "image": "https://m.media-amazon.com/images/I/51hNQF1Z2PL._SL160_.jpg",
+      "imageUrl": "https://m.media-amazon.com/images/I/51hNQF1Z2PL._SL160_.jpg",
+      "amazonUrl": "https://www.amazon.co.jp/dp/4798195928?tag=yzak-nra-22",
+      "detailPageUrl": "https://www.amazon.co.jp/dp/4798195928?tag=yzak-nra-22",
       "tags": [
         "ai",
-        "genai"
+        "database"
       ],
-      "price": 3080,
+      "price": 6600,
       "currency": "JPY"
     },
     {
@@ -113,7 +134,7 @@
         "genai",
         "llm"
       ],
-      "price": 2090,
+      "price": 2048,
       "currency": "JPY"
     },
     {
@@ -136,117 +157,6 @@
         "genai"
       ],
       "price": 2640,
-      "currency": "JPY"
-    },
-    {
-      "id": "4297157667",
-      "asin": "4297157667",
-      "title": "MastraによるAIエージェント開発・運用［実践入門］",
-      "author": "上田 瀟逸, 伊野瀬 出, 御田 稔",
-      "authors": [
-        "上田 瀟逸",
-        "伊野瀬 出",
-        "御田 稔"
-      ],
-      "publisher": "技術評論社",
-      "releaseDate": "2026-07-06",
-      "publishedAt": "2026-07-06",
-      "image": "https://m.media-amazon.com/images/I/516To9IC8FL._SL160_.jpg",
-      "imageUrl": "https://m.media-amazon.com/images/I/516To9IC8FL._SL160_.jpg",
-      "amazonUrl": "https://www.amazon.co.jp/dp/4297157667?tag=yzak-nra-22",
-      "detailPageUrl": "https://www.amazon.co.jp/dp/4297157667?tag=yzak-nra-22",
-      "tags": [
-        "ai",
-        "llm"
-      ],
-      "price": 3960,
-      "currency": "JPY"
-    },
-    {
-      "id": "4065439361",
-      "asin": "4065439361",
-      "title": "ステップアップPython すぐに使える!実践スキル35 (KS情報科学専門書)",
-      "author": "杉浦 哲郎",
-      "authors": [
-        "杉浦 哲郎"
-      ],
-      "publisher": "講談社",
-      "releaseDate": "2026-06-25",
-      "publishedAt": "2026-06-25",
-      "image": "https://m.media-amazon.com/images/I/41E7CajaXRL._SL160_.jpg",
-      "imageUrl": "https://m.media-amazon.com/images/I/41E7CajaXRL._SL160_.jpg",
-      "amazonUrl": "https://www.amazon.co.jp/dp/4065439361?tag=yzak-nra-22",
-      "detailPageUrl": "https://www.amazon.co.jp/dp/4065439361?tag=yzak-nra-22",
-      "tags": [
-        "python"
-      ],
-      "price": 3960,
-      "currency": "JPY"
-    },
-    {
-      "id": "4130624695",
-      "asin": "4130624695",
-      "title": "Pythonによるプログラミング入門 東京大学教養学部テキスト 第2版: アルゴリズムと情報科学の基礎を学ぶ",
-      "author": "森畑 明昌",
-      "authors": [
-        "森畑 明昌"
-      ],
-      "publisher": "東京大学出版会",
-      "releaseDate": "2026-06-25",
-      "publishedAt": "2026-06-25",
-      "image": "https://m.media-amazon.com/images/I/51L2I+PgloL._SL160_.jpg",
-      "imageUrl": "https://m.media-amazon.com/images/I/51L2I+PgloL._SL160_.jpg",
-      "amazonUrl": "https://www.amazon.co.jp/dp/4130624695?tag=yzak-nra-22",
-      "detailPageUrl": "https://www.amazon.co.jp/dp/4130624695?tag=yzak-nra-22",
-      "tags": [
-        "python"
-      ],
-      "price": 2530,
-      "currency": "JPY"
-    },
-    {
-      "id": "B0H6CYK5YT",
-      "asin": "B0H6CYK5YT",
-      "title": "AIエージェント 導入・開発・運用 トータルガイド",
-      "author": "上田 雄登, 小坂 佳範",
-      "authors": [
-        "上田 雄登",
-        "小坂 佳範"
-      ],
-      "publisher": "日経BP",
-      "releaseDate": "2026-06-25",
-      "publishedAt": "2026-06-25",
-      "image": "https://m.media-amazon.com/images/I/51YZBEEdnZL._SL160_.jpg",
-      "imageUrl": "https://m.media-amazon.com/images/I/51YZBEEdnZL._SL160_.jpg",
-      "amazonUrl": "https://www.amazon.co.jp/dp/B0H6CYK5YT?tag=yzak-nra-22",
-      "detailPageUrl": "https://www.amazon.co.jp/dp/B0H6CYK5YT?tag=yzak-nra-22",
-      "tags": [
-        "ai",
-        "llm"
-      ],
-      "price": 3234,
-      "currency": "JPY"
-    },
-    {
-      "id": "4297157020",
-      "asin": "4297157020",
-      "title": "生成AIの安全性入門",
-      "author": "綿岡 晃輝",
-      "authors": [
-        "綿岡 晃輝"
-      ],
-      "publisher": "技術評論社",
-      "releaseDate": "2026-06-24",
-      "publishedAt": "2026-06-24",
-      "image": "https://m.media-amazon.com/images/I/51q4MrLiTSL._SL160_.jpg",
-      "imageUrl": "https://m.media-amazon.com/images/I/51q4MrLiTSL._SL160_.jpg",
-      "amazonUrl": "https://www.amazon.co.jp/dp/4297157020?tag=yzak-nra-22",
-      "detailPageUrl": "https://www.amazon.co.jp/dp/4297157020?tag=yzak-nra-22",
-      "tags": [
-        "ai",
-        "genai"
-      ],
-      "price": 3300,
       "currency": "JPY"
     }
   ]
