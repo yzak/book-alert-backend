@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-07-26T03:33:54.843Z",
+  "updatedAt": "2026-08-02T03:31:39.837Z",
   "availableTags": [
     {
       "id": "aws",
@@ -68,6 +68,52 @@
     }
   ],
   "books": [
+    {
+      "id": "B0H7G3RHPP",
+      "asin": "B0H7G3RHPP",
+      "title": "LLMによる情報抽出入門〜日常のリアルなデータから価値ある情報を取り出す技術",
+      "author": "中田 百科, 桐生 佳介",
+      "authors": [
+        "中田 百科",
+        "桐生 佳介"
+      ],
+      "publisher": "技術評論社",
+      "releaseDate": "2026-07-27",
+      "publishedAt": "2026-07-27",
+      "image": "https://m.media-amazon.com/images/I/516ZGVZNmHL._SL160_.jpg",
+      "imageUrl": "https://m.media-amazon.com/images/I/516ZGVZNmHL._SL160_.jpg",
+      "amazonUrl": "https://www.amazon.co.jp/dp/B0H7G3RHPP?tag=yzak-nra-22",
+      "detailPageUrl": "https://www.amazon.co.jp/dp/B0H7G3RHPP?tag=yzak-nra-22",
+      "tags": [
+        "llm"
+      ],
+      "price": 3450,
+      "currency": "JPY"
+    },
+    {
+      "id": "B0H4X5FXYL",
+      "asin": "B0H4X5FXYL",
+      "title": "Claude 最強のAI自動化術 AI仕事術シリーズ",
+      "author": "池田朋弘",
+      "authors": [
+        "池田朋弘"
+      ],
+      "publisher": "芸術新聞社",
+      "releaseDate": "2026-07-27",
+      "publishedAt": "2026-07-27",
+      "image": "https://m.media-amazon.com/images/I/51KknYCazML._SL160_.jpg",
+      "imageUrl": "https://m.media-amazon.com/images/I/51KknYCazML._SL160_.jpg",
+      "amazonUrl": "https://www.amazon.co.jp/dp/B0H4X5FXYL?tag=yzak-nra-22",
+      "detailPageUrl": "https://www.amazon.co.jp/dp/B0H4X5FXYL?tag=yzak-nra-22",
+      "tags": [
+        "ai",
+        "automation",
+        "genai",
+        "llm"
+      ],
+      "price": 2640,
+      "currency": "JPY"
+    },
     {
       "id": "B0H6FTFSK7",
       "asin": "B0H6FTFSK7",

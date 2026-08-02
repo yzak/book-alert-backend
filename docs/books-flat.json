@@ -1,5 +1,28 @@
 [
   {
+    "title": "LLMによる情報抽出入門〜日常のリアルなデータから価値ある情報を取り出す技術",
+    "author": "中田 百科, 桐生 佳介",
+    "image": "https://m.media-amazon.com/images/I/516ZGVZNmHL._SL160_.jpg",
+    "releaseDate": "2026-07-27",
+    "amazonUrl": "https://www.amazon.co.jp/dp/B0H7G3RHPP?tag=yzak-nra-22",
+    "tags": [
+      "llm"
+    ]
+  },
+  {
+    "title": "Claude 最強のAI自動化術 AI仕事術シリーズ",
+    "author": "池田朋弘",
+    "image": "https://m.media-amazon.com/images/I/51KknYCazML._SL160_.jpg",
+    "releaseDate": "2026-07-27",
+    "amazonUrl": "https://www.amazon.co.jp/dp/B0H4X5FXYL?tag=yzak-nra-22",
+    "tags": [
+      "ai",
+      "automation",
+      "genai",
+      "llm"
+    ]
+  },
+  {
     "title": "Interface2026年9月号",
     "author": "Interface編集部",
     "image": "https://m.media-amazon.com/images/I/51p7lEiW-bL._SL160_.jpg",
