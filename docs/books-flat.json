@@ -1,5 +1,47 @@
 [
   {
+    "title": "あらゆる仕事が爆速化する　Claude Code徹底活用術",
+    "author": "ひつじ, 染谷 昌利",
+    "image": "https://m.media-amazon.com/images/I/51CtSrbEk+L._SL160_.jpg",
+    "releaseDate": "2026-08-07",
+    "amazonUrl": "https://www.amazon.co.jp/dp/4534062907?tag=yzak-nra-22",
+    "tags": [
+      "genai",
+      "llm"
+    ]
+  },
+  {
+    "title": "できるClaude＆Claude Cowork できるシリーズ",
+    "author": "清水理史, できるシリーズ編集部",
+    "image": "https://m.media-amazon.com/images/I/41P8XUAtzyL._SL160_.jpg",
+    "releaseDate": "2026-08-06",
+    "amazonUrl": "https://www.amazon.co.jp/dp/B0H82833BQ?tag=yzak-nra-22",
+    "tags": [
+      "genai",
+      "llm"
+    ]
+  },
+  {
+    "title": "ブラウザで動かすLLM実装入門　Google Colaboratoryで実践するLLM・RAG・ファインチューニング",
+    "author": "中西崇文",
+    "image": "https://m.media-amazon.com/images/I/51gN5bXPZPL._SL160_.jpg",
+    "releaseDate": "2026-08-04",
+    "amazonUrl": "https://www.amazon.co.jp/dp/4295024813?tag=yzak-nra-22",
+    "tags": [
+      "llm"
+    ]
+  },
+  {
+    "title": "この1冊でしっかりわかる ChatGPT/Gemini/Copilotの教科書",
+    "author": "佐倉井 理冴",
+    "image": "https://m.media-amazon.com/images/I/51GlhQ6NV6L._SL160_.jpg",
+    "releaseDate": "2026-08-01",
+    "amazonUrl": "https://www.amazon.co.jp/dp/4815643075?tag=yzak-nra-22",
+    "tags": [
+      "genai"
+    ]
+  },
+  {
     "title": "LLMによる情報抽出入門〜日常のリアルなデータから価値ある情報を取り出す技術",
     "author": "中田 百科, 桐生 佳介",
     "image": "https://m.media-amazon.com/images/I/516ZGVZNmHL._SL160_.jpg",
@@ -33,6 +75,17 @@
     ]
   },
   {
+    "title": "図解即戦力　AIエージェントのしくみと活用がこれ1冊でしっかりわかる教科書",
+    "author": "岩手テナージョン, 山本 紘暉, 中村 祥",
+    "image": "https://m.media-amazon.com/images/I/51kLJJUlfHL._SL160_.jpg",
+    "releaseDate": "2026-07-24",
+    "amazonUrl": "https://www.amazon.co.jp/dp/B0H7GCD5CS?tag=yzak-nra-22",
+    "tags": [
+      "ai",
+      "llm"
+    ]
+  },
+  {
     "title": "オラクルマスター教科書 Silver SQL 26ai Oracle AI Database 26ai SQL Associate（試験番号1Z0-171-JPN）／日本オラクル監修 出題範囲を網羅するテキスト＆問題集！練習問題＋模擬試験のWebアプリ付 (EXAMPRESS)",
     "author": "日本オラクル株式会社, 株式会社コーソル, 渡部 亮太, 伊藤 大悟, 舛井 智行",
     "image": "https://m.media-amazon.com/images/I/51hNQF1Z2PL._SL160_.jpg",
@@ -44,6 +97,16 @@
     ]
   },
   {
+    "title": "全部無料でOK！　ChatGPT・Gemini・Copilot最強ガイド (COSMIC MOOK)",
+    "author": "コスミック出版",
+    "image": "https://m.media-amazon.com/images/I/51NEpf2lcWL._SL160_.jpg",
+    "releaseDate": "2026-07-21",
+    "amazonUrl": "https://www.amazon.co.jp/dp/4774776041?tag=yzak-nra-22",
+    "tags": [
+      "genai"
+    ]
+  },
+  {
     "title": "Claude仕事術　仕事時間は1/100に成果は200%になる",
     "author": "佐藤 傑",
     "image": "https://m.media-amazon.com/images/I/51pwx5jZ2TL._SL160_.jpg",
@@ -52,17 +115,6 @@
     "tags": [
       "genai",
       "llm"
-    ]
-  },
-  {
-    "title": "ITエンジニアのためのMarkdown実践入門 ── 生成AI時代の\"伝わる\"書き方",
-    "author": "平田 賀一",
-    "image": "https://m.media-amazon.com/images/I/41GHpi94uFL._SL160_.jpg",
-    "releaseDate": "2026-07-06",
-    "amazonUrl": "https://www.amazon.co.jp/dp/4297157233?tag=yzak-nra-22",
-    "tags": [
-      "ai",
-      "genai"
     ]
   }
 ]
