@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-08-09T02:08:54.251Z",
+  "updatedAt": "2026-08-16T01:43:23.167Z",
   "availableTags": [
     {
       "id": "aws",
@@ -69,26 +69,73 @@
   ],
   "books": [
     {
-      "id": "4534062907",
-      "asin": "4534062907",
-      "title": "あらゆる仕事が爆速化する　Claude Code徹底活用術",
-      "author": "ひつじ, 染谷 昌利",
+      "id": "4815643113",
+      "asin": "4815643113",
+      "title": "Claude Code実践入門 [生成AI深掘りガイド]",
+      "author": "Oikon, 前川 蒼",
+      "authors": [
+        "Oikon",
+        "前川 蒼"
+      ],
+      "publisher": "SBクリエイティブ",
+      "releaseDate": "2026-08-14",
+      "publishedAt": "2026-08-14",
+      "image": "https://m.media-amazon.com/images/I/41onRRY91KL._SL160_.jpg",
+      "imageUrl": "https://m.media-amazon.com/images/I/41onRRY91KL._SL160_.jpg",
+      "amazonUrl": "https://www.amazon.co.jp/dp/4815643113?tag=yzak-nra-22",
+      "detailPageUrl": "https://www.amazon.co.jp/dp/4815643113?tag=yzak-nra-22",
+      "tags": [
+        "ai",
+        "genai",
+        "llm"
+      ],
+      "price": 3300,
+      "currency": "JPY"
+    },
+    {
+      "id": "B0HD6KNBF9",
+      "asin": "B0HD6KNBF9",
+      "title": "Claude活用大全　AIと共に学び働き遊ぶ実践ガイド",
+      "author": "アクセンチュア Anthropic ビジネスグループ",
+      "authors": [
+        "アクセンチュア Anthropic ビジネスグループ"
+      ],
+      "publisher": "日経BP",
+      "releaseDate": "2026-08-10",
+      "publishedAt": "2026-08-10",
+      "image": "https://m.media-amazon.com/images/I/513YIHFEYuL._SL160_.jpg",
+      "imageUrl": "https://m.media-amazon.com/images/I/513YIHFEYuL._SL160_.jpg",
+      "amazonUrl": "https://www.amazon.co.jp/dp/B0HD6KNBF9?tag=yzak-nra-22",
+      "detailPageUrl": "https://www.amazon.co.jp/dp/B0HD6KNBF9?tag=yzak-nra-22",
+      "tags": [
+        "ai",
+        "genai",
+        "llm"
+      ],
+      "price": 2860,
+      "currency": "JPY"
+    },
+    {
+      "id": "B0HCYLNGBB",
+      "asin": "B0HCYLNGBB",
+      "title": "Claude Code 徹底活用術　あらゆる仕事が爆速化する",
+      "author": "ひつじ, 染谷昌利",
       "authors": [
         "ひつじ",
-        "染谷 昌利"
+        "染谷昌利"
       ],
       "publisher": "日本実業出版社",
       "releaseDate": "2026-08-07",
       "publishedAt": "2026-08-07",
-      "image": "https://m.media-amazon.com/images/I/51CtSrbEk+L._SL160_.jpg",
-      "imageUrl": "https://m.media-amazon.com/images/I/51CtSrbEk+L._SL160_.jpg",
-      "amazonUrl": "https://www.amazon.co.jp/dp/4534062907?tag=yzak-nra-22",
-      "detailPageUrl": "https://www.amazon.co.jp/dp/4534062907?tag=yzak-nra-22",
+      "image": "https://m.media-amazon.com/images/I/51dOkw3OyKL._SL160_.jpg",
+      "imageUrl": "https://m.media-amazon.com/images/I/51dOkw3OyKL._SL160_.jpg",
+      "amazonUrl": "https://www.amazon.co.jp/dp/B0HCYLNGBB?tag=yzak-nra-22",
+      "detailPageUrl": "https://www.amazon.co.jp/dp/B0HCYLNGBB?tag=yzak-nra-22",
       "tags": [
         "genai",
         "llm"
       ],
-      "price": null,
+      "price": 2420,
       "currency": "JPY"
     },
     {
@@ -154,6 +201,28 @@
         "genai"
       ],
       "price": 2420,
+      "currency": "JPY"
+    },
+    {
+      "id": "B0GXZ53HP2",
+      "asin": "B0GXZ53HP2",
+      "title": "図解で攻める 生成AIパスポート合格問題集: 公式シラバス第4版対応・誤答の選択肢まで解説する本",
+      "author": "関根 大介",
+      "authors": [
+        "関根 大介"
+      ],
+      "publisher": "",
+      "releaseDate": "2026-07-28",
+      "publishedAt": "2026-07-28",
+      "image": "https://m.media-amazon.com/images/I/51+uZSEwQwL._SL160_.jpg",
+      "imageUrl": "https://m.media-amazon.com/images/I/51+uZSEwQwL._SL160_.jpg",
+      "amazonUrl": "https://www.amazon.co.jp/dp/B0GXZ53HP2?tag=yzak-nra-22",
+      "detailPageUrl": "https://www.amazon.co.jp/dp/B0GXZ53HP2?tag=yzak-nra-22",
+      "tags": [
+        "ai",
+        "genai"
+      ],
+      "price": 0,
       "currency": "JPY"
     },
     {
@@ -295,25 +364,46 @@
       "currency": "JPY"
     },
     {
-      "id": "B0GYLGN7DR",
-      "asin": "B0GYLGN7DR",
-      "title": "Claude仕事術　仕事時間は1/100に成果は200%になる",
-      "author": "佐藤 傑",
+      "id": "B0H9BWJVDH",
+      "asin": "B0H9BWJVDH",
+      "title": "RAGのつくりかた: 最小構成から本番運用まで、検索と評価を積み上げるハンズオン",
+      "author": "関根 大介",
       "authors": [
-        "佐藤 傑"
+        "関根 大介"
       ],
-      "publisher": "SBクリエイティブ",
-      "releaseDate": "2026-07-16",
-      "publishedAt": "2026-07-16",
-      "image": "https://m.media-amazon.com/images/I/51pwx5jZ2TL._SL160_.jpg",
-      "imageUrl": "https://m.media-amazon.com/images/I/51pwx5jZ2TL._SL160_.jpg",
-      "amazonUrl": "https://www.amazon.co.jp/dp/B0GYLGN7DR?tag=yzak-nra-22",
-      "detailPageUrl": "https://www.amazon.co.jp/dp/B0GYLGN7DR?tag=yzak-nra-22",
+      "publisher": "",
+      "releaseDate": "2026-07-19",
+      "publishedAt": "2026-07-19",
+      "image": "https://m.media-amazon.com/images/I/414U98RDhxL._SL160_.jpg",
+      "imageUrl": "https://m.media-amazon.com/images/I/414U98RDhxL._SL160_.jpg",
+      "amazonUrl": "https://www.amazon.co.jp/dp/B0H9BWJVDH?tag=yzak-nra-22",
+      "detailPageUrl": "https://www.amazon.co.jp/dp/B0H9BWJVDH?tag=yzak-nra-22",
       "tags": [
-        "genai",
         "llm"
       ],
-      "price": 2048,
+      "price": 1650,
+      "currency": "JPY"
+    },
+    {
+      "id": "B0H7R52NL5",
+      "asin": "B0H7R52NL5",
+      "title": "現場で使えるFlutter　データベースと外部API連携で作る本格スマホアプリ 技術の泉シリーズ",
+      "author": "岸田 紋佳",
+      "authors": [
+        "岸田 紋佳"
+      ],
+      "publisher": "インプレス NextPublishing",
+      "releaseDate": "2026-07-17",
+      "publishedAt": "2026-07-17",
+      "image": "https://m.media-amazon.com/images/I/51uPhmxxApL._SL160_.jpg",
+      "imageUrl": "https://m.media-amazon.com/images/I/51uPhmxxApL._SL160_.jpg",
+      "amazonUrl": "https://www.amazon.co.jp/dp/B0H7R52NL5?tag=yzak-nra-22",
+      "detailPageUrl": "https://www.amazon.co.jp/dp/B0H7R52NL5?tag=yzak-nra-22",
+      "tags": [
+        "database",
+        "flutter"
+      ],
+      "price": 1980,
       "currency": "JPY"
     }
   ]
