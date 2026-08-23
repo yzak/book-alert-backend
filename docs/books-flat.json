@@ -1,10 +1,21 @@
 [
   {
-    "title": "Claude Code実践入門 [生成AI深掘りガイド]",
+    "title": "LLM・AIエージェントシステムベストプラクティス (AI & TECHNOLOGY)",
+    "author": "澁井 雄介",
+    "image": "https://m.media-amazon.com/images/I/41W29GY7f9L._SL160_.jpg",
+    "releaseDate": "2026-08-20",
+    "amazonUrl": "https://www.amazon.co.jp/dp/479819431X?tag=yzak-nra-22",
+    "tags": [
+      "ai",
+      "llm"
+    ]
+  },
+  {
+    "title": "Claude Code実践入門［生成AI深掘りガイド］",
     "author": "Oikon, 前川 蒼",
-    "image": "https://m.media-amazon.com/images/I/41onRRY91KL._SL160_.jpg",
+    "image": "https://m.media-amazon.com/images/I/51RJkq3Ra4L._SL160_.jpg",
     "releaseDate": "2026-08-14",
-    "amazonUrl": "https://www.amazon.co.jp/dp/4815643113?tag=yzak-nra-22",
+    "amazonUrl": "https://www.amazon.co.jp/dp/B0H1M3D1BX?tag=yzak-nra-22",
     "tags": [
       "ai",
       "genai",
@@ -66,17 +77,6 @@
     ]
   },
   {
-    "title": "図解で攻める 生成AIパスポート合格問題集: 公式シラバス第4版対応・誤答の選択肢まで解説する本",
-    "author": "関根 大介",
-    "image": "https://m.media-amazon.com/images/I/51+uZSEwQwL._SL160_.jpg",
-    "releaseDate": "2026-07-28",
-    "amazonUrl": "https://www.amazon.co.jp/dp/B0GXZ53HP2?tag=yzak-nra-22",
-    "tags": [
-      "ai",
-      "genai"
-    ]
-  },
-  {
     "title": "LLMによる情報抽出入門〜日常のリアルなデータから価値ある情報を取り出す技術",
     "author": "中田 百科, 桐生 佳介",
     "image": "https://m.media-amazon.com/images/I/516ZGVZNmHL._SL160_.jpg",
@@ -118,48 +118,6 @@
     "tags": [
       "ai",
       "llm"
-    ]
-  },
-  {
-    "title": "オラクルマスター教科書 Silver SQL 26ai Oracle AI Database 26ai SQL Associate（試験番号1Z0-171-JPN）／日本オラクル監修 出題範囲を網羅するテキスト＆問題集！練習問題＋模擬試験のWebアプリ付 (EXAMPRESS)",
-    "author": "日本オラクル株式会社, 株式会社コーソル, 渡部 亮太, 伊藤 大悟, 舛井 智行",
-    "image": "https://m.media-amazon.com/images/I/51hNQF1Z2PL._SL160_.jpg",
-    "releaseDate": "2026-07-22",
-    "amazonUrl": "https://www.amazon.co.jp/dp/4798195928?tag=yzak-nra-22",
-    "tags": [
-      "ai",
-      "database"
-    ]
-  },
-  {
-    "title": "全部無料でOK！　ChatGPT・Gemini・Copilot最強ガイド (COSMIC MOOK)",
-    "author": "コスミック出版",
-    "image": "https://m.media-amazon.com/images/I/51NEpf2lcWL._SL160_.jpg",
-    "releaseDate": "2026-07-21",
-    "amazonUrl": "https://www.amazon.co.jp/dp/4774776041?tag=yzak-nra-22",
-    "tags": [
-      "genai"
-    ]
-  },
-  {
-    "title": "RAGのつくりかた: 最小構成から本番運用まで、検索と評価を積み上げるハンズオン",
-    "author": "関根 大介",
-    "image": "https://m.media-amazon.com/images/I/414U98RDhxL._SL160_.jpg",
-    "releaseDate": "2026-07-19",
-    "amazonUrl": "https://www.amazon.co.jp/dp/B0H9BWJVDH?tag=yzak-nra-22",
-    "tags": [
-      "llm"
-    ]
-  },
-  {
-    "title": "現場で使えるFlutter　データベースと外部API連携で作る本格スマホアプリ 技術の泉シリーズ",
-    "author": "岸田 紋佳",
-    "image": "https://m.media-amazon.com/images/I/51uPhmxxApL._SL160_.jpg",
-    "releaseDate": "2026-07-17",
-    "amazonUrl": "https://www.amazon.co.jp/dp/B0H7R52NL5?tag=yzak-nra-22",
-    "tags": [
-      "database",
-      "flutter"
     ]
   }
 ]
