@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-08-23T01:45:33.513Z",
+  "updatedAt": "2026-08-30T04:53:58.977Z",
   "availableTags": [
     {
       "id": "aws",
@@ -69,6 +69,118 @@
   ],
   "books": [
     {
+      "id": "B0H6GW8TCH",
+      "asin": "B0H6GW8TCH",
+      "title": "AWS認定資格試験テキスト　AWS認定デベロッパー - アソシエイト",
+      "author": "佐々木 拓郎",
+      "authors": [
+        "佐々木 拓郎"
+      ],
+      "publisher": "SBクリエイティブ",
+      "releaseDate": "2026-08-28",
+      "publishedAt": "2026-08-28",
+      "image": "https://m.media-amazon.com/images/I/410z2OP1QoL._SL160_.jpg",
+      "imageUrl": "https://m.media-amazon.com/images/I/410z2OP1QoL._SL160_.jpg",
+      "amazonUrl": "https://www.amazon.co.jp/dp/B0H6GW8TCH?tag=yzak-nra-22",
+      "detailPageUrl": "https://www.amazon.co.jp/dp/B0H6GW8TCH?tag=yzak-nra-22",
+      "tags": [
+        "aws"
+      ],
+      "price": 3960,
+      "currency": "JPY"
+    },
+    {
+      "id": "B0H6W864Z6",
+      "asin": "B0H6W864Z6",
+      "title": "LM StudioでつくるローカルLLM入門 課金なし・セキュリティ万全の「自分専用」AI",
+      "author": "武井 一巳",
+      "authors": [
+        "武井 一巳"
+      ],
+      "publisher": "翔泳社",
+      "releaseDate": "2026-08-28",
+      "publishedAt": "2026-08-28",
+      "image": "https://m.media-amazon.com/images/I/51QQJR7gNnL._SL160_.jpg",
+      "imageUrl": "https://m.media-amazon.com/images/I/51QQJR7gNnL._SL160_.jpg",
+      "amazonUrl": "https://www.amazon.co.jp/dp/B0H6W864Z6?tag=yzak-nra-22",
+      "detailPageUrl": "https://www.amazon.co.jp/dp/B0H6W864Z6?tag=yzak-nra-22",
+      "tags": [
+        "ai",
+        "llm"
+      ],
+      "price": 2587,
+      "currency": "JPY"
+    },
+    {
+      "id": "4800721636",
+      "asin": "4800721636",
+      "title": "はじめての生成AI Claude「超」活用術",
+      "author": "柳谷智宣",
+      "authors": [
+        "柳谷智宣"
+      ],
+      "publisher": "ソーテック社",
+      "releaseDate": "2026-08-27",
+      "publishedAt": "2026-08-27",
+      "image": "https://m.media-amazon.com/images/I/51mzn4vWKkL._SL160_.jpg",
+      "imageUrl": "https://m.media-amazon.com/images/I/51mzn4vWKkL._SL160_.jpg",
+      "amazonUrl": "https://www.amazon.co.jp/dp/4800721636?tag=yzak-nra-22",
+      "detailPageUrl": "https://www.amazon.co.jp/dp/4800721636?tag=yzak-nra-22",
+      "tags": [
+        "ai",
+        "genai",
+        "llm"
+      ],
+      "price": 2200,
+      "currency": "JPY"
+    },
+    {
+      "id": "4839991693",
+      "asin": "4839991693",
+      "title": "Claude Cowork スゴイ活用術",
+      "author": "AI部",
+      "authors": [
+        "AI部"
+      ],
+      "publisher": "マイナビ出版",
+      "releaseDate": "2026-08-25",
+      "publishedAt": "2026-08-25",
+      "image": "https://m.media-amazon.com/images/I/41-DgvG6h7L._SL160_.jpg",
+      "imageUrl": "https://m.media-amazon.com/images/I/41-DgvG6h7L._SL160_.jpg",
+      "amazonUrl": "https://www.amazon.co.jp/dp/4839991693?tag=yzak-nra-22",
+      "detailPageUrl": "https://www.amazon.co.jp/dp/4839991693?tag=yzak-nra-22",
+      "tags": [
+        "ai",
+        "genai",
+        "llm"
+      ],
+      "price": 2882,
+      "currency": "JPY"
+    },
+    {
+      "id": "B0H82VH5TV",
+      "asin": "B0H82VH5TV",
+      "title": "図解でスッキリ　生成AIのきほんとしくみ",
+      "author": "岩田 宇史, 広木 大地",
+      "authors": [
+        "岩田 宇史",
+        "広木 大地"
+      ],
+      "publisher": "インプレス",
+      "releaseDate": "2026-08-21",
+      "publishedAt": "2026-08-21",
+      "image": "https://m.media-amazon.com/images/I/51j2EPxhzRL._SL160_.jpg",
+      "imageUrl": "https://m.media-amazon.com/images/I/51j2EPxhzRL._SL160_.jpg",
+      "amazonUrl": "https://www.amazon.co.jp/dp/B0H82VH5TV?tag=yzak-nra-22",
+      "detailPageUrl": "https://www.amazon.co.jp/dp/B0H82VH5TV?tag=yzak-nra-22",
+      "tags": [
+        "ai",
+        "genai"
+      ],
+      "price": 1940,
+      "currency": "JPY"
+    },
+    {
       "id": "479819431X",
       "asin": "479819431X",
       "title": "LLM・AIエージェントシステムベストプラクティス (AI & TECHNOLOGY)",
@@ -135,6 +247,28 @@
         "llm"
       ],
       "price": 2803,
+      "currency": "JPY"
+    },
+    {
+      "id": "B0HGHVB8G8",
+      "asin": "B0HGHVB8G8",
+      "title": "SOFTWARE TEST ARCHITECTURE: Building Testing Systems That Scale with Complex Software Projects",
+      "author": "Benjamin, Thomson",
+      "authors": [
+        "Benjamin, Thomson"
+      ],
+      "publisher": "Independently published",
+      "releaseDate": "2026-08-09",
+      "publishedAt": "2026-08-09",
+      "image": "https://m.media-amazon.com/images/I/41cQfUlnBzL._SL160_.jpg",
+      "imageUrl": "https://m.media-amazon.com/images/I/41cQfUlnBzL._SL160_.jpg",
+      "amazonUrl": "https://www.amazon.co.jp/dp/B0HGHVB8G8?tag=yzak-nra-22",
+      "detailPageUrl": "https://www.amazon.co.jp/dp/B0HGHVB8G8?tag=yzak-nra-22",
+      "tags": [
+        "architecture",
+        "software-test"
+      ],
+      "price": 2255,
       "currency": "JPY"
     },
     {
@@ -223,97 +357,6 @@
         "genai"
       ],
       "price": 2420,
-      "currency": "JPY"
-    },
-    {
-      "id": "B0H7G3RHPP",
-      "asin": "B0H7G3RHPP",
-      "title": "LLMによる情報抽出入門〜日常のリアルなデータから価値ある情報を取り出す技術",
-      "author": "中田 百科, 桐生 佳介",
-      "authors": [
-        "中田 百科",
-        "桐生 佳介"
-      ],
-      "publisher": "技術評論社",
-      "releaseDate": "2026-07-27",
-      "publishedAt": "2026-07-27",
-      "image": "https://m.media-amazon.com/images/I/516ZGVZNmHL._SL160_.jpg",
-      "imageUrl": "https://m.media-amazon.com/images/I/516ZGVZNmHL._SL160_.jpg",
-      "amazonUrl": "https://www.amazon.co.jp/dp/B0H7G3RHPP?tag=yzak-nra-22",
-      "detailPageUrl": "https://www.amazon.co.jp/dp/B0H7G3RHPP?tag=yzak-nra-22",
-      "tags": [
-        "llm"
-      ],
-      "price": 3450,
-      "currency": "JPY"
-    },
-    {
-      "id": "B0H4X5FXYL",
-      "asin": "B0H4X5FXYL",
-      "title": "Claude 最強のAI自動化術 AI仕事術シリーズ",
-      "author": "池田朋弘",
-      "authors": [
-        "池田朋弘"
-      ],
-      "publisher": "芸術新聞社",
-      "releaseDate": "2026-07-27",
-      "publishedAt": "2026-07-27",
-      "image": "https://m.media-amazon.com/images/I/51KknYCazML._SL160_.jpg",
-      "imageUrl": "https://m.media-amazon.com/images/I/51KknYCazML._SL160_.jpg",
-      "amazonUrl": "https://www.amazon.co.jp/dp/B0H4X5FXYL?tag=yzak-nra-22",
-      "detailPageUrl": "https://www.amazon.co.jp/dp/B0H4X5FXYL?tag=yzak-nra-22",
-      "tags": [
-        "ai",
-        "automation",
-        "genai",
-        "llm"
-      ],
-      "price": 2587,
-      "currency": "JPY"
-    },
-    {
-      "id": "B0H6FTFSK7",
-      "asin": "B0H6FTFSK7",
-      "title": "Interface2026年9月号",
-      "author": "Interface編集部",
-      "authors": [
-        "Interface編集部"
-      ],
-      "publisher": "CQ出版",
-      "releaseDate": "2026-07-24",
-      "publishedAt": "2026-07-24",
-      "image": "https://m.media-amazon.com/images/I/51p7lEiW-bL._SL160_.jpg",
-      "imageUrl": "https://m.media-amazon.com/images/I/51p7lEiW-bL._SL160_.jpg",
-      "amazonUrl": "https://www.amazon.co.jp/dp/B0H6FTFSK7?tag=yzak-nra-22",
-      "detailPageUrl": "https://www.amazon.co.jp/dp/B0H6FTFSK7?tag=yzak-nra-22",
-      "tags": [
-        "general"
-      ],
-      "price": 1430,
-      "currency": "JPY"
-    },
-    {
-      "id": "B0H7GCD5CS",
-      "asin": "B0H7GCD5CS",
-      "title": "図解即戦力　AIエージェントのしくみと活用がこれ1冊でしっかりわかる教科書",
-      "author": "岩手テナージョン, 山本 紘暉, 中村 祥",
-      "authors": [
-        "岩手テナージョン",
-        "山本 紘暉",
-        "中村 祥"
-      ],
-      "publisher": "技術評論社",
-      "releaseDate": "2026-07-24",
-      "publishedAt": "2026-07-24",
-      "image": "https://m.media-amazon.com/images/I/51kLJJUlfHL._SL160_.jpg",
-      "imageUrl": "https://m.media-amazon.com/images/I/51kLJJUlfHL._SL160_.jpg",
-      "amazonUrl": "https://www.amazon.co.jp/dp/B0H7GCD5CS?tag=yzak-nra-22",
-      "detailPageUrl": "https://www.amazon.co.jp/dp/B0H7GCD5CS?tag=yzak-nra-22",
-      "tags": [
-        "ai",
-        "llm"
-      ],
-      "price": 2156,
       "currency": "JPY"
     }
   ]
