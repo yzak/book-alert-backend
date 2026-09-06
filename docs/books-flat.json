@@ -1,15 +1,5 @@
 [
   {
-    "title": "AWS認定資格試験テキスト　AWS認定デベロッパー - アソシエイト",
-    "author": "佐々木 拓郎",
-    "image": "https://m.media-amazon.com/images/I/410z2OP1QoL._SL160_.jpg",
-    "releaseDate": "2026-08-28",
-    "amazonUrl": "https://www.amazon.co.jp/dp/B0H6GW8TCH?tag=yzak-nra-22",
-    "tags": [
-      "aws"
-    ]
-  },
-  {
     "title": "LM StudioでつくるローカルLLM入門 課金なし・セキュリティ万全の「自分専用」AI",
     "author": "武井 一巳",
     "image": "https://m.media-amazon.com/images/I/51QQJR7gNnL._SL160_.jpg",
@@ -17,18 +7,6 @@
     "amazonUrl": "https://www.amazon.co.jp/dp/B0H6W864Z6?tag=yzak-nra-22",
     "tags": [
       "ai",
-      "llm"
-    ]
-  },
-  {
-    "title": "はじめての生成AI Claude「超」活用術",
-    "author": "柳谷智宣",
-    "image": "https://m.media-amazon.com/images/I/51mzn4vWKkL._SL160_.jpg",
-    "releaseDate": "2026-08-27",
-    "amazonUrl": "https://www.amazon.co.jp/dp/4800721636?tag=yzak-nra-22",
-    "tags": [
-      "ai",
-      "genai",
       "llm"
     ]
   },
@@ -56,14 +34,36 @@
     ]
   },
   {
-    "title": "LLM・AIエージェントシステムベストプラクティス (AI & TECHNOLOGY)",
-    "author": "澁井 雄介",
-    "image": "https://m.media-amazon.com/images/I/41W29GY7f9L._SL160_.jpg",
-    "releaseDate": "2026-08-20",
-    "amazonUrl": "https://www.amazon.co.jp/dp/479819431X?tag=yzak-nra-22",
+    "title": "AIリスク教本 改訂新版 AIエージェント＆フィジカルAI　AI新時代のガバナンス",
+    "author": "日本IBM AI倫理チーム／AI倫理とガバナンス研究会",
+    "image": "https://m.media-amazon.com/images/I/51a5DK9Tg1L._SL160_.jpg",
+    "releaseDate": "2026-08-21",
+    "amazonUrl": "https://www.amazon.co.jp/dp/4296210777?tag=yzak-nra-22",
     "tags": [
       "ai",
       "llm"
+    ]
+  },
+  {
+    "title": "LLM・AIエージェントシステムベストプラクティス【固定型】",
+    "author": "澁井 雄介",
+    "image": "https://m.media-amazon.com/images/I/41uj8PIKZaL._SL160_.jpg",
+    "releaseDate": "2026-08-20",
+    "amazonUrl": "https://www.amazon.co.jp/dp/B0H61NKF8M?tag=yzak-nra-22",
+    "tags": [
+      "ai",
+      "llm"
+    ]
+  },
+  {
+    "title": "現場で役立つ マルチエージェントAI設計入門 Google A2A×ADKで実現する堅牢な運用システム",
+    "author": "為藤 アキラ",
+    "image": "https://m.media-amazon.com/images/I/51Dw8IMwInL._SL160_.jpg",
+    "releaseDate": "2026-08-20",
+    "amazonUrl": "https://www.amazon.co.jp/dp/4798194980?tag=yzak-nra-22",
+    "tags": [
+      "ai",
+      "architecture"
     ]
   },
   {
@@ -79,6 +79,16 @@
     ]
   },
   {
+    "title": "Python Web開発実践入門 ―― FastAPIによるWeb API開発と非同期処理 (WEB+DE PRESS plusシリーズ)",
+    "author": "陶山 嶺",
+    "image": "https://m.media-amazon.com/images/I/41iafCmK+jL._SL160_.jpg",
+    "releaseDate": "2026-08-13",
+    "amazonUrl": "https://www.amazon.co.jp/dp/4297157764?tag=yzak-nra-22",
+    "tags": [
+      "python"
+    ]
+  },
+  {
     "title": "Claude活用大全　AIと共に学び働き遊ぶ実践ガイド",
     "author": "アクセンチュア Anthropic ビジネスグループ",
     "image": "https://m.media-amazon.com/images/I/513YIHFEYuL._SL160_.jpg",
@@ -91,17 +101,6 @@
     ]
   },
   {
-    "title": "SOFTWARE TEST ARCHITECTURE: Building Testing Systems That Scale with Complex Software Projects",
-    "author": "Benjamin, Thomson",
-    "image": "https://m.media-amazon.com/images/I/41cQfUlnBzL._SL160_.jpg",
-    "releaseDate": "2026-08-09",
-    "amazonUrl": "https://www.amazon.co.jp/dp/B0HGHVB8G8?tag=yzak-nra-22",
-    "tags": [
-      "architecture",
-      "software-test"
-    ]
-  },
-  {
     "title": "Claude Code 徹底活用術　あらゆる仕事が爆速化する",
     "author": "ひつじ, 染谷昌利",
     "image": "https://m.media-amazon.com/images/I/51dOkw3OyKL._SL160_.jpg",
@@ -110,37 +109,6 @@
     "tags": [
       "genai",
       "llm"
-    ]
-  },
-  {
-    "title": "できるClaude＆Claude Cowork できるシリーズ",
-    "author": "清水理史, できるシリーズ編集部",
-    "image": "https://m.media-amazon.com/images/I/41P8XUAtzyL._SL160_.jpg",
-    "releaseDate": "2026-08-06",
-    "amazonUrl": "https://www.amazon.co.jp/dp/B0H82833BQ?tag=yzak-nra-22",
-    "tags": [
-      "genai",
-      "llm"
-    ]
-  },
-  {
-    "title": "ブラウザで動かすLLM実装入門　Google Colaboratoryで実践するLLM・RAG・ファインチューニング",
-    "author": "中西崇文",
-    "image": "https://m.media-amazon.com/images/I/51gN5bXPZPL._SL160_.jpg",
-    "releaseDate": "2026-08-04",
-    "amazonUrl": "https://www.amazon.co.jp/dp/4295024813?tag=yzak-nra-22",
-    "tags": [
-      "llm"
-    ]
-  },
-  {
-    "title": "この1冊でしっかりわかる ChatGPT/Gemini/Copilotの教科書",
-    "author": "佐倉井 理冴",
-    "image": "https://m.media-amazon.com/images/I/51GlhQ6NV6L._SL160_.jpg",
-    "releaseDate": "2026-08-01",
-    "amazonUrl": "https://www.amazon.co.jp/dp/4815643075?tag=yzak-nra-22",
-    "tags": [
-      "genai"
     ]
   }
 ]
