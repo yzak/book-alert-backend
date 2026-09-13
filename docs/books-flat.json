@@ -1,5 +1,28 @@
 [
   {
+    "title": "Raspberry PiとPythonでつくる AIアプリ開発実践ガイド (KS理工学専門書)",
+    "author": "むらさん",
+    "image": "https://m.media-amazon.com/images/I/512KvoKpVML._SL160_.jpg",
+    "releaseDate": "2026-09-10",
+    "amazonUrl": "https://www.amazon.co.jp/dp/4065443512?tag=yzak-nra-22",
+    "tags": [
+      "ai",
+      "python"
+    ]
+  },
+  {
+    "title": "Claude Codeで作って学ぶ AI駆動アプリ開発入門",
+    "author": "増山 友司",
+    "image": "https://m.media-amazon.com/images/I/51DiPo+7LDL._SL160_.jpg",
+    "releaseDate": "2026-09-08",
+    "amazonUrl": "https://www.amazon.co.jp/dp/429715823X?tag=yzak-nra-22",
+    "tags": [
+      "ai",
+      "genai",
+      "llm"
+    ]
+  },
+  {
     "title": "LM StudioでつくるローカルLLM入門 課金なし・セキュリティ万全の「自分専用」AI",
     "author": "武井 一巳",
     "image": "https://m.media-amazon.com/images/I/51QQJR7gNnL._SL160_.jpg",
@@ -7,6 +30,18 @@
     "amazonUrl": "https://www.amazon.co.jp/dp/B0H6W864Z6?tag=yzak-nra-22",
     "tags": [
       "ai",
+      "llm"
+    ]
+  },
+  {
+    "title": "この1冊でしっかりわかる Claudeの教科書 (この1冊でしっかりわかる教科書)",
+    "author": "AI Evo Project, AI Evo Project",
+    "image": "https://m.media-amazon.com/images/I/510t6IavB5L._SL160_.jpg",
+    "releaseDate": "2026-08-26",
+    "amazonUrl": "https://www.amazon.co.jp/dp/B0GX2YJ637?tag=yzak-nra-22",
+    "tags": [
+      "ai",
+      "genai",
       "llm"
     ]
   },
@@ -34,17 +69,6 @@
     ]
   },
   {
-    "title": "AIリスク教本 改訂新版 AIエージェント＆フィジカルAI　AI新時代のガバナンス",
-    "author": "日本IBM AI倫理チーム／AI倫理とガバナンス研究会",
-    "image": "https://m.media-amazon.com/images/I/51a5DK9Tg1L._SL160_.jpg",
-    "releaseDate": "2026-08-21",
-    "amazonUrl": "https://www.amazon.co.jp/dp/4296210777?tag=yzak-nra-22",
-    "tags": [
-      "ai",
-      "llm"
-    ]
-  },
-  {
     "title": "LLM・AIエージェントシステムベストプラクティス【固定型】",
     "author": "澁井 雄介",
     "image": "https://m.media-amazon.com/images/I/41uj8PIKZaL._SL160_.jpg",
@@ -56,17 +80,6 @@
     ]
   },
   {
-    "title": "現場で役立つ マルチエージェントAI設計入門 Google A2A×ADKで実現する堅牢な運用システム",
-    "author": "為藤 アキラ",
-    "image": "https://m.media-amazon.com/images/I/51Dw8IMwInL._SL160_.jpg",
-    "releaseDate": "2026-08-20",
-    "amazonUrl": "https://www.amazon.co.jp/dp/4798194980?tag=yzak-nra-22",
-    "tags": [
-      "ai",
-      "architecture"
-    ]
-  },
-  {
     "title": "Claude Code実践入門［生成AI深掘りガイド］",
     "author": "Oikon, 前川 蒼",
     "image": "https://m.media-amazon.com/images/I/51RJkq3Ra4L._SL160_.jpg",
@@ -74,39 +87,6 @@
     "amazonUrl": "https://www.amazon.co.jp/dp/B0H1M3D1BX?tag=yzak-nra-22",
     "tags": [
       "ai",
-      "genai",
-      "llm"
-    ]
-  },
-  {
-    "title": "Python Web開発実践入門 ―― FastAPIによるWeb API開発と非同期処理 (WEB+DE PRESS plusシリーズ)",
-    "author": "陶山 嶺",
-    "image": "https://m.media-amazon.com/images/I/41iafCmK+jL._SL160_.jpg",
-    "releaseDate": "2026-08-13",
-    "amazonUrl": "https://www.amazon.co.jp/dp/4297157764?tag=yzak-nra-22",
-    "tags": [
-      "python"
-    ]
-  },
-  {
-    "title": "Claude活用大全　AIと共に学び働き遊ぶ実践ガイド",
-    "author": "アクセンチュア Anthropic ビジネスグループ",
-    "image": "https://m.media-amazon.com/images/I/513YIHFEYuL._SL160_.jpg",
-    "releaseDate": "2026-08-10",
-    "amazonUrl": "https://www.amazon.co.jp/dp/B0HD6KNBF9?tag=yzak-nra-22",
-    "tags": [
-      "ai",
-      "genai",
-      "llm"
-    ]
-  },
-  {
-    "title": "Claude Code 徹底活用術　あらゆる仕事が爆速化する",
-    "author": "ひつじ, 染谷昌利",
-    "image": "https://m.media-amazon.com/images/I/51dOkw3OyKL._SL160_.jpg",
-    "releaseDate": "2026-08-07",
-    "amazonUrl": "https://www.amazon.co.jp/dp/B0HCYLNGBB?tag=yzak-nra-22",
-    "tags": [
       "genai",
       "llm"
     ]
