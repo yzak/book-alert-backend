@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-09-13T04:18:34.809Z",
+  "updatedAt": "2026-09-20T04:27:47.991Z",
   "availableTags": [
     {
       "id": "aws",
@@ -69,6 +69,71 @@
   ],
   "books": [
     {
+      "id": "4815643083",
+      "asin": "4815643083",
+      "title": "この1冊でしっかりわかる ChatGPTの教科書",
+      "author": "佐倉井 理冴",
+      "authors": [
+        "佐倉井 理冴"
+      ],
+      "publisher": "SBクリエイティブ",
+      "releaseDate": "2026-09-19",
+      "publishedAt": "2026-09-19",
+      "image": "https://m.media-amazon.com/images/I/51VxqDwuw8L._SL160_.jpg",
+      "imageUrl": "https://m.media-amazon.com/images/I/51VxqDwuw8L._SL160_.jpg",
+      "amazonUrl": "https://www.amazon.co.jp/dp/4815643083?tag=yzak-nra-22",
+      "detailPageUrl": "https://www.amazon.co.jp/dp/4815643083?tag=yzak-nra-22",
+      "tags": [
+        "genai"
+      ],
+      "price": 2310,
+      "currency": "JPY"
+    },
+    {
+      "id": "4798076414",
+      "asin": "4798076414",
+      "title": "わかりやすい Python",
+      "author": "川場隆",
+      "authors": [
+        "川場隆"
+      ],
+      "publisher": "秀和システム新社",
+      "releaseDate": "2026-09-17",
+      "publishedAt": "2026-09-17",
+      "image": "https://m.media-amazon.com/images/I/41Q7LR7iELL._SL160_.jpg",
+      "imageUrl": "https://m.media-amazon.com/images/I/41Q7LR7iELL._SL160_.jpg",
+      "amazonUrl": "https://www.amazon.co.jp/dp/4798076414?tag=yzak-nra-22",
+      "detailPageUrl": "https://www.amazon.co.jp/dp/4798076414?tag=yzak-nra-22",
+      "tags": [
+        "python"
+      ],
+      "price": 3300,
+      "currency": "JPY"
+    },
+    {
+      "id": "4297158752",
+      "asin": "4297158752",
+      "title": "AIエージェント開発の知識地図――仕組みから開発、運用、ガバナンスまで",
+      "author": "塚田 真規, 松好 祐紀",
+      "authors": [
+        "塚田 真規",
+        "松好 祐紀"
+      ],
+      "publisher": "技術評論社",
+      "releaseDate": "2026-09-17",
+      "publishedAt": "2026-09-17",
+      "image": "https://m.media-amazon.com/images/I/51gi+3usQFL._SL160_.jpg",
+      "imageUrl": "https://m.media-amazon.com/images/I/51gi+3usQFL._SL160_.jpg",
+      "amazonUrl": "https://www.amazon.co.jp/dp/4297158752?tag=yzak-nra-22",
+      "detailPageUrl": "https://www.amazon.co.jp/dp/4297158752?tag=yzak-nra-22",
+      "tags": [
+        "ai",
+        "llm"
+      ],
+      "price": 2860,
+      "currency": "JPY"
+    },
+    {
       "id": "4065443512",
       "asin": "4065443512",
       "title": "Raspberry PiとPythonでつくる AIアプリ開発実践ガイド (KS理工学専門書)",
@@ -88,6 +153,55 @@
         "python"
       ],
       "price": 3960,
+      "currency": "JPY"
+    },
+    {
+      "id": "4297158604",
+      "asin": "4297158604",
+      "title": "Codexではじめるエージェンティックコーディング――AIエージェントによる自律的システム開発ガイド",
+      "author": "鈴木 章太郎, スナガク（馬場 俊輔）, 中村 彰宏, びーぐる（藤原 祥司）, 河村 大輔",
+      "authors": [
+        "鈴木 章太郎",
+        "スナガク（馬場 俊輔）",
+        "中村 彰宏",
+        "びーぐる（藤原 祥司）",
+        "河村 大輔"
+      ],
+      "publisher": "技術評論社",
+      "releaseDate": "2026-09-10",
+      "publishedAt": "2026-09-10",
+      "image": "https://m.media-amazon.com/images/I/51vD0br1EiL._SL160_.jpg",
+      "imageUrl": "https://m.media-amazon.com/images/I/51vD0br1EiL._SL160_.jpg",
+      "amazonUrl": "https://www.amazon.co.jp/dp/4297158604?tag=yzak-nra-22",
+      "detailPageUrl": "https://www.amazon.co.jp/dp/4297158604?tag=yzak-nra-22",
+      "tags": [
+        "ai",
+        "llm"
+      ],
+      "price": 3630,
+      "currency": "JPY"
+    },
+    {
+      "id": "4297158388",
+      "asin": "4297158388",
+      "title": "今すぐ使えるかんたんEx　Claude 仕事術&時短技 生成AI活用BESTセレクション ［Claude Code & Claude Cowork対応］",
+      "author": "リンクアップ",
+      "authors": [
+        "リンクアップ"
+      ],
+      "publisher": "技術評論社",
+      "releaseDate": "2026-09-10",
+      "publishedAt": "2026-09-10",
+      "image": "https://m.media-amazon.com/images/I/5165nPVQwQL._SL160_.jpg",
+      "imageUrl": "https://m.media-amazon.com/images/I/5165nPVQwQL._SL160_.jpg",
+      "amazonUrl": "https://www.amazon.co.jp/dp/4297158388?tag=yzak-nra-22",
+      "detailPageUrl": "https://www.amazon.co.jp/dp/4297158388?tag=yzak-nra-22",
+      "tags": [
+        "ai",
+        "genai",
+        "llm"
+      ],
+      "price": 2200,
       "currency": "JPY"
     },
     {
@@ -114,6 +228,50 @@
       "currency": "JPY"
     },
     {
+      "id": "4296220764",
+      "asin": "4296220764",
+      "title": "これからはじめる！生成AI＆ローカルLLMプログラミング (日経BPパソコンベストムック)",
+      "author": "日経ソフトウエア",
+      "authors": [
+        "日経ソフトウエア"
+      ],
+      "publisher": "日経BP",
+      "releaseDate": "2026-09-03",
+      "publishedAt": "2026-09-03",
+      "image": "https://m.media-amazon.com/images/I/51xpmSfP8xL._SL160_.jpg",
+      "imageUrl": "https://m.media-amazon.com/images/I/51xpmSfP8xL._SL160_.jpg",
+      "amazonUrl": "https://www.amazon.co.jp/dp/4296220764?tag=yzak-nra-22",
+      "detailPageUrl": "https://www.amazon.co.jp/dp/4296220764?tag=yzak-nra-22",
+      "tags": [
+        "ai",
+        "genai",
+        "llm"
+      ],
+      "price": 2750,
+      "currency": "JPY"
+    },
+    {
+      "id": "B0HFR598GF",
+      "asin": "B0HFR598GF",
+      "title": "ChatGPT シゴトのドリル　本格スキルが自然と身に付く",
+      "author": "リブロワークス",
+      "authors": [
+        "リブロワークス"
+      ],
+      "publisher": "技術評論社",
+      "releaseDate": "2026-09-03",
+      "publishedAt": "2026-09-03",
+      "image": "https://m.media-amazon.com/images/I/51bcgNNIlmL._SL160_.jpg",
+      "imageUrl": "https://m.media-amazon.com/images/I/51bcgNNIlmL._SL160_.jpg",
+      "amazonUrl": "https://www.amazon.co.jp/dp/B0HFR598GF?tag=yzak-nra-22",
+      "detailPageUrl": "https://www.amazon.co.jp/dp/B0HFR598GF?tag=yzak-nra-22",
+      "tags": [
+        "genai"
+      ],
+      "price": 1940,
+      "currency": "JPY"
+    },
+    {
       "id": "B0H6W864Z6",
       "asin": "B0H6W864Z6",
       "title": "LM StudioでつくるローカルLLM入門 課金なし・セキュリティ万全の「自分専用」AI",
@@ -133,6 +291,31 @@
         "llm"
       ],
       "price": 2587,
+      "currency": "JPY"
+    },
+    {
+      "id": "B0HGZ16CXQ",
+      "asin": "B0HGZ16CXQ",
+      "title": "ChatGPT Workで業務をとことん自動化してみた: AIエージェント入門　ChatGPT活用・生成AI仕事術で業務効率化とタスク自動化を進める実践ガイド 非エンジニアのためのAIコーディング入門シリーズ",
+      "author": "AIアイデア工房, 黒川 葵 ",
+      "authors": [
+        "AIアイデア工房",
+        "黒川 葵 "
+      ],
+      "publisher": "",
+      "releaseDate": "2026-08-28",
+      "publishedAt": "2026-08-28",
+      "image": "https://m.media-amazon.com/images/I/519uhbkrD9L._SL160_.jpg",
+      "imageUrl": "https://m.media-amazon.com/images/I/519uhbkrD9L._SL160_.jpg",
+      "amazonUrl": "https://www.amazon.co.jp/dp/B0HGZ16CXQ?tag=yzak-nra-22",
+      "detailPageUrl": "https://www.amazon.co.jp/dp/B0HGZ16CXQ?tag=yzak-nra-22",
+      "tags": [
+        "ai",
+        "automation",
+        "genai",
+        "llm"
+      ],
+      "price": 99,
       "currency": "JPY"
     },
     {
@@ -182,72 +365,46 @@
       "currency": "JPY"
     },
     {
-      "id": "B0H82VH5TV",
-      "asin": "B0H82VH5TV",
-      "title": "図解でスッキリ　生成AIのきほんとしくみ",
-      "author": "岩田 宇史, 広木 大地",
+      "id": "B0HG5TFMMW",
+      "asin": "B0HG5TFMMW",
+      "title": "RAG 実装の教科書",
+      "author": "スネドラ",
       "authors": [
-        "岩田 宇史",
-        "広木 大地"
+        "スネドラ"
       ],
-      "publisher": "インプレス",
+      "publisher": "",
+      "releaseDate": "2026-08-22",
+      "publishedAt": "2026-08-22",
+      "image": "https://m.media-amazon.com/images/I/31cLM6td8IL._SL160_.jpg",
+      "imageUrl": "https://m.media-amazon.com/images/I/31cLM6td8IL._SL160_.jpg",
+      "amazonUrl": "https://www.amazon.co.jp/dp/B0HG5TFMMW?tag=yzak-nra-22",
+      "detailPageUrl": "https://www.amazon.co.jp/dp/B0HG5TFMMW?tag=yzak-nra-22",
+      "tags": [
+        "llm"
+      ],
+      "price": 1480,
+      "currency": "JPY"
+    },
+    {
+      "id": "4296210777",
+      "asin": "4296210777",
+      "title": "AIリスク教本 改訂新版 AIエージェント＆フィジカルAI　AI新時代のガバナンス",
+      "author": "日本IBM AI倫理チーム／AI倫理とガバナンス研究会",
+      "authors": [
+        "日本IBM AI倫理チーム／AI倫理とガバナンス研究会"
+      ],
+      "publisher": "日経BP",
       "releaseDate": "2026-08-21",
       "publishedAt": "2026-08-21",
-      "image": "https://m.media-amazon.com/images/I/51j2EPxhzRL._SL160_.jpg",
-      "imageUrl": "https://m.media-amazon.com/images/I/51j2EPxhzRL._SL160_.jpg",
-      "amazonUrl": "https://www.amazon.co.jp/dp/B0H82VH5TV?tag=yzak-nra-22",
-      "detailPageUrl": "https://www.amazon.co.jp/dp/B0H82VH5TV?tag=yzak-nra-22",
-      "tags": [
-        "ai",
-        "genai"
-      ],
-      "price": 1940,
-      "currency": "JPY"
-    },
-    {
-      "id": "B0H61NKF8M",
-      "asin": "B0H61NKF8M",
-      "title": "LLM・AIエージェントシステムベストプラクティス【固定型】",
-      "author": "澁井 雄介",
-      "authors": [
-        "澁井 雄介"
-      ],
-      "publisher": "翔泳社",
-      "releaseDate": "2026-08-20",
-      "publishedAt": "2026-08-20",
-      "image": "https://m.media-amazon.com/images/I/41uj8PIKZaL._SL160_.jpg",
-      "imageUrl": "https://m.media-amazon.com/images/I/41uj8PIKZaL._SL160_.jpg",
-      "amazonUrl": "https://www.amazon.co.jp/dp/B0H61NKF8M?tag=yzak-nra-22",
-      "detailPageUrl": "https://www.amazon.co.jp/dp/B0H61NKF8M?tag=yzak-nra-22",
+      "image": "https://m.media-amazon.com/images/I/51a5DK9Tg1L._SL160_.jpg",
+      "imageUrl": "https://m.media-amazon.com/images/I/51a5DK9Tg1L._SL160_.jpg",
+      "amazonUrl": "https://www.amazon.co.jp/dp/4296210777?tag=yzak-nra-22",
+      "detailPageUrl": "https://www.amazon.co.jp/dp/4296210777?tag=yzak-nra-22",
       "tags": [
         "ai",
         "llm"
       ],
-      "price": 3881,
-      "currency": "JPY"
-    },
-    {
-      "id": "B0H1M3D1BX",
-      "asin": "B0H1M3D1BX",
-      "title": "Claude Code実践入門［生成AI深掘りガイド］",
-      "author": "Oikon, 前川 蒼",
-      "authors": [
-        "Oikon",
-        "前川 蒼"
-      ],
-      "publisher": "SBクリエイティブ",
-      "releaseDate": "2026-08-14",
-      "publishedAt": "2026-08-14",
-      "image": "https://m.media-amazon.com/images/I/51RJkq3Ra4L._SL160_.jpg",
-      "imageUrl": "https://m.media-amazon.com/images/I/51RJkq3Ra4L._SL160_.jpg",
-      "amazonUrl": "https://www.amazon.co.jp/dp/B0H1M3D1BX?tag=yzak-nra-22",
-      "detailPageUrl": "https://www.amazon.co.jp/dp/B0H1M3D1BX?tag=yzak-nra-22",
-      "tags": [
-        "ai",
-        "genai",
-        "llm"
-      ],
-      "price": 3234,
+      "price": 2750,
       "currency": "JPY"
     }
   ]

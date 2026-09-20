@@ -1,5 +1,36 @@
 [
   {
+    "title": "この1冊でしっかりわかる ChatGPTの教科書",
+    "author": "佐倉井 理冴",
+    "image": "https://m.media-amazon.com/images/I/51VxqDwuw8L._SL160_.jpg",
+    "releaseDate": "2026-09-19",
+    "amazonUrl": "https://www.amazon.co.jp/dp/4815643083?tag=yzak-nra-22",
+    "tags": [
+      "genai"
+    ]
+  },
+  {
+    "title": "わかりやすい Python",
+    "author": "川場隆",
+    "image": "https://m.media-amazon.com/images/I/41Q7LR7iELL._SL160_.jpg",
+    "releaseDate": "2026-09-17",
+    "amazonUrl": "https://www.amazon.co.jp/dp/4798076414?tag=yzak-nra-22",
+    "tags": [
+      "python"
+    ]
+  },
+  {
+    "title": "AIエージェント開発の知識地図――仕組みから開発、運用、ガバナンスまで",
+    "author": "塚田 真規, 松好 祐紀",
+    "image": "https://m.media-amazon.com/images/I/51gi+3usQFL._SL160_.jpg",
+    "releaseDate": "2026-09-17",
+    "amazonUrl": "https://www.amazon.co.jp/dp/4297158752?tag=yzak-nra-22",
+    "tags": [
+      "ai",
+      "llm"
+    ]
+  },
+  {
     "title": "Raspberry PiとPythonでつくる AIアプリ開発実践ガイド (KS理工学専門書)",
     "author": "むらさん",
     "image": "https://m.media-amazon.com/images/I/512KvoKpVML._SL160_.jpg",
@@ -8,6 +39,29 @@
     "tags": [
       "ai",
       "python"
+    ]
+  },
+  {
+    "title": "Codexではじめるエージェンティックコーディング――AIエージェントによる自律的システム開発ガイド",
+    "author": "鈴木 章太郎, スナガク（馬場 俊輔）, 中村 彰宏, びーぐる（藤原 祥司）, 河村 大輔",
+    "image": "https://m.media-amazon.com/images/I/51vD0br1EiL._SL160_.jpg",
+    "releaseDate": "2026-09-10",
+    "amazonUrl": "https://www.amazon.co.jp/dp/4297158604?tag=yzak-nra-22",
+    "tags": [
+      "ai",
+      "llm"
+    ]
+  },
+  {
+    "title": "今すぐ使えるかんたんEx　Claude 仕事術&時短技 生成AI活用BESTセレクション ［Claude Code & Claude Cowork対応］",
+    "author": "リンクアップ",
+    "image": "https://m.media-amazon.com/images/I/5165nPVQwQL._SL160_.jpg",
+    "releaseDate": "2026-09-10",
+    "amazonUrl": "https://www.amazon.co.jp/dp/4297158388?tag=yzak-nra-22",
+    "tags": [
+      "ai",
+      "genai",
+      "llm"
     ]
   },
   {
@@ -23,6 +77,28 @@
     ]
   },
   {
+    "title": "これからはじめる！生成AI＆ローカルLLMプログラミング (日経BPパソコンベストムック)",
+    "author": "日経ソフトウエア",
+    "image": "https://m.media-amazon.com/images/I/51xpmSfP8xL._SL160_.jpg",
+    "releaseDate": "2026-09-03",
+    "amazonUrl": "https://www.amazon.co.jp/dp/4296220764?tag=yzak-nra-22",
+    "tags": [
+      "ai",
+      "genai",
+      "llm"
+    ]
+  },
+  {
+    "title": "ChatGPT シゴトのドリル　本格スキルが自然と身に付く",
+    "author": "リブロワークス",
+    "image": "https://m.media-amazon.com/images/I/51bcgNNIlmL._SL160_.jpg",
+    "releaseDate": "2026-09-03",
+    "amazonUrl": "https://www.amazon.co.jp/dp/B0HFR598GF?tag=yzak-nra-22",
+    "tags": [
+      "genai"
+    ]
+  },
+  {
     "title": "LM StudioでつくるローカルLLM入門 課金なし・セキュリティ万全の「自分専用」AI",
     "author": "武井 一巳",
     "image": "https://m.media-amazon.com/images/I/51QQJR7gNnL._SL160_.jpg",
@@ -30,6 +106,19 @@
     "amazonUrl": "https://www.amazon.co.jp/dp/B0H6W864Z6?tag=yzak-nra-22",
     "tags": [
       "ai",
+      "llm"
+    ]
+  },
+  {
+    "title": "ChatGPT Workで業務をとことん自動化してみた: AIエージェント入門　ChatGPT活用・生成AI仕事術で業務効率化とタスク自動化を進める実践ガイド 非エンジニアのためのAIコーディング入門シリーズ",
+    "author": "AIアイデア工房, 黒川 葵 ",
+    "image": "https://m.media-amazon.com/images/I/519uhbkrD9L._SL160_.jpg",
+    "releaseDate": "2026-08-28",
+    "amazonUrl": "https://www.amazon.co.jp/dp/B0HGZ16CXQ?tag=yzak-nra-22",
+    "tags": [
+      "ai",
+      "automation",
+      "genai",
       "llm"
     ]
   },
@@ -58,36 +147,23 @@
     ]
   },
   {
-    "title": "図解でスッキリ　生成AIのきほんとしくみ",
-    "author": "岩田 宇史, 広木 大地",
-    "image": "https://m.media-amazon.com/images/I/51j2EPxhzRL._SL160_.jpg",
-    "releaseDate": "2026-08-21",
-    "amazonUrl": "https://www.amazon.co.jp/dp/B0H82VH5TV?tag=yzak-nra-22",
+    "title": "RAG 実装の教科書",
+    "author": "スネドラ",
+    "image": "https://m.media-amazon.com/images/I/31cLM6td8IL._SL160_.jpg",
+    "releaseDate": "2026-08-22",
+    "amazonUrl": "https://www.amazon.co.jp/dp/B0HG5TFMMW?tag=yzak-nra-22",
     "tags": [
-      "ai",
-      "genai"
-    ]
-  },
-  {
-    "title": "LLM・AIエージェントシステムベストプラクティス【固定型】",
-    "author": "澁井 雄介",
-    "image": "https://m.media-amazon.com/images/I/41uj8PIKZaL._SL160_.jpg",
-    "releaseDate": "2026-08-20",
-    "amazonUrl": "https://www.amazon.co.jp/dp/B0H61NKF8M?tag=yzak-nra-22",
-    "tags": [
-      "ai",
       "llm"
     ]
   },
   {
-    "title": "Claude Code実践入門［生成AI深掘りガイド］",
-    "author": "Oikon, 前川 蒼",
-    "image": "https://m.media-amazon.com/images/I/51RJkq3Ra4L._SL160_.jpg",
-    "releaseDate": "2026-08-14",
-    "amazonUrl": "https://www.amazon.co.jp/dp/B0H1M3D1BX?tag=yzak-nra-22",
+    "title": "AIリスク教本 改訂新版 AIエージェント＆フィジカルAI　AI新時代のガバナンス",
+    "author": "日本IBM AI倫理チーム／AI倫理とガバナンス研究会",
+    "image": "https://m.media-amazon.com/images/I/51a5DK9Tg1L._SL160_.jpg",
+    "releaseDate": "2026-08-21",
+    "amazonUrl": "https://www.amazon.co.jp/dp/4296210777?tag=yzak-nra-22",
     "tags": [
       "ai",
-      "genai",
       "llm"
     ]
   }
