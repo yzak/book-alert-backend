@@ -1,22 +1,66 @@
 [
   {
-    "title": "この1冊でしっかりわかる ChatGPTの教科書",
-    "author": "佐倉井 理冴",
-    "image": "https://m.media-amazon.com/images/I/51VxqDwuw8L._SL160_.jpg",
-    "releaseDate": "2026-09-19",
-    "amazonUrl": "https://www.amazon.co.jp/dp/4815643083?tag=yzak-nra-22",
+    "title": "AIエージェント導入を任されたら読む本",
+    "author": "志賀 琢也, 川西 里佳, 上山 俊佑",
+    "image": "https://m.media-amazon.com/images/I/41BqEINFKrL._SL160_.jpg",
+    "releaseDate": "2026-09-26",
+    "amazonUrl": "https://www.amazon.co.jp/dp/4296220349?tag=yzak-nra-22",
     "tags": [
-      "genai"
+      "ai",
+      "llm"
     ]
   },
   {
-    "title": "わかりやすい Python",
-    "author": "川場隆",
-    "image": "https://m.media-amazon.com/images/I/41Q7LR7iELL._SL160_.jpg",
-    "releaseDate": "2026-09-17",
-    "amazonUrl": "https://www.amazon.co.jp/dp/4798076414?tag=yzak-nra-22",
+    "title": "スラスラ読める Pythonふりがなプログラミング 改訂3版",
+    "author": "リブロワークス, 株式会社ビープラウド",
+    "image": "https://m.media-amazon.com/images/I/51DW4fK-jaL._SL160_.jpg",
+    "releaseDate": "2026-09-25",
+    "amazonUrl": "https://www.amazon.co.jp/dp/4295025798?tag=yzak-nra-22",
     "tags": [
       "python"
+    ]
+  },
+  {
+    "title": "AIエージェント組織実装の最適解",
+    "author": "園田亜斗夢, 川俣彰広",
+    "image": "https://m.media-amazon.com/images/I/41nNVbkURYL._SL160_.jpg",
+    "releaseDate": "2026-09-25",
+    "amazonUrl": "https://www.amazon.co.jp/dp/4295412570?tag=yzak-nra-22",
+    "tags": [
+      "ai",
+      "engineering-management",
+      "llm"
+    ]
+  },
+  {
+    "title": "LLMアプリケーション評価駆動開発【リフロー型】 継続的に改善し運用していくための実践知",
+    "author": "上野 彰大, 大嶋 勇樹",
+    "image": "https://m.media-amazon.com/images/I/51Yj9lNGfDL._SL160_.jpg",
+    "releaseDate": "2026-09-24",
+    "amazonUrl": "https://www.amazon.co.jp/dp/B0HB2DFKXC?tag=yzak-nra-22",
+    "tags": [
+      "llm"
+    ]
+  },
+  {
+    "title": "［みのるん式］ビジネスパーソンのためのClaude Code仕事術",
+    "author": "御田 稔",
+    "image": "https://m.media-amazon.com/images/I/51clwCUvB0L._SL160_.jpg",
+    "releaseDate": "2026-09-24",
+    "amazonUrl": "https://www.amazon.co.jp/dp/B0HGWL46Y5?tag=yzak-nra-22",
+    "tags": [
+      "genai",
+      "llm"
+    ]
+  },
+  {
+    "title": "この1冊でしっかりわかる ChatGPTの教科書",
+    "author": "佐倉井 理冴",
+    "image": "https://m.media-amazon.com/images/I/514dlnRis5L._SL160_.jpg",
+    "releaseDate": "2026-09-19",
+    "amazonUrl": "https://www.amazon.co.jp/dp/B0H6H3BMK5?tag=yzak-nra-22",
+    "tags": [
+      "genai"
     ]
   },
   {
@@ -24,21 +68,10 @@
     "author": "塚田 真規, 松好 祐紀",
     "image": "https://m.media-amazon.com/images/I/51gi+3usQFL._SL160_.jpg",
     "releaseDate": "2026-09-17",
-    "amazonUrl": "https://www.amazon.co.jp/dp/4297158752?tag=yzak-nra-22",
+    "amazonUrl": "https://www.amazon.co.jp/dp/B0HGQ8CCQK?tag=yzak-nra-22",
     "tags": [
       "ai",
       "llm"
-    ]
-  },
-  {
-    "title": "Raspberry PiとPythonでつくる AIアプリ開発実践ガイド (KS理工学専門書)",
-    "author": "むらさん",
-    "image": "https://m.media-amazon.com/images/I/512KvoKpVML._SL160_.jpg",
-    "releaseDate": "2026-09-10",
-    "amazonUrl": "https://www.amazon.co.jp/dp/4065443512?tag=yzak-nra-22",
-    "tags": [
-      "ai",
-      "python"
     ]
   },
   {
@@ -49,18 +82,6 @@
     "amazonUrl": "https://www.amazon.co.jp/dp/4297158604?tag=yzak-nra-22",
     "tags": [
       "ai",
-      "llm"
-    ]
-  },
-  {
-    "title": "今すぐ使えるかんたんEx　Claude 仕事術&時短技 生成AI活用BESTセレクション ［Claude Code & Claude Cowork対応］",
-    "author": "リンクアップ",
-    "image": "https://m.media-amazon.com/images/I/5165nPVQwQL._SL160_.jpg",
-    "releaseDate": "2026-09-10",
-    "amazonUrl": "https://www.amazon.co.jp/dp/4297158388?tag=yzak-nra-22",
-    "tags": [
-      "ai",
-      "genai",
       "llm"
     ]
   },
@@ -77,11 +98,11 @@
     ]
   },
   {
-    "title": "これからはじめる！生成AI＆ローカルLLMプログラミング (日経BPパソコンベストムック)",
-    "author": "日経ソフトウエア",
-    "image": "https://m.media-amazon.com/images/I/51xpmSfP8xL._SL160_.jpg",
-    "releaseDate": "2026-09-03",
-    "amazonUrl": "https://www.amazon.co.jp/dp/4296220764?tag=yzak-nra-22",
+    "title": "ChatGPT最新モデル GPT-6 Astra完全ガイド: OpenAI公式発表・ベンチマーク・安全性を徹底解説／2026年9月最新版",
+    "author": "まさひろ",
+    "image": "https://m.media-amazon.com/images/I/41L94ohJfyL._SL160_.jpg",
+    "releaseDate": "2026-09-06",
+    "amazonUrl": "https://www.amazon.co.jp/dp/B0HHYNMHDK?tag=yzak-nra-22",
     "tags": [
       "ai",
       "genai",
@@ -104,64 +125,6 @@
     "image": "https://m.media-amazon.com/images/I/51QQJR7gNnL._SL160_.jpg",
     "releaseDate": "2026-08-28",
     "amazonUrl": "https://www.amazon.co.jp/dp/B0H6W864Z6?tag=yzak-nra-22",
-    "tags": [
-      "ai",
-      "llm"
-    ]
-  },
-  {
-    "title": "ChatGPT Workで業務をとことん自動化してみた: AIエージェント入門　ChatGPT活用・生成AI仕事術で業務効率化とタスク自動化を進める実践ガイド 非エンジニアのためのAIコーディング入門シリーズ",
-    "author": "AIアイデア工房, 黒川 葵 ",
-    "image": "https://m.media-amazon.com/images/I/519uhbkrD9L._SL160_.jpg",
-    "releaseDate": "2026-08-28",
-    "amazonUrl": "https://www.amazon.co.jp/dp/B0HGZ16CXQ?tag=yzak-nra-22",
-    "tags": [
-      "ai",
-      "automation",
-      "genai",
-      "llm"
-    ]
-  },
-  {
-    "title": "この1冊でしっかりわかる Claudeの教科書 (この1冊でしっかりわかる教科書)",
-    "author": "AI Evo Project, AI Evo Project",
-    "image": "https://m.media-amazon.com/images/I/510t6IavB5L._SL160_.jpg",
-    "releaseDate": "2026-08-26",
-    "amazonUrl": "https://www.amazon.co.jp/dp/B0GX2YJ637?tag=yzak-nra-22",
-    "tags": [
-      "ai",
-      "genai",
-      "llm"
-    ]
-  },
-  {
-    "title": "Claude Cowork スゴイ活用術",
-    "author": "AI部",
-    "image": "https://m.media-amazon.com/images/I/41-DgvG6h7L._SL160_.jpg",
-    "releaseDate": "2026-08-25",
-    "amazonUrl": "https://www.amazon.co.jp/dp/4839991693?tag=yzak-nra-22",
-    "tags": [
-      "ai",
-      "genai",
-      "llm"
-    ]
-  },
-  {
-    "title": "RAG 実装の教科書",
-    "author": "スネドラ",
-    "image": "https://m.media-amazon.com/images/I/31cLM6td8IL._SL160_.jpg",
-    "releaseDate": "2026-08-22",
-    "amazonUrl": "https://www.amazon.co.jp/dp/B0HG5TFMMW?tag=yzak-nra-22",
-    "tags": [
-      "llm"
-    ]
-  },
-  {
-    "title": "AIリスク教本 改訂新版 AIエージェント＆フィジカルAI　AI新時代のガバナンス",
-    "author": "日本IBM AI倫理チーム／AI倫理とガバナンス研究会",
-    "image": "https://m.media-amazon.com/images/I/51a5DK9Tg1L._SL160_.jpg",
-    "releaseDate": "2026-08-21",
-    "amazonUrl": "https://www.amazon.co.jp/dp/4296210777?tag=yzak-nra-22",
     "tags": [
       "ai",
       "llm"
