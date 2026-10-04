@@ -1,23 +1,13 @@
 [
   {
-    "title": "AIエージェント導入を任されたら読む本",
-    "author": "志賀 琢也, 川西 里佳, 上山 俊佑",
-    "image": "https://m.media-amazon.com/images/I/41BqEINFKrL._SL160_.jpg",
-    "releaseDate": "2026-09-26",
-    "amazonUrl": "https://www.amazon.co.jp/dp/4296220349?tag=yzak-nra-22",
+    "title": "晋遊舎ムック お得技シリーズ299　生成AI 最新 丸投げ仕事術 お得技ベストセレクション",
+    "author": "晋遊舎",
+    "image": "https://m.media-amazon.com/images/I/51zWGWzylgL._SL160_.jpg",
+    "releaseDate": "2026-09-25",
+    "amazonUrl": "https://www.amazon.co.jp/dp/B0GX2W43CC?tag=yzak-nra-22",
     "tags": [
       "ai",
-      "llm"
-    ]
-  },
-  {
-    "title": "スラスラ読める Pythonふりがなプログラミング 改訂3版",
-    "author": "リブロワークス, 株式会社ビープラウド",
-    "image": "https://m.media-amazon.com/images/I/51DW4fK-jaL._SL160_.jpg",
-    "releaseDate": "2026-09-25",
-    "amazonUrl": "https://www.amazon.co.jp/dp/4295025798?tag=yzak-nra-22",
-    "tags": [
-      "python"
+      "genai"
     ]
   },
   {
@@ -30,6 +20,16 @@
       "ai",
       "engineering-management",
       "llm"
+    ]
+  },
+  {
+    "title": "Interface 2026年11月号",
+    "author": "Interface編集部",
+    "image": "https://m.media-amazon.com/images/I/516TcZsv54L._SL160_.jpg",
+    "releaseDate": "2026-09-25",
+    "amazonUrl": "https://www.amazon.co.jp/dp/B0HG9CTRMF?tag=yzak-nra-22",
+    "tags": [
+      "general"
     ]
   },
   {
@@ -75,13 +75,26 @@
     ]
   },
   {
-    "title": "Codexではじめるエージェンティックコーディング――AIエージェントによる自律的システム開発ガイド",
-    "author": "鈴木 章太郎, スナガク（馬場 俊輔）, 中村 彰宏, びーぐる（藤原 祥司）, 河村 大輔",
-    "image": "https://m.media-amazon.com/images/I/51vD0br1EiL._SL160_.jpg",
-    "releaseDate": "2026-09-10",
-    "amazonUrl": "https://www.amazon.co.jp/dp/4297158604?tag=yzak-nra-22",
+    "title": "Claudeビジネス活用術 業務を自律化し、作業時間をゼロにする (生成AI仕事術)",
+    "author": "武井 一巳",
+    "image": "https://m.media-amazon.com/images/I/51t2NfMNx2L._SL160_.jpg",
+    "releaseDate": "2026-09-17",
+    "amazonUrl": "https://www.amazon.co.jp/dp/4798199265?tag=yzak-nra-22",
     "tags": [
       "ai",
+      "genai",
+      "llm"
+    ]
+  },
+  {
+    "title": "今すぐ使えるかんたんEx　Claude 仕事術&時短技 生成AI活用BESTセレクション ［Claude Code & Claude Cowork対応］",
+    "author": "リンクアップ",
+    "image": "https://m.media-amazon.com/images/I/5165nPVQwQL._SL160_.jpg",
+    "releaseDate": "2026-09-10",
+    "amazonUrl": "https://www.amazon.co.jp/dp/4297158388?tag=yzak-nra-22",
+    "tags": [
+      "ai",
+      "genai",
       "llm"
     ]
   },
@@ -106,27 +119,6 @@
     "tags": [
       "ai",
       "genai",
-      "llm"
-    ]
-  },
-  {
-    "title": "ChatGPT シゴトのドリル　本格スキルが自然と身に付く",
-    "author": "リブロワークス",
-    "image": "https://m.media-amazon.com/images/I/51bcgNNIlmL._SL160_.jpg",
-    "releaseDate": "2026-09-03",
-    "amazonUrl": "https://www.amazon.co.jp/dp/B0HFR598GF?tag=yzak-nra-22",
-    "tags": [
-      "genai"
-    ]
-  },
-  {
-    "title": "LM StudioでつくるローカルLLM入門 課金なし・セキュリティ万全の「自分専用」AI",
-    "author": "武井 一巳",
-    "image": "https://m.media-amazon.com/images/I/51QQJR7gNnL._SL160_.jpg",
-    "releaseDate": "2026-08-28",
-    "amazonUrl": "https://www.amazon.co.jp/dp/B0H6W864Z6?tag=yzak-nra-22",
-    "tags": [
-      "ai",
       "llm"
     ]
   }
