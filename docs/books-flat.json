@@ -1,13 +1,36 @@
 [
   {
-    "title": "晋遊舎ムック お得技シリーズ299　生成AI 最新 丸投げ仕事術 お得技ベストセレクション",
-    "author": "晋遊舎",
-    "image": "https://m.media-amazon.com/images/I/51zWGWzylgL._SL160_.jpg",
-    "releaseDate": "2026-09-25",
-    "amazonUrl": "https://www.amazon.co.jp/dp/B0GX2W43CC?tag=yzak-nra-22",
+    "title": "作って学ぶ生成AIモバイルアプリ──Firebase AI LogicとGenkitでFlutterアプリにGeminiを実装",
+    "author": "鶴岡 秀樹, 河面 知定",
+    "image": "https://m.media-amazon.com/images/I/51hE-9HpgNL._SL160_.jpg",
+    "releaseDate": "2026-09-30",
+    "amazonUrl": "https://www.amazon.co.jp/dp/B0HJQNVCN9?tag=yzak-nra-22",
+    "tags": [
+      "ai",
+      "flutter",
+      "genai"
+    ]
+  },
+  {
+    "title": "生成AIに学ぶ問題解決: AI時代の知の作法",
+    "author": "山上 俊彦",
+    "image": "https://m.media-amazon.com/images/I/31Y4NUNMO4L._SL160_.jpg",
+    "releaseDate": "2026-09-29",
+    "amazonUrl": "https://www.amazon.co.jp/dp/B0HLDQ9KSS?tag=yzak-nra-22",
     "tags": [
       "ai",
       "genai"
+    ]
+  },
+  {
+    "title": "AIエージェント導入を任されたら読む本",
+    "author": "志賀 琢也, 川西 里佳, 上山 俊佑",
+    "image": "https://m.media-amazon.com/images/I/41l9nVPg9UL._SL160_.jpg",
+    "releaseDate": "2026-09-25",
+    "amazonUrl": "https://www.amazon.co.jp/dp/B0HKZ1DGYL?tag=yzak-nra-22",
+    "tags": [
+      "ai",
+      "llm"
     ]
   },
   {
@@ -23,22 +46,23 @@
     ]
   },
   {
-    "title": "Interface 2026年11月号",
-    "author": "Interface編集部",
-    "image": "https://m.media-amazon.com/images/I/516TcZsv54L._SL160_.jpg",
-    "releaseDate": "2026-09-25",
-    "amazonUrl": "https://www.amazon.co.jp/dp/B0HG9CTRMF?tag=yzak-nra-22",
-    "tags": [
-      "general"
-    ]
-  },
-  {
     "title": "LLMアプリケーション評価駆動開発【リフロー型】 継続的に改善し運用していくための実践知",
     "author": "上野 彰大, 大嶋 勇樹",
     "image": "https://m.media-amazon.com/images/I/51Yj9lNGfDL._SL160_.jpg",
     "releaseDate": "2026-09-24",
     "amazonUrl": "https://www.amazon.co.jp/dp/B0HB2DFKXC?tag=yzak-nra-22",
     "tags": [
+      "llm"
+    ]
+  },
+  {
+    "title": "RAGと検索基盤設計実践ガイド 2026 (Tech Athletes)",
+    "author": "Tech Athletes",
+    "image": "https://m.media-amazon.com/images/I/41y5REQYPZL._SL160_.jpg",
+    "releaseDate": "2026-09-24",
+    "amazonUrl": "https://www.amazon.co.jp/dp/B0HCLQ54KD?tag=yzak-nra-22",
+    "tags": [
+      "architecture",
       "llm"
     ]
   },
@@ -71,54 +95,6 @@
     "amazonUrl": "https://www.amazon.co.jp/dp/B0HGQ8CCQK?tag=yzak-nra-22",
     "tags": [
       "ai",
-      "llm"
-    ]
-  },
-  {
-    "title": "Claudeビジネス活用術 業務を自律化し、作業時間をゼロにする (生成AI仕事術)",
-    "author": "武井 一巳",
-    "image": "https://m.media-amazon.com/images/I/51t2NfMNx2L._SL160_.jpg",
-    "releaseDate": "2026-09-17",
-    "amazonUrl": "https://www.amazon.co.jp/dp/4798199265?tag=yzak-nra-22",
-    "tags": [
-      "ai",
-      "genai",
-      "llm"
-    ]
-  },
-  {
-    "title": "今すぐ使えるかんたんEx　Claude 仕事術&時短技 生成AI活用BESTセレクション ［Claude Code & Claude Cowork対応］",
-    "author": "リンクアップ",
-    "image": "https://m.media-amazon.com/images/I/5165nPVQwQL._SL160_.jpg",
-    "releaseDate": "2026-09-10",
-    "amazonUrl": "https://www.amazon.co.jp/dp/4297158388?tag=yzak-nra-22",
-    "tags": [
-      "ai",
-      "genai",
-      "llm"
-    ]
-  },
-  {
-    "title": "Claude Codeで作って学ぶ AI駆動アプリ開発入門",
-    "author": "増山 友司",
-    "image": "https://m.media-amazon.com/images/I/51DiPo+7LDL._SL160_.jpg",
-    "releaseDate": "2026-09-08",
-    "amazonUrl": "https://www.amazon.co.jp/dp/429715823X?tag=yzak-nra-22",
-    "tags": [
-      "ai",
-      "genai",
-      "llm"
-    ]
-  },
-  {
-    "title": "ChatGPT最新モデル GPT-6 Astra完全ガイド: OpenAI公式発表・ベンチマーク・安全性を徹底解説／2026年9月最新版",
-    "author": "まさひろ",
-    "image": "https://m.media-amazon.com/images/I/41L94ohJfyL._SL160_.jpg",
-    "releaseDate": "2026-09-06",
-    "amazonUrl": "https://www.amazon.co.jp/dp/B0HHYNMHDK?tag=yzak-nra-22",
-    "tags": [
-      "ai",
-      "genai",
       "llm"
     ]
   }

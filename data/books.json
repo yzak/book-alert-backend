@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-04T05:22:41.213Z",
+  "updatedAt": "2026-10-11T05:14:10.259Z",
   "availableTags": [
     {
       "id": "aws",
@@ -69,25 +69,73 @@
   ],
   "books": [
     {
-      "id": "B0GX2W43CC",
-      "asin": "B0GX2W43CC",
-      "title": "晋遊舎ムック お得技シリーズ299　生成AI 最新 丸投げ仕事術 お得技ベストセレクション",
-      "author": "晋遊舎",
+      "id": "B0HJQNVCN9",
+      "asin": "B0HJQNVCN9",
+      "title": "作って学ぶ生成AIモバイルアプリ──Firebase AI LogicとGenkitでFlutterアプリにGeminiを実装",
+      "author": "鶴岡 秀樹, 河面 知定",
       "authors": [
-        "晋遊舎"
+        "鶴岡 秀樹",
+        "河面 知定"
       ],
-      "publisher": "晋遊舎",
-      "releaseDate": "2026-09-25",
-      "publishedAt": "2026-09-25",
-      "image": "https://m.media-amazon.com/images/I/51zWGWzylgL._SL160_.jpg",
-      "imageUrl": "https://m.media-amazon.com/images/I/51zWGWzylgL._SL160_.jpg",
-      "amazonUrl": "https://www.amazon.co.jp/dp/B0GX2W43CC?tag=yzak-nra-22",
-      "detailPageUrl": "https://www.amazon.co.jp/dp/B0GX2W43CC?tag=yzak-nra-22",
+      "publisher": "技術評論社",
+      "releaseDate": "2026-09-30",
+      "publishedAt": "2026-09-30",
+      "image": "https://m.media-amazon.com/images/I/51hE-9HpgNL._SL160_.jpg",
+      "imageUrl": "https://m.media-amazon.com/images/I/51hE-9HpgNL._SL160_.jpg",
+      "amazonUrl": "https://www.amazon.co.jp/dp/B0HJQNVCN9?tag=yzak-nra-22",
+      "detailPageUrl": "https://www.amazon.co.jp/dp/B0HJQNVCN9?tag=yzak-nra-22",
+      "tags": [
+        "ai",
+        "flutter",
+        "genai"
+      ],
+      "price": 3881,
+      "currency": "JPY"
+    },
+    {
+      "id": "B0HLDQ9KSS",
+      "asin": "B0HLDQ9KSS",
+      "title": "生成AIに学ぶ問題解決: AI時代の知の作法",
+      "author": "山上 俊彦",
+      "authors": [
+        "山上 俊彦"
+      ],
+      "publisher": "",
+      "releaseDate": "2026-09-29",
+      "publishedAt": "2026-09-29",
+      "image": "https://m.media-amazon.com/images/I/31Y4NUNMO4L._SL160_.jpg",
+      "imageUrl": "https://m.media-amazon.com/images/I/31Y4NUNMO4L._SL160_.jpg",
+      "amazonUrl": "https://www.amazon.co.jp/dp/B0HLDQ9KSS?tag=yzak-nra-22",
+      "detailPageUrl": "https://www.amazon.co.jp/dp/B0HLDQ9KSS?tag=yzak-nra-22",
       "tags": [
         "ai",
         "genai"
       ],
-      "price": 1210,
+      "price": 1000,
+      "currency": "JPY"
+    },
+    {
+      "id": "B0HKZ1DGYL",
+      "asin": "B0HKZ1DGYL",
+      "title": "AIエージェント導入を任されたら読む本",
+      "author": "志賀 琢也, 川西 里佳, 上山 俊佑",
+      "authors": [
+        "志賀 琢也",
+        "川西 里佳",
+        "上山 俊佑"
+      ],
+      "publisher": "日経BP",
+      "releaseDate": "2026-09-25",
+      "publishedAt": "2026-09-25",
+      "image": "https://m.media-amazon.com/images/I/41l9nVPg9UL._SL160_.jpg",
+      "imageUrl": "https://m.media-amazon.com/images/I/41l9nVPg9UL._SL160_.jpg",
+      "amazonUrl": "https://www.amazon.co.jp/dp/B0HKZ1DGYL?tag=yzak-nra-22",
+      "detailPageUrl": "https://www.amazon.co.jp/dp/B0HKZ1DGYL?tag=yzak-nra-22",
+      "tags": [
+        "ai",
+        "llm"
+      ],
+      "price": 3234,
       "currency": "JPY"
     },
     {
@@ -115,27 +163,6 @@
       "currency": "JPY"
     },
     {
-      "id": "B0HG9CTRMF",
-      "asin": "B0HG9CTRMF",
-      "title": "Interface 2026年11月号",
-      "author": "Interface編集部",
-      "authors": [
-        "Interface編集部"
-      ],
-      "publisher": "CQ出版",
-      "releaseDate": "2026-09-25",
-      "publishedAt": "2026-09-25",
-      "image": "https://m.media-amazon.com/images/I/516TcZsv54L._SL160_.jpg",
-      "imageUrl": "https://m.media-amazon.com/images/I/516TcZsv54L._SL160_.jpg",
-      "amazonUrl": "https://www.amazon.co.jp/dp/B0HG9CTRMF?tag=yzak-nra-22",
-      "detailPageUrl": "https://www.amazon.co.jp/dp/B0HG9CTRMF?tag=yzak-nra-22",
-      "tags": [
-        "general"
-      ],
-      "price": 1430,
-      "currency": "JPY"
-    },
-    {
       "id": "B0HB2DFKXC",
       "asin": "B0HB2DFKXC",
       "title": "LLMアプリケーション評価駆動開発【リフロー型】 継続的に改善し運用していくための実践知",
@@ -155,6 +182,28 @@
         "llm"
       ],
       "price": 3881,
+      "currency": "JPY"
+    },
+    {
+      "id": "B0HCLQ54KD",
+      "asin": "B0HCLQ54KD",
+      "title": "RAGと検索基盤設計実践ガイド 2026 (Tech Athletes)",
+      "author": "Tech Athletes",
+      "authors": [
+        "Tech Athletes"
+      ],
+      "publisher": "",
+      "releaseDate": "2026-09-24",
+      "publishedAt": "2026-09-24",
+      "image": "https://m.media-amazon.com/images/I/41y5REQYPZL._SL160_.jpg",
+      "imageUrl": "https://m.media-amazon.com/images/I/41y5REQYPZL._SL160_.jpg",
+      "amazonUrl": "https://www.amazon.co.jp/dp/B0HCLQ54KD?tag=yzak-nra-22",
+      "detailPageUrl": "https://www.amazon.co.jp/dp/B0HCLQ54KD?tag=yzak-nra-22",
+      "tags": [
+        "architecture",
+        "llm"
+      ],
+      "price": 500,
       "currency": "JPY"
     },
     {
@@ -221,98 +270,6 @@
         "llm"
       ],
       "price": 2803,
-      "currency": "JPY"
-    },
-    {
-      "id": "4798199265",
-      "asin": "4798199265",
-      "title": "Claudeビジネス活用術 業務を自律化し、作業時間をゼロにする (生成AI仕事術)",
-      "author": "武井 一巳",
-      "authors": [
-        "武井 一巳"
-      ],
-      "publisher": "翔泳社",
-      "releaseDate": "2026-09-17",
-      "publishedAt": "2026-09-17",
-      "image": "https://m.media-amazon.com/images/I/51t2NfMNx2L._SL160_.jpg",
-      "imageUrl": "https://m.media-amazon.com/images/I/51t2NfMNx2L._SL160_.jpg",
-      "amazonUrl": "https://www.amazon.co.jp/dp/4798199265?tag=yzak-nra-22",
-      "detailPageUrl": "https://www.amazon.co.jp/dp/4798199265?tag=yzak-nra-22",
-      "tags": [
-        "ai",
-        "genai",
-        "llm"
-      ],
-      "price": 2200,
-      "currency": "JPY"
-    },
-    {
-      "id": "4297158388",
-      "asin": "4297158388",
-      "title": "今すぐ使えるかんたんEx　Claude 仕事術&時短技 生成AI活用BESTセレクション ［Claude Code & Claude Cowork対応］",
-      "author": "リンクアップ",
-      "authors": [
-        "リンクアップ"
-      ],
-      "publisher": "技術評論社",
-      "releaseDate": "2026-09-10",
-      "publishedAt": "2026-09-10",
-      "image": "https://m.media-amazon.com/images/I/5165nPVQwQL._SL160_.jpg",
-      "imageUrl": "https://m.media-amazon.com/images/I/5165nPVQwQL._SL160_.jpg",
-      "amazonUrl": "https://www.amazon.co.jp/dp/4297158388?tag=yzak-nra-22",
-      "detailPageUrl": "https://www.amazon.co.jp/dp/4297158388?tag=yzak-nra-22",
-      "tags": [
-        "ai",
-        "genai",
-        "llm"
-      ],
-      "price": 2200,
-      "currency": "JPY"
-    },
-    {
-      "id": "429715823X",
-      "asin": "429715823X",
-      "title": "Claude Codeで作って学ぶ AI駆動アプリ開発入門",
-      "author": "増山 友司",
-      "authors": [
-        "増山 友司"
-      ],
-      "publisher": "技術評論社",
-      "releaseDate": "2026-09-08",
-      "publishedAt": "2026-09-08",
-      "image": "https://m.media-amazon.com/images/I/51DiPo+7LDL._SL160_.jpg",
-      "imageUrl": "https://m.media-amazon.com/images/I/51DiPo+7LDL._SL160_.jpg",
-      "amazonUrl": "https://www.amazon.co.jp/dp/429715823X?tag=yzak-nra-22",
-      "detailPageUrl": "https://www.amazon.co.jp/dp/429715823X?tag=yzak-nra-22",
-      "tags": [
-        "ai",
-        "genai",
-        "llm"
-      ],
-      "price": 3080,
-      "currency": "JPY"
-    },
-    {
-      "id": "B0HHYNMHDK",
-      "asin": "B0HHYNMHDK",
-      "title": "ChatGPT最新モデル GPT-6 Astra完全ガイド: OpenAI公式発表・ベンチマーク・安全性を徹底解説／2026年9月最新版",
-      "author": "まさひろ",
-      "authors": [
-        "まさひろ"
-      ],
-      "publisher": "",
-      "releaseDate": "2026-09-06",
-      "publishedAt": "2026-09-06",
-      "image": "https://m.media-amazon.com/images/I/41L94ohJfyL._SL160_.jpg",
-      "imageUrl": "https://m.media-amazon.com/images/I/41L94ohJfyL._SL160_.jpg",
-      "amazonUrl": "https://www.amazon.co.jp/dp/B0HHYNMHDK?tag=yzak-nra-22",
-      "detailPageUrl": "https://www.amazon.co.jp/dp/B0HHYNMHDK?tag=yzak-nra-22",
-      "tags": [
-        "ai",
-        "genai",
-        "llm"
-      ],
-      "price": 498,
       "currency": "JPY"
     }
   ]
