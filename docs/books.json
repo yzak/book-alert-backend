@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-11T05:14:10.259Z",
+  "updatedAt": "2026-10-18T04:01:22.231Z",
   "availableTags": [
     {
       "id": "aws",
@@ -69,6 +69,29 @@
   ],
   "books": [
     {
+      "id": "B0HHQXJ7HF",
+      "asin": "B0HHQXJ7HF",
+      "title": "ひとりビジネスのためのAIエージェント活用術　爆速でタスクを片付ける！「最強チーム」のつくり方",
+      "author": "池田 朋弘, スギノ ハルカ",
+      "authors": [
+        "池田 朋弘",
+        "スギノ ハルカ"
+      ],
+      "publisher": "インプレス",
+      "releaseDate": "2026-10-16",
+      "publishedAt": "2026-10-16",
+      "image": "https://m.media-amazon.com/images/I/51gSJItt3cL._SL160_.jpg",
+      "imageUrl": "https://m.media-amazon.com/images/I/51gSJItt3cL._SL160_.jpg",
+      "amazonUrl": "https://www.amazon.co.jp/dp/B0HHQXJ7HF?tag=yzak-nra-22",
+      "detailPageUrl": "https://www.amazon.co.jp/dp/B0HHQXJ7HF?tag=yzak-nra-22",
+      "tags": [
+        "ai",
+        "llm"
+      ],
+      "price": 2200,
+      "currency": "JPY"
+    },
+    {
       "id": "B0HJQNVCN9",
       "asin": "B0HJQNVCN9",
       "title": "作って学ぶ生成AIモバイルアプリ──Firebase AI LogicとGenkitでFlutterアプリにGeminiを実装",
@@ -93,25 +116,27 @@
       "currency": "JPY"
     },
     {
-      "id": "B0HLDQ9KSS",
-      "asin": "B0HLDQ9KSS",
-      "title": "生成AIに学ぶ問題解決: AI時代の知の作法",
-      "author": "山上 俊彦",
+      "id": "B0HJ1445D2",
+      "asin": "B0HJ1445D2",
+      "title": "AWS CDK実践ガイド─クラウドインフラをコードで構造化する エンジニア選書",
+      "author": "坂本 健, 辻 雄太, 坂上 雅明, 石土 誠",
       "authors": [
-        "山上 俊彦"
+        "坂本 健",
+        "辻 雄太",
+        "坂上 雅明",
+        "石土 誠"
       ],
-      "publisher": "",
-      "releaseDate": "2026-09-29",
-      "publishedAt": "2026-09-29",
-      "image": "https://m.media-amazon.com/images/I/31Y4NUNMO4L._SL160_.jpg",
-      "imageUrl": "https://m.media-amazon.com/images/I/31Y4NUNMO4L._SL160_.jpg",
-      "amazonUrl": "https://www.amazon.co.jp/dp/B0HLDQ9KSS?tag=yzak-nra-22",
-      "detailPageUrl": "https://www.amazon.co.jp/dp/B0HLDQ9KSS?tag=yzak-nra-22",
+      "publisher": "技術評論社",
+      "releaseDate": "2026-09-28",
+      "publishedAt": "2026-09-28",
+      "image": "https://m.media-amazon.com/images/I/51+fMKXbi+L._SL160_.jpg",
+      "imageUrl": "https://m.media-amazon.com/images/I/51+fMKXbi+L._SL160_.jpg",
+      "amazonUrl": "https://www.amazon.co.jp/dp/B0HJ1445D2?tag=yzak-nra-22",
+      "detailPageUrl": "https://www.amazon.co.jp/dp/B0HJ1445D2?tag=yzak-nra-22",
       "tags": [
-        "ai",
-        "genai"
+        "aws"
       ],
-      "price": 1000,
+      "price": 3665,
       "currency": "JPY"
     },
     {
@@ -163,9 +188,9 @@
       "currency": "JPY"
     },
     {
-      "id": "B0HB2DFKXC",
-      "asin": "B0HB2DFKXC",
-      "title": "LLMアプリケーション評価駆動開発【リフロー型】 継続的に改善し運用していくための実践知",
+      "id": "B0HB1WQ8K2",
+      "asin": "B0HB1WQ8K2",
+      "title": "LLMアプリケーション評価駆動開発【固定型】 継続的に改善し運用していくための実践知",
       "author": "上野 彰大, 大嶋 勇樹",
       "authors": [
         "上野 彰大",
@@ -176,8 +201,8 @@
       "publishedAt": "2026-09-24",
       "image": "https://m.media-amazon.com/images/I/51Yj9lNGfDL._SL160_.jpg",
       "imageUrl": "https://m.media-amazon.com/images/I/51Yj9lNGfDL._SL160_.jpg",
-      "amazonUrl": "https://www.amazon.co.jp/dp/B0HB2DFKXC?tag=yzak-nra-22",
-      "detailPageUrl": "https://www.amazon.co.jp/dp/B0HB2DFKXC?tag=yzak-nra-22",
+      "amazonUrl": "https://www.amazon.co.jp/dp/B0HB1WQ8K2?tag=yzak-nra-22",
+      "detailPageUrl": "https://www.amazon.co.jp/dp/B0HB1WQ8K2?tag=yzak-nra-22",
       "tags": [
         "llm"
       ],
@@ -247,29 +272,6 @@
         "genai"
       ],
       "price": 2264,
-      "currency": "JPY"
-    },
-    {
-      "id": "B0HGQ8CCQK",
-      "asin": "B0HGQ8CCQK",
-      "title": "AIエージェント開発の知識地図――仕組みから開発、運用、ガバナンスまで",
-      "author": "塚田 真規, 松好 祐紀",
-      "authors": [
-        "塚田 真規",
-        "松好 祐紀"
-      ],
-      "publisher": "技術評論社",
-      "releaseDate": "2026-09-17",
-      "publishedAt": "2026-09-17",
-      "image": "https://m.media-amazon.com/images/I/51gi+3usQFL._SL160_.jpg",
-      "imageUrl": "https://m.media-amazon.com/images/I/51gi+3usQFL._SL160_.jpg",
-      "amazonUrl": "https://www.amazon.co.jp/dp/B0HGQ8CCQK?tag=yzak-nra-22",
-      "detailPageUrl": "https://www.amazon.co.jp/dp/B0HGQ8CCQK?tag=yzak-nra-22",
-      "tags": [
-        "ai",
-        "llm"
-      ],
-      "price": 2803,
       "currency": "JPY"
     }
   ]

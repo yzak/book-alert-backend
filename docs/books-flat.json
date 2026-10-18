@@ -1,5 +1,16 @@
 [
   {
+    "title": "ひとりビジネスのためのAIエージェント活用術　爆速でタスクを片付ける！「最強チーム」のつくり方",
+    "author": "池田 朋弘, スギノ ハルカ",
+    "image": "https://m.media-amazon.com/images/I/51gSJItt3cL._SL160_.jpg",
+    "releaseDate": "2026-10-16",
+    "amazonUrl": "https://www.amazon.co.jp/dp/B0HHQXJ7HF?tag=yzak-nra-22",
+    "tags": [
+      "ai",
+      "llm"
+    ]
+  },
+  {
     "title": "作って学ぶ生成AIモバイルアプリ──Firebase AI LogicとGenkitでFlutterアプリにGeminiを実装",
     "author": "鶴岡 秀樹, 河面 知定",
     "image": "https://m.media-amazon.com/images/I/51hE-9HpgNL._SL160_.jpg",
@@ -12,14 +23,13 @@
     ]
   },
   {
-    "title": "生成AIに学ぶ問題解決: AI時代の知の作法",
-    "author": "山上 俊彦",
-    "image": "https://m.media-amazon.com/images/I/31Y4NUNMO4L._SL160_.jpg",
-    "releaseDate": "2026-09-29",
-    "amazonUrl": "https://www.amazon.co.jp/dp/B0HLDQ9KSS?tag=yzak-nra-22",
+    "title": "AWS CDK実践ガイド─クラウドインフラをコードで構造化する エンジニア選書",
+    "author": "坂本 健, 辻 雄太, 坂上 雅明, 石土 誠",
+    "image": "https://m.media-amazon.com/images/I/51+fMKXbi+L._SL160_.jpg",
+    "releaseDate": "2026-09-28",
+    "amazonUrl": "https://www.amazon.co.jp/dp/B0HJ1445D2?tag=yzak-nra-22",
     "tags": [
-      "ai",
-      "genai"
+      "aws"
     ]
   },
   {
@@ -46,11 +56,11 @@
     ]
   },
   {
-    "title": "LLMアプリケーション評価駆動開発【リフロー型】 継続的に改善し運用していくための実践知",
+    "title": "LLMアプリケーション評価駆動開発【固定型】 継続的に改善し運用していくための実践知",
     "author": "上野 彰大, 大嶋 勇樹",
     "image": "https://m.media-amazon.com/images/I/51Yj9lNGfDL._SL160_.jpg",
     "releaseDate": "2026-09-24",
-    "amazonUrl": "https://www.amazon.co.jp/dp/B0HB2DFKXC?tag=yzak-nra-22",
+    "amazonUrl": "https://www.amazon.co.jp/dp/B0HB1WQ8K2?tag=yzak-nra-22",
     "tags": [
       "llm"
     ]
@@ -85,17 +95,6 @@
     "amazonUrl": "https://www.amazon.co.jp/dp/B0H6H3BMK5?tag=yzak-nra-22",
     "tags": [
       "genai"
-    ]
-  },
-  {
-    "title": "AIエージェント開発の知識地図――仕組みから開発、運用、ガバナンスまで",
-    "author": "塚田 真規, 松好 祐紀",
-    "image": "https://m.media-amazon.com/images/I/51gi+3usQFL._SL160_.jpg",
-    "releaseDate": "2026-09-17",
-    "amazonUrl": "https://www.amazon.co.jp/dp/B0HGQ8CCQK?tag=yzak-nra-22",
-    "tags": [
-      "ai",
-      "llm"
     ]
   }
 ]
