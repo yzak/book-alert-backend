@@ -1,5 +1,15 @@
 [
   {
+    "title": "AWSの知識地図［改訂新版］",
+    "author": "菊池 修治, 深澤 俊, 洲崎 義人, 伊豫谷 優希",
+    "image": "https://m.media-amazon.com/images/I/51VQ9P-2pAL._SL160_.jpg",
+    "releaseDate": "2026-10-23",
+    "amazonUrl": "https://www.amazon.co.jp/dp/4297160153?tag=yzak-nra-22",
+    "tags": [
+      "aws"
+    ]
+  },
+  {
     "title": "ひとりビジネスのためのAIエージェント活用術　爆速でタスクを片付ける！「最強チーム」のつくり方",
     "author": "池田 朋弘, スギノ ハルカ",
     "image": "https://m.media-amazon.com/images/I/51gSJItt3cL._SL160_.jpg",
@@ -7,6 +17,18 @@
     "amazonUrl": "https://www.amazon.co.jp/dp/B0HHQXJ7HF?tag=yzak-nra-22",
     "tags": [
       "ai",
+      "llm"
+    ]
+  },
+  {
+    "title": "Claude Coworkではじめるシゴト自動化入門",
+    "author": "神田良輝",
+    "image": "https://m.media-amazon.com/images/I/51g5ozQMn9L._SL160_.jpg",
+    "releaseDate": "2026-10-15",
+    "amazonUrl": "https://www.amazon.co.jp/dp/4295025852?tag=yzak-nra-22",
+    "tags": [
+      "automation",
+      "genai",
       "llm"
     ]
   },
@@ -23,16 +45,6 @@
     ]
   },
   {
-    "title": "AWS CDK実践ガイド─クラウドインフラをコードで構造化する エンジニア選書",
-    "author": "坂本 健, 辻 雄太, 坂上 雅明, 石土 誠",
-    "image": "https://m.media-amazon.com/images/I/51+fMKXbi+L._SL160_.jpg",
-    "releaseDate": "2026-09-28",
-    "amazonUrl": "https://www.amazon.co.jp/dp/B0HJ1445D2?tag=yzak-nra-22",
-    "tags": [
-      "aws"
-    ]
-  },
-  {
     "title": "AIエージェント導入を任されたら読む本",
     "author": "志賀 琢也, 川西 里佳, 上山 俊佑",
     "image": "https://m.media-amazon.com/images/I/41l9nVPg9UL._SL160_.jpg",
@@ -44,57 +56,13 @@
     ]
   },
   {
-    "title": "AIエージェント組織実装の最適解",
-    "author": "園田亜斗夢, 川俣彰広",
-    "image": "https://m.media-amazon.com/images/I/41nNVbkURYL._SL160_.jpg",
+    "title": "Interface 2026年11月号",
+    "author": "Interface編集部",
+    "image": "https://m.media-amazon.com/images/I/516TcZsv54L._SL160_.jpg",
     "releaseDate": "2026-09-25",
-    "amazonUrl": "https://www.amazon.co.jp/dp/4295412570?tag=yzak-nra-22",
+    "amazonUrl": "https://www.amazon.co.jp/dp/B0HG9CTRMF?tag=yzak-nra-22",
     "tags": [
-      "ai",
-      "engineering-management",
-      "llm"
-    ]
-  },
-  {
-    "title": "LLMアプリケーション評価駆動開発【固定型】 継続的に改善し運用していくための実践知",
-    "author": "上野 彰大, 大嶋 勇樹",
-    "image": "https://m.media-amazon.com/images/I/51Yj9lNGfDL._SL160_.jpg",
-    "releaseDate": "2026-09-24",
-    "amazonUrl": "https://www.amazon.co.jp/dp/B0HB1WQ8K2?tag=yzak-nra-22",
-    "tags": [
-      "llm"
-    ]
-  },
-  {
-    "title": "RAGと検索基盤設計実践ガイド 2026 (Tech Athletes)",
-    "author": "Tech Athletes",
-    "image": "https://m.media-amazon.com/images/I/41y5REQYPZL._SL160_.jpg",
-    "releaseDate": "2026-09-24",
-    "amazonUrl": "https://www.amazon.co.jp/dp/B0HCLQ54KD?tag=yzak-nra-22",
-    "tags": [
-      "architecture",
-      "llm"
-    ]
-  },
-  {
-    "title": "［みのるん式］ビジネスパーソンのためのClaude Code仕事術",
-    "author": "御田 稔",
-    "image": "https://m.media-amazon.com/images/I/51clwCUvB0L._SL160_.jpg",
-    "releaseDate": "2026-09-24",
-    "amazonUrl": "https://www.amazon.co.jp/dp/B0HGWL46Y5?tag=yzak-nra-22",
-    "tags": [
-      "genai",
-      "llm"
-    ]
-  },
-  {
-    "title": "この1冊でしっかりわかる ChatGPTの教科書",
-    "author": "佐倉井 理冴",
-    "image": "https://m.media-amazon.com/images/I/514dlnRis5L._SL160_.jpg",
-    "releaseDate": "2026-09-19",
-    "amazonUrl": "https://www.amazon.co.jp/dp/B0H6H3BMK5?tag=yzak-nra-22",
-    "tags": [
-      "genai"
+      "general"
     ]
   }
 ]
